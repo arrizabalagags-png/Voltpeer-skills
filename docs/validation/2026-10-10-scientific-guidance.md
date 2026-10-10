@@ -26,3 +26,8 @@
 ## 交叉审查补修
 
 入口审查发现新下载索引的 `plot_starter` 字段仍指旧包。已修新索引和生成器，并在两套镜像核对新 Starter URL、实际字节/SHA、注册表、两个当前指针和解压 manifest；35 ZIP 与 Starter 字节均未改变。证据：`2026-10-10-starter-index-followup.json`。
+
+
+## 源图裁字检查范围
+
+保留的 `skills-runtime-v2/mixed-six.png` 是已拒绝的测试夹具：e/f 原始 SVG 的 xlabel 基线 142.716545，超过自身 viewport 高 141.732283。几何通过不能发现这种源图自身裁字。仅调整合成夹具的底部边距后重新出源图并用相同固定代码拼版；最终检查的是 **`skills-runtime-v3/mixed-six.png`**，e/f xlabel 基线 132.795285，文字完整。没有修改产品代码或固定 ZIP。此局部验证不代表全部图库、所有 SVG 或原生客户端均通过。细节见 `2026-10-10-source-clipping-followup.json`。

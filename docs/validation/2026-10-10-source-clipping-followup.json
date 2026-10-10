@@ -1,0 +1,63 @@
+{
+  "status": "PASS_WITH_REJECTED_PRIOR_FIXTURE",
+  "date": "2026-10-10",
+  "issue": "v2 source SVG e/f xlabel was already below its own viewport; scalar assembly geometry checks did not detect source text clipping.",
+  "rejected_output": "skills-runtime-v2/mixed-six.png",
+  "rejected_status": "VISUAL_FAIL_SOURCE_FIXTURE_CLIPPING; retained for failure history, not the final reviewed artifact",
+  "correction": "Only the synthetic fixture axes bottom margin changed from 0.17 to 0.24 (axes height 0.68 to 0.61); all six sources were regenerated and the same fixed assembly implementation was rerun in v3.",
+  "product_code_changed": false,
+  "fixed_zip_bytes_changed": false,
+  "cause_classification": "SOURCE_FIXTURE_VIEWPORT_CLIPPING; not assembly crop or aspect distortion",
+  "source_label_bounds": [
+    {
+      "version": "skills-runtime-v2",
+      "panel": "e",
+      "source_svg_sha256": "9b9f5084ac7e4730bfba67d4cf8c6d836fb55ceb3016f3a159b1af152c5b4652",
+      "viewport_height": 141.732283,
+      "xlabel_baseline_y": 142.716545,
+      "label_font_px": 8,
+      "conservative_descender_clearance_px": -3.384262,
+      "status": "FAIL_SOURCE_TEXT_OUTSIDE_VIEWPORT"
+    },
+    {
+      "version": "skills-runtime-v2",
+      "panel": "f",
+      "source_svg_sha256": "d1ba36b606ab4d7f6d086f8204a48b9f8dd3b3251fdb1fccbf41a7767e934acf",
+      "viewport_height": 141.732283,
+      "xlabel_baseline_y": 142.716545,
+      "label_font_px": 8,
+      "conservative_descender_clearance_px": -3.384262,
+      "status": "FAIL_SOURCE_TEXT_OUTSIDE_VIEWPORT"
+    },
+    {
+      "version": "skills-runtime-v3",
+      "panel": "e",
+      "source_svg_sha256": "edbd04dc5e9d5e72bebb8d4de224d23fad20ef33444c94245f8a8d3dffb8780b",
+      "viewport_height": 141.732283,
+      "xlabel_baseline_y": 132.795285,
+      "label_font_px": 8,
+      "conservative_descender_clearance_px": 6.536998,
+      "status": "PASS"
+    },
+    {
+      "version": "skills-runtime-v3",
+      "panel": "f",
+      "source_svg_sha256": "c01dc7a09fb739dfa9077ef9b6e854d6a6a753d55600eac345c5eeacbb4b4662",
+      "viewport_height": 141.732283,
+      "xlabel_baseline_y": 132.795285,
+      "label_font_px": 8,
+      "conservative_descender_clearance_px": 6.536998,
+      "status": "PASS"
+    }
+  ],
+  "final_output": "skills-runtime-v3/mixed-six.png",
+  "final_visual_review": "PASS: all 6 coordinate axes/tick labels, Position (a.u.), geometry scale labels and lower EDGE text visible; compared with source viewport values.",
+  "actual_alignment_comparisons": 9,
+  "final_export_size_mm": [
+    180.0,
+    214.0
+  ],
+  "scope": "Synthetic geometry fixture and selected abnormal CE/full-cell/continuous-signal checks only. This does not certify every gallery figure or all arbitrary uploaded SVG text.",
+  "remaining_rule": "Geometry PASS requires a separate source and final-image visual check; no-crop placement cannot repair text cut within the original source viewport.",
+  "native_desktop_discovery_to_delivery": "NOT_RUN_CURRENT_TREE"
+}

@@ -472,7 +472,10 @@
       "FIXTURE_D"
     ],
     "paired_native_editable_svg": "PASS",
-    "visual_review": "PASS: inspected mixed-six.png, abnormal-ce.png and full-cell.png; labels, frame edges and geometry scale fixtures are visible; no axis clipping observed."
+    "visual_review": "PASS: inspected mixed-six.png, abnormal-ce.png and full-cell.png; labels, frame edges and geometry scale fixtures are visible; no axis clipping observed.",
+    "final_reviewed_artifact": "skills-runtime-v3/mixed-six.png",
+    "rejected_prior_fixture": "skills-runtime-v2/mixed-six.png: VISUAL_FAIL_SOURCE_FIXTURE_CLIPPING; see source-clipping followup",
+    "source_text_viewport_checks": "PASS for final v3 e/f; explicit source measurements in 2026-10-10-source-clipping-followup.json"
   },
   "regression_suites": [
     {
