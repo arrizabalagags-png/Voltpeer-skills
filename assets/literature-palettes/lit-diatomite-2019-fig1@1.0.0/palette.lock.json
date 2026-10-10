@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-diatomite-2019-fig1",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-019-10473-w",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-diatomite-2019-fig1@1.0.0",
+  "sha256": "df0e25046550cd395758346be797819b549b732ff25682a9610689f7db176d81",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

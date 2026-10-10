@@ -2,7 +2,7 @@
 
 [首页](../README.md) · [English](#english)
 
-本页使用 **0.12.0 Beta 绘图 Starter**，包修订为 `cycling-rule-v1.2.1`。保留完整的 `plot_starter` 文件夹，里面的 `AGENT_GUIDE.md`、固定程序与示例一起使用。它只包含一个 `voltpeer-plot` 技能；全部技能包另有 16 个 Skill。Beta 包已在仓库公开，尚未发布为完整正式 Release，也尚未完成全部客户端从安装到出图的实测。[版本与包范围](RELEASE_v0.12.0.md) · [旧安装迁移](NAMING_MIGRATION.md)。
+本页使用 **0.12.0 Beta 绘图 Starter**，包修订为 `scientific-guidance-v1.2.2`。保留完整的 `plot_starter` 文件夹，里面的 `AGENT_GUIDE.md`、固定程序与示例一起使用。它只包含一个 `voltpeer-plot` 技能；全部技能包另有 16 个 Skill。该包是独立 Beta 修订，尚未发布为完整正式 Release，也尚未完成全部客户端从安装到出图的实测。[版本与包范围](RELEASE_v0.12.0.md) · [旧安装迁移](NAMING_MIGRATION.md)。
 
 ## 1. 打开 AI 软件和项目
 
@@ -14,7 +14,9 @@ Skill 包开源免费，安装程序本身不需要 API key；AI 理解文件、
 
 ## 2. 下载绘图包，让 AI 按指南安装
 
-[下载 VoltPeer 0.12.0 绘图 Starter（Beta）](assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip)，完整解压后把 `plot_starter` 文件夹放到你的研究项目中。它包含固定 Python 绘图实现、一个 Skill 和合成示例。[其他样例数据与源码](../assets/github-showcase/README.md)供参考；样例源码包不能代替技能安装包。
+下载前确认电脑有 Python ≥3.10，且能联网安装包内依赖。Starter 已含绘图技能；单独下载数据导入技能只能整理表格，出图还需要 `voltpeer-plot`。纯文字技能不要求安装绘图库。
+
+[下载 VoltPeer 0.12.0 绘图 Starter（Beta）](assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip)，完整解压后把 `plot_starter` 文件夹放到你的研究项目中。它包含固定 Python 绘图实现、一个 Skill 和合成示例。[其他样例数据与源码](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/assets/github-showcase/README.md)供参考；样例源码包不能代替技能安装包。
 
 告诉 AI：
 
@@ -66,15 +68,15 @@ python start.py demo --out "../demo-result"
 
 Codex 使用同一绘图包，把 `--host dsh` 改成 `--host codex`。Kimi Code、WorkBuddy、完整技能包和单 Skill 的已有路线见[适配说明](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/codex/public-skills/docs/COMPATIBILITY.md)；按所选软件检查实际识别与执行能力。
 
-Figure 拼版选 [voltpeer-assemble](../skills/voltpeer-assemble/SKILL.md)，其他任务按[首页任务表](../README.md#你可以用它做什么)选择。[0.12.0 全部技能包（Beta）](downloads/v0.12.0-cycling-rule-v1.2.1/VoltPeer-v0.12.0.zip)包含 16 个 Skill 与迁移安装器；独立安装数据导入 Skill 后，出图还需安装绘图 Skill。历史下载见[当前版本说明](RELEASE_v0.12.0.md#历史版本)，原安装资料保留在[技术归档](TECHNICAL_REFERENCE_v0.10.1.md)。
+Figure 拼版选 [voltpeer-assemble](../skills/voltpeer-assemble/SKILL.md)，其他任务按[首页任务表](../README.md#你可以用它做什么)选择。[0.12.0 全部技能包（Beta）](downloads/v0.12.0-scientific-guidance-v1.2.2/VoltPeer-v0.12.0.zip)包含 16 个 Skill 与迁移安装器；独立安装数据导入 Skill 后，出图还需安装绘图 Skill。历史下载见[当前版本说明](RELEASE_v0.12.0.md#历史版本)，原安装资料保留在[技术归档](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/docs/TECHNICAL_REFERENCE_v0.10.1.md)。
 
 </details>
 
 ## 包与校验
 
-- 推荐绘图 Starter：`assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip`，743,774 bytes。
-- SHA-256：`289b1d3a2e37fd11c8c3955fc3be1394b21abfb3a0c676bfeb06fb72344979df`。
-- 全部技能包、单 Skill 包和 Starter 的实际字节及 SHA-256 见[当前校验索引](downloads/v0.12.0-cycling-rule-v1.2.1/download-index.json)。该索引保留构建时的状态，公开情况见[当前版本说明](RELEASE_v0.12.0.md)。
+- 推荐绘图 Starter：`assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip`，746,960 bytes。
+- SHA-256：`d613f5e3780dc7e08faaaef678b23cc15de0d01740717aadac6c5d4a606146d8`。
+- 全部技能包、单 Skill 包和 Starter 的实际字节及 SHA-256 见[当前校验索引](downloads/v0.12.0-scientific-guidance-v1.2.2/download-index.json)。该索引保存本次新修订的字节身份；GitHub 同步与网站发布分别记录，见[当前版本说明](RELEASE_v0.12.0.md)。
 - 独立安装 `voltpeer-data` 后需要同时安装 `voltpeer-plot` 才能调用绘图程序。
 
 ### 保留的历史 0.10.1 下载
@@ -83,7 +85,7 @@ Figure 拼版选 [voltpeer-assemble](../skills/voltpeer-assemble/SKILL.md)，其
 
 - 绘图包：`VoltPeer-Plot-Starter-v0.10.1.zip`，580,632 bytes。
 - SHA-256：`392b58b6a211c35f88a0148c95d07b9accb5b6eeb000640883466d96d3ab466a`。
-- 下载固定在已检查的源码提交 `dfd46fcb4a3255b60826de8a4c721963adc4ff02`。本页不重新打包；详细[版本说明](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/codex/public-skills/docs/RELEASE_v0.10.1.md)保留实际验证范围。
+- 下载固定在已检查的源码提交 `dfd46fcb4a3255b60826de8a4c721963adc4ff02`。该历史包不重新打包；详细[版本说明](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/codex/public-skills/docs/RELEASE_v0.10.1.md)保留实际验证范围。
 
 ## English
 
@@ -93,7 +95,7 @@ Figure 拼版选 [voltpeer-assemble](../skills/voltpeer-assemble/SKILL.md)，其
 
 Address the step that fails: model settings, Skill discovery, Python dependencies, missing scientific information or a missing result link. The shell commands above run inside `plot_starter`; `../demo-result` is in its parent project. Current client and complete model testing remain incomplete; earlier API trials apply only to their recorded versions. See [compatibility](COMPATIBILITY.md).
 
-The current package is **0.12.0 Beta, revision cycling-rule-v1.2.1**, with one plotting Skill. The full package has 16 Skills. Per-cycle capacity, efficiency and retention use markers without connecting lines; continuous signals use solid marker-free curves with all four frame sides. Full-cell retention requires a stated reference cycle and capacity under matching conditions. See [tasks](../README.en.md#what-you-can-do), [version and download notes](RELEASE_v0.12.0.md) and the compatibility guide. Check privacy settings before using unpublished files, and verify results and rights before publication.
+The current package is **0.12.0 Beta, revision scientific-guidance-v1.2.2**, with one plotting Skill. The full package has 16 Skills. Per-cycle capacity, efficiency and retention use markers without connecting lines; continuous signals use solid marker-free curves with all four frame sides. Full-cell retention requires a stated reference cycle and capacity under matching conditions. See [tasks](../README.en.md#what-you-can-do), [version and download notes](RELEASE_v0.12.0.md) and the compatibility guide. Check privacy settings before using unpublished files, and verify results and rights before publication.
 
 
 ## 旧安装迁移

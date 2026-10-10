@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "id": "lit-gas-2023-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Deep blue / red · process signals",
+  "name_zh": "深蓝红 · 过程信号",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#EB2A2C",
+    "#1F4DA0"
+  ],
+  "observed_series": [
+    "#EB2A2C",
+    "#1F4DA0"
+  ],
+  "adjustments": [],
+  "roles": {
+    "reference_or_baseline": "#EB2A2C",
+    "new_or_intervention": "#1F4DA0",
+    "limitation_or_failure": "#1F4DA0",
+    "mechanism_or_model": "#1F4DA0",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-35779-0",
+    "doi_url": "https://doi.org/10.1038/s41467-022-35779-0",
+    "title": "Gas induced formation of inactive Li in rechargeable lithium metal batteries",
+    "authors": [
+      "Xiang, Yuxuan",
+      "Tao, Mingming",
+      "Chen, Xiaoxuan",
+      "Shan, Peizhao",
+      "Zhao, Danhui",
+      "Wu, Jue",
+      "Lin, Min",
+      "Liu, Xiangsi",
+      "He, Huajin",
+      "Zhao, Weimin",
+      "Hu, Yonggang",
+      "Chen, Junning",
+      "Wang, Yuexing",
+      "Yang, Yong"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-01-12",
+    "url": "https://www.nature.com/articles/s41467-022-35779-0",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "c",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "3a1c26af4369443e50e099097719cc3033e2aed597068924525c16827d5567d4",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#EB2A2C": [
+        [
+          323.44,
+          168.51,
+          365.39,
+          170.81
+        ],
+        [
+          382.44,
+          164.0,
+          425.5,
+          171.06
+        ],
+        [
+          442.45,
+          131.44,
+          484.57,
+          171.39
+        ],
+        [
+          139.85,
+          245.56,
+          309.9,
+          274.58
+        ]
+      ],
+      "#1F4DA0": [
+        [
+          139.62,
+          292.48,
+          309.9,
+          320.15
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    4.286,
+    7.993
+  ],
+  "source_credit": {
+    "source": "Xiang, Yuxuan et al. · Nature Communications 2023 · Fig. 1",
+    "author": "Xiang, Yuxuan, Tao, Mingming, Chen, Xiaoxuan, Shan, Peizhao, Zhao, Danhui, Wu, Jue, Lin, Min, Liu, Xiangsi, He, Huajin, Zhao, Weimin, Hu, Yonggang, Chen, Junning, Wang, Yuexing, Yang, Yong",
+    "url": "https://doi.org/10.1038/s41467-022-35779-0",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

@@ -25,7 +25,7 @@ class BatteryPlotTests(unittest.TestCase):
     def test_direct_comparison_rejects_changed_condition(self):
         rows = [
             {**BASE, "series": "A", "cycle": "0", "reference_cycle": "0", "retention_pct": "100", "retention_basis": "initial", "rate": "1 C"},
-            {**BASE, "series": "B", "cycle": "0", "reference_cycle": "0", "retention_pct": "90", "retention_basis": "initial", "rate": "2 C"},
+            {**BASE, "series": "B", "cycle": "0", "reference_cycle": "0", "retention_pct": "100", "retention_basis": "initial", "rate": "2 C"},
         ]
         with self.assertRaisesRegex(DataContractError, "conditions differ"):
             cycle_retention(rows)
@@ -33,7 +33,7 @@ class BatteryPlotTests(unittest.TestCase):
             cycle_retention(rows, mode="contextual")
         fig, ax = cycle_retention(rows, mode="contextual", condition_note="Rates differ")
         self.assertEqual(fig.batteryplot_meta["comparison"], "contextual")
-        self.assertTrue(all(line.get_marker() in (None,"None",""," ") and line.get_linestyle()=="-" for line in ax.lines))
+        self.assertTrue(all(line.get_marker() == "o" and line.get_linestyle() == "None" for line in ax.lines))
         self.assertTrue(all(ax.spines[side].get_visible() for side in ("top","right","bottom","left")))
         matplotlib.pyplot.close(fig)
 
@@ -76,7 +76,7 @@ class BatteryPlotTests(unittest.TestCase):
         fig, ax = rate_capability(rows)
         self.assertEqual([tick.get_text() for tick in ax.get_xticklabels()], ["0.1 C", "2 C", "0.1 C"])
         self.assertEqual(list(ax.lines[0].get_ydata()), [150.0, 110.0, 145.0])
-        self.assertTrue(all(line.get_marker() in (None,"None",""," ") and line.get_linestyle()=="-" for line in ax.lines))
+        self.assertTrue(all(line.get_marker() == "o" and line.get_linestyle() == "None" for line in ax.lines))
         with self.assertRaisesRegex(DataContractError, "sequences differ"):
             rate_capability(rows[:-1])
         matplotlib.pyplot.close(fig)

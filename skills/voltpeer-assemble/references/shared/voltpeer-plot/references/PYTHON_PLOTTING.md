@@ -38,7 +38,7 @@ The example data are invented and must never be used as literature evidence.
 | `comparison_bars(rows, metric_label=...)` | One row per category | Starts at zero; refuses unlike declared test conditions and undefined uncertainty |
 | `conditions_matrix(rows, fields)` | One row per paper or case | Shows reported (`R`), `NR`, and `NV` as distinct states; never interprets blank as zero |
 | `coulombic_efficiency(rows)` | One row per cycle and series | Requires a CE definition and supplied CE or explicit numerator/denominator; never caps >100% values silently |
-| `cycling_capacity(rows, cell_configuration="full" or "half")` | One row per cycle and series | Rejects mixed full/half cell rows; labels the capacity unit and requires a stated basis |
+| `cycling_capacity(rows, cell_configuration="full" or "half")` | One row per cycle and series | Rejects mixed full/half cell rows. Full-cell mode requires same-cycle CE or charge capacity plus declared reference_cycle/reference_capacity/retention_basis; draws capacity+CE and reference-normalized retention as points. Half-cell capacity stays correctly labelled |
 | `symmetric_voltage(rows)` | Signed mV vs elapsed hours | Requires symmetric cell configuration, current density, areal capacity and pressure; retains polarity and failure region |
 | `voltage_capacity(rows)` | Charge/discharge profile points | Keeps cycle and direction separate, requires voltage and capacity units/basis |
 | `nyquist(rows)` | Real impedance and explicit positive negative-imaginary column | Requires cell state and frequency range; does not silently flip raw impedance sign |

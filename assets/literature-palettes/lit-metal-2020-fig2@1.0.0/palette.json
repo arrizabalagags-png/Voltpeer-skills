@@ -1,0 +1,252 @@
+{
+  "schema": 1,
+  "id": "lit-metal-2020-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Black / red / cyan · impedance states",
+  "name_zh": "黑红青 · 阻抗状态",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#000000",
+    "#FF0000",
+    "#00A54B",
+    "#0099D1"
+  ],
+  "observed_series": [
+    "#000000",
+    "#FF0000",
+    "#00B050",
+    "#00B0F0"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00B050",
+      "used": "#00A54B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00B0F0",
+      "used": "#0099D1",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#000000",
+    "new_or_intervention": "#FF0000",
+    "limitation_or_failure": "#0099D1",
+    "mechanism_or_model": "#00A54B",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-020-19004-4",
+    "doi_url": "https://doi.org/10.1038/s41467-020-19004-4",
+    "title": "Enabling “lithium-free” manufacturing of pure lithium metal solid-state batteries through in situ plating",
+    "authors": [
+      "Wang, Michael J.",
+      "Carmona, Eric",
+      "Gupta, Arushi",
+      "Albertus, Paul",
+      "Sakamoto, Jeff"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2020-10-15",
+    "url": "https://www.nature.com/articles/s41467-020-19004-4",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "c",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "05348aebc6a244feb62e39bde25f1826c7c509eb2733f877ab74175c532baf60",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#000000": [
+        [
+          348.23,
+          520.95,
+          463.36,
+          635.79
+        ],
+        [
+          347.5,
+          630.86,
+          351.14,
+          634.5
+        ],
+        [
+          347.8,
+          630.38,
+          351.44,
+          634.02
+        ],
+        [
+          348.18,
+          629.86,
+          351.82,
+          633.5
+        ],
+        [
+          348.68,
+          629.33,
+          352.32,
+          632.97
+        ],
+        [
+          349.22,
+          628.84,
+          352.86,
+          632.48
+        ]
+      ],
+      "#FF0000": [
+        [
+          347.55,
+          630.93,
+          351.19,
+          634.57
+        ],
+        [
+          347.88,
+          630.48,
+          351.52,
+          634.12
+        ],
+        [
+          348.28,
+          630.0,
+          351.92,
+          633.64
+        ],
+        [
+          348.84,
+          629.53,
+          352.48,
+          633.17
+        ],
+        [
+          349.4,
+          629.1,
+          353.04,
+          632.74
+        ],
+        [
+          350.02,
+          628.65,
+          353.66,
+          632.29
+        ]
+      ],
+      "#00B050": [
+        [
+          347.65,
+          631.06,
+          351.29,
+          634.7
+        ],
+        [
+          347.98,
+          630.65,
+          351.62,
+          634.29
+        ],
+        [
+          348.39,
+          630.23,
+          352.03,
+          633.87
+        ],
+        [
+          348.91,
+          629.81,
+          352.55,
+          633.45
+        ],
+        [
+          349.46,
+          629.43,
+          353.1,
+          633.07
+        ],
+        [
+          350.04,
+          629.05,
+          353.68,
+          632.69
+        ]
+      ],
+      "#00B0F0": [
+        [
+          347.57,
+          631.11,
+          351.21,
+          634.75
+        ],
+        [
+          347.87,
+          630.7,
+          351.51,
+          634.34
+        ],
+        [
+          348.23,
+          630.27,
+          351.86,
+          633.91
+        ],
+        [
+          348.68,
+          629.83,
+          352.32,
+          633.46
+        ],
+        [
+          349.11,
+          629.4,
+          352.75,
+          633.04
+        ],
+        [
+          349.59,
+          628.97,
+          353.23,
+          632.61
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    21.0,
+    3.998,
+    3.239,
+    3.242
+  ],
+  "source_credit": {
+    "source": "Wang, Michael J. et al. · Nature Communications 2020 · Fig. 2",
+    "author": "Wang, Michael J., Carmona, Eric, Gupta, Arushi, Albertus, Paul, Sakamoto, Jeff",
+    "url": "https://doi.org/10.1038/s41467-020-19004-4",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

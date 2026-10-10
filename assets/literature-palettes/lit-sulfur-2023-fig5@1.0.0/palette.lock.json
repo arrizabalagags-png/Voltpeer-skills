@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-sulfur-2023-fig5",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-37995-8",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-sulfur-2023-fig5@1.0.0",
+  "sha256": "4c6d3b8775dc22b20fadc5f9a9ea477fe22f0c5135da9555ff332190513ffd6a",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

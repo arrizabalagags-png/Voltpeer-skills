@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "id": "lit-aluminium-2023-fig3",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Green / yellow shades · current densities",
+  "name_zh": "绿黄阶 · 电流密度序列",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#15572C",
+    "#44732B",
+    "#718E2A",
+    "#8D9625",
+    "#979320"
+  ],
+  "observed_series": [
+    "#15572C",
+    "#44732B",
+    "#718E2A",
+    "#A0AB2A",
+    "#C1BC29"
+  ],
+  "adjustments": [
+    {
+      "observed": "#A0AB2A",
+      "used": "#8D9625",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#C1BC29",
+      "used": "#979320",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#15572C",
+    "new_or_intervention": "#44732B",
+    "limitation_or_failure": "#979320",
+    "mechanism_or_model": "#718E2A",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-39258-y",
+    "doi_url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "title": "A solution-to-solid conversion chemistry enables ultrafast-charging and long-lived molten salt aluminium batteries",
+    "authors": [
+      "Meng, Jiashen",
+      "Yao, Xuhui",
+      "Hong, Xufeng",
+      "Zhu, Lujun",
+      "Xiao, Zhitong",
+      "Jia, Yongfeng",
+      "Liu, Fang",
+      "Song, Huimin",
+      "Zhao, Yunlong",
+      "Pang, Quanquan"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-07-03",
+    "url": "https://www.nature.com/articles/s41467-023-39258-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "3",
+    "panels": "d",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "1388470e31dd1ce8b9507ba25fc04c62db780f3d51a7626367cefd88ece96ade",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#15572C": [
+        [
+          84.94,
+          225.15,
+          185.01,
+          261.07
+        ]
+      ],
+      "#44732B": [
+        [
+          85.0,
+          227.11,
+          183.21,
+          263.59
+        ]
+      ],
+      "#718E2A": [
+        [
+          85.0,
+          221.08,
+          185.01,
+          258.94
+        ]
+      ],
+      "#A0AB2A": [
+        [
+          85.0,
+          224.21,
+          183.29,
+          263.59
+        ]
+      ],
+      "#C1BC29": [
+        [
+          85.0,
+          213.15,
+          185.01,
+          255.78
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    8.637,
+    5.626,
+    3.747,
+    3.22,
+    3.226
+  ],
+  "source_credit": {
+    "source": "Meng, Jiashen et al. · Nature Communications 2023 · Fig. 3",
+    "author": "Meng, Jiashen, Yao, Xuhui, Hong, Xufeng, Zhu, Lujun, Xiao, Zhitong, Jia, Yongfeng, Liu, Fang, Song, Huimin, Zhao, Yunlong, Pang, Quanquan",
+    "url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

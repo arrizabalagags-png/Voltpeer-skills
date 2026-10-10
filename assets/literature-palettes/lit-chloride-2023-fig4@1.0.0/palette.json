@@ -1,0 +1,427 @@
+{
+  "schema": 1,
+  "id": "lit-chloride-2023-fig4",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Eight colours · operando diffraction",
+  "name_zh": "八色 · 原位衍射",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#6E00DC",
+    "#A000C8",
+    "#F00082",
+    "#FA3C3C",
+    "#00A700",
+    "#00A0A0",
+    "#0095ED",
+    "#1E3CFF"
+  ],
+  "observed_series": [
+    "#6E00DC",
+    "#A000C8",
+    "#F00082",
+    "#FA3C3C",
+    "#00DC00",
+    "#00C8C8",
+    "#00A0FF",
+    "#1E3CFF"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00DC00",
+      "used": "#00A700",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00C8C8",
+      "used": "#00A0A0",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00A0FF",
+      "used": "#0095ED",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#6E00DC",
+    "new_or_intervention": "#A000C8",
+    "limitation_or_failure": "#1E3CFF",
+    "mechanism_or_model": "#F00082",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-36622-w",
+    "doi_url": "https://doi.org/10.1038/s41467-023-36622-w",
+    "title": "Electrolyte design principles for developing quasi-solid-state rechargeable halide-ion batteries",
+    "authors": [
+      "Yang, Xu",
+      "Zhang, Bao",
+      "Tian, Yao",
+      "Wang, Yao",
+      "Fu, Zhiqiang",
+      "Zhou, Dong",
+      "Liu, Hao",
+      "Kang, Feiyu",
+      "Li, Baohua",
+      "Wang, Chunsheng",
+      "Wang, Guoxiu"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-02-18",
+    "url": "https://www.nature.com/articles/s41467-023-36622-w",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "4",
+    "panels": "c, f",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "5baa42edf5ccd4b2a6f0c448002039c3281d4f1c57aaa679ee630f068793cbe0",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#6E00DC": [
+        [
+          319.12,
+          344.95,
+          401.33,
+          361.01
+        ],
+        [
+          444.19,
+          333.05,
+          462.39,
+          360.94
+        ],
+        [
+          439.06,
+          56.48,
+          441.39,
+          333.02
+        ],
+        [
+          401.33,
+          333.02,
+          439.06,
+          360.58
+        ],
+        [
+          142.14,
+          344.92,
+          224.35,
+          360.4
+        ],
+        [
+          266.82,
+          333.0,
+          285.41,
+          360.19
+        ]
+      ],
+      "#A000C8": [
+        [
+          319.12,
+          335.44,
+          401.33,
+          352.32
+        ],
+        [
+          444.22,
+          333.02,
+          462.39,
+          352.39
+        ],
+        [
+          439.05,
+          56.59,
+          441.69,
+          333.02
+        ],
+        [
+          401.33,
+          333.02,
+          439.05,
+          352.28
+        ],
+        [
+          142.14,
+          337.87,
+          224.35,
+          352.0
+        ],
+        [
+          267.9,
+          332.97,
+          285.41,
+          351.39
+        ]
+      ],
+      "#F00082": [
+        [
+          319.12,
+          421.3,
+          401.33,
+          437.5
+        ],
+        [
+          443.01,
+          332.97,
+          462.39,
+          437.32
+        ],
+        [
+          401.33,
+          332.97,
+          441.02,
+          437.29
+        ],
+        [
+          142.14,
+          423.38,
+          224.35,
+          436.93
+        ],
+        [
+          266.2,
+          332.93,
+          285.41,
+          436.82
+        ],
+        [
+          263.42,
+          52.52,
+          265.51,
+          332.83
+        ]
+      ],
+      "#FA3C3C": [
+        [
+          319.12,
+          412.79,
+          401.33,
+          428.81
+        ],
+        [
+          443.82,
+          333.0,
+          462.39,
+          428.67
+        ],
+        [
+          401.33,
+          332.87,
+          439.97,
+          428.35
+        ],
+        [
+          142.14,
+          414.01,
+          224.35,
+          428.6
+        ],
+        [
+          266.33,
+          332.9,
+          285.41,
+          428.17
+        ],
+        [
+          263.31,
+          52.49,
+          265.51,
+          332.87
+        ]
+      ],
+      "#00DC00": [
+        [
+          319.12,
+          387.47,
+          401.33,
+          403.28
+        ],
+        [
+          443.4,
+          333.0,
+          462.39,
+          402.64
+        ],
+        [
+          401.33,
+          332.92,
+          440.19,
+          402.96
+        ],
+        [
+          142.14,
+          389.22,
+          224.35,
+          402.85
+        ],
+        [
+          266.45,
+          333.06,
+          285.41,
+          402.53
+        ],
+        [
+          263.18,
+          52.63,
+          265.51,
+          333.03
+        ]
+      ],
+      "#00C8C8": [
+        [
+          319.12,
+          372.31,
+          401.33,
+          386.58
+        ],
+        [
+          444.67,
+          333.0,
+          462.39,
+          386.4
+        ],
+        [
+          401.33,
+          332.97,
+          440.41,
+          386.4
+        ],
+        [
+          142.14,
+          373.31,
+          224.35,
+          386.22
+        ],
+        [
+          267.47,
+          332.92,
+          285.41,
+          385.68
+        ],
+        [
+          262.27,
+          52.34,
+          264.46,
+          332.88
+        ]
+      ],
+      "#00A0FF": [
+        [
+          319.12,
+          360.83,
+          401.33,
+          377.92
+        ],
+        [
+          443.33,
+          333.05,
+          462.39,
+          377.99
+        ],
+        [
+          401.33,
+          332.9,
+          440.36,
+          377.71
+        ],
+        [
+          142.14,
+          362.87,
+          224.35,
+          377.53
+        ],
+        [
+          267.28,
+          332.9,
+          285.41,
+          376.92
+        ],
+        [
+          263.42,
+          52.29,
+          267.28,
+          332.9
+        ]
+      ],
+      "#1E3CFF": [
+        [
+          319.12,
+          352.78,
+          401.33,
+          369.52
+        ],
+        [
+          443.43,
+          332.97,
+          462.39,
+          369.52
+        ],
+        [
+          401.33,
+          332.95,
+          440.37,
+          369.56
+        ],
+        [
+          142.14,
+          353.14,
+          224.35,
+          369.09
+        ],
+        [
+          267.77,
+          333.03,
+          285.41,
+          368.45
+        ],
+        [
+          261.42,
+          52.31,
+          265.51,
+          332.9
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    7.788,
+    6.309,
+    4.177,
+    3.635,
+    3.217,
+    3.213,
+    3.22,
+    6.676
+  ],
+  "source_credit": {
+    "source": "Yang, Xu et al. · Nature Communications 2023 · Fig. 4",
+    "author": "Yang, Xu, Zhang, Bao, Tian, Yao, Wang, Yao, Fu, Zhiqiang, Zhou, Dong, Liu, Hao, Kang, Feiyu, Li, Baohua, Wang, Chunsheng, Wang, Guoxiu",
+    "url": "https://doi.org/10.1038/s41467-023-36622-w",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

@@ -1,0 +1,9 @@
+VoltPeer advanced chart examples, 2026.
+
+figure_style.py is an unmodified copy of kernel.py from the figure-style
+Skill. The supplied SKILL.md identifies its licence as Apache-2.0 and
+records provenance as adapted from the Claude Science figure-style skill.
+No paper artwork or paper measurements are incorporated.
+
+The original VoltPeer rendering, catalogue, synthetic fixtures and figures
+are distributed under MIT. See LICENSE for the grant and disclaimers.

@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-li-2023-fig4",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-38493-7",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-li-2023-fig4@1.0.0",
+  "sha256": "a143af646cde987d7e6138a3c34d7d0d1728a4d59cbb1facf321b3309a1e35dc",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

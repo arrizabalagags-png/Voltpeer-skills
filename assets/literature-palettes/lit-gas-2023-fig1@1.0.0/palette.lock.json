@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-gas-2023-fig1",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-022-35779-0",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-gas-2023-fig1@1.0.0",
+  "sha256": "00d3ecc83c4abe004f285a1fdd4ad7801330db9bcc2aa9e0720fd0b512d94e64",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

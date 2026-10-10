@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-cold-2023-fig2",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-43163-9",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-cold-2023-fig2@1.0.0",
+  "sha256": "c8b61c97b49ac2fcc2e0fa1226fe1e1b63dc2a10e1e6ab937a87b1179109c493",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "id": "lit-interface-2020-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Purple / orange / green · interfaces",
+  "name_zh": "紫橙绿 · 界面对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#7D2DB9",
+    "#D07940",
+    "#549E75"
+  ],
+  "observed_series": [
+    "#7D2DB9",
+    "#FE944E",
+    "#6FD09A"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FE944E",
+      "used": "#D07940",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#6FD09A",
+      "used": "#549E75",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#7D2DB9",
+    "new_or_intervention": "#D07940",
+    "limitation_or_failure": "#549E75",
+    "mechanism_or_model": "#549E75",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-020-15643-9",
+    "doi_url": "https://doi.org/10.1038/s41467-020-15643-9",
+    "title": "Metal chloride perovskite thin film based interfacial layer for shielding lithium metal from liquid electrolyte",
+    "authors": [
+      "Yin, Yi-Chen",
+      "Wang, Qian",
+      "Yang, Jing-Tian",
+      "Li, Feng",
+      "Zhang, Guozhen",
+      "Jiang, Chen-Hui",
+      "Mo, Hong-Sheng",
+      "Yao, Ji-Song",
+      "Wang, Kun-Hua",
+      "Zhou, Fei",
+      "Ju, Huan-Xin",
+      "Yao, Hong-Bin"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2020-04-09",
+    "url": "https://www.nature.com/articles/s41467-020-15643-9",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "b",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "7ea1275df793fd31e206287ddefdfe9b51fddba0b0787c5558fb600af3080d6f",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#7D2DB9": [
+        [
+          163.56,
+          273.76,
+          282.07,
+          434.25
+        ],
+        [
+          154.4,
+          424.11,
+          172.54,
+          439.28
+        ],
+        [
+          182.75,
+          377.94,
+          200.96,
+          400.81
+        ],
+        [
+          211.17,
+          309.01,
+          229.31,
+          341.03
+        ],
+        [
+          239.52,
+          259.22,
+          257.73,
+          293.54
+        ],
+        [
+          267.94,
+          289.02,
+          286.08,
+          345.31
+        ]
+      ],
+      "#FE944E": [
+        [
+          163.47,
+          355.12,
+          277.01,
+          436.87
+        ],
+        [
+          154.4,
+          435.91,
+          172.54,
+          438.08
+        ],
+        [
+          182.75,
+          424.89,
+          200.96,
+          428.26
+        ],
+        [
+          211.17,
+          392.39,
+          229.31,
+          400.81
+        ],
+        [
+          239.52,
+          373.42,
+          257.73,
+          380.1
+        ],
+        [
+          267.94,
+          350.06,
+          286.08,
+          360.6
+        ]
+      ],
+      "#6FD09A": [
+        [
+          163.56,
+          357.19,
+          277.01,
+          440.97
+        ],
+        [
+          154.4,
+          438.98,
+          172.54,
+          442.05
+        ],
+        [
+          182.75,
+          418.69,
+          200.96,
+          425.25
+        ],
+        [
+          211.17,
+          404.18,
+          229.31,
+          408.88
+        ],
+        [
+          239.52,
+          378.72,
+          257.73,
+          388.59
+        ],
+        [
+          267.94,
+          355.12,
+          286.08,
+          361.98
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    7.124,
+    3.235,
+    3.219
+  ],
+  "source_credit": {
+    "source": "Yin, Yi-Chen et al. · Nature Communications 2020 · Fig. 2",
+    "author": "Yin, Yi-Chen, Wang, Qian, Yang, Jing-Tian, Li, Feng, Zhang, Guozhen, Jiang, Chen-Hui, Mo, Hong-Sheng, Yao, Ji-Song, Wang, Kun-Hua, Zhou, Fei, Ju, Huan-Xin, Yao, Hong-Bin",
+    "url": "https://doi.org/10.1038/s41467-020-15643-9",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

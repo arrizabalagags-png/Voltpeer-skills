@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "id": "lit-aluminium-2023-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Five pink / red shades · temperatures",
+  "name_zh": "粉红五阶 · 温度序列",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#AA8787",
+    "#C9797A",
+    "#EE6062",
+    "#EB2F31",
+    "#FF0000"
+  ],
+  "observed_series": [
+    "#F6C4C4",
+    "#F29293",
+    "#EE6062",
+    "#EB2F31",
+    "#FF0000"
+  ],
+  "adjustments": [
+    {
+      "observed": "#F6C4C4",
+      "used": "#AA8787",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#F29293",
+      "used": "#C9797A",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#AA8787",
+    "new_or_intervention": "#C9797A",
+    "limitation_or_failure": "#FF0000",
+    "mechanism_or_model": "#EE6062",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-39258-y",
+    "doi_url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "title": "A solution-to-solid conversion chemistry enables ultrafast-charging and long-lived molten salt aluminium batteries",
+    "authors": [
+      "Meng, Jiashen",
+      "Yao, Xuhui",
+      "Hong, Xufeng",
+      "Zhu, Lujun",
+      "Xiao, Zhitong",
+      "Jia, Yongfeng",
+      "Liu, Fang",
+      "Song, Huimin",
+      "Zhao, Yunlong",
+      "Pang, Quanquan"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-07-03",
+    "url": "https://www.nature.com/articles/s41467-023-39258-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "c",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "1388470e31dd1ce8b9507ba25fc04c62db780f3d51a7626367cefd88ece96ade",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#F6C4C4": [
+        [
+          396.69,
+          91.31,
+          536.36,
+          133.15
+        ]
+      ],
+      "#F29293": [
+        [
+          396.69,
+          90.1,
+          536.36,
+          137.47
+        ],
+        [
+          153.11,
+          268.39,
+          157.62,
+          272.49
+        ]
+      ],
+      "#EE6062": [
+        [
+          396.72,
+          86.27,
+          536.41,
+          141.5
+        ]
+      ],
+      "#EB2F31": [
+        [
+          396.72,
+          70.58,
+          536.39,
+          157.93
+        ]
+      ],
+      "#FF0000": [
+        [
+          81.9,
+          62.34,
+          156.49,
+          99.58
+        ],
+        [
+          156.49,
+          89.69,
+          228.71,
+          97.98
+        ],
+        [
+          393.58,
+          210.0,
+          523.96,
+          275.19
+        ],
+        [
+          393.56,
+          238.89,
+          520.03,
+          299.32
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.219,
+    3.231,
+    3.238,
+    4.214,
+    3.998
+  ],
+  "source_credit": {
+    "source": "Meng, Jiashen et al. · Nature Communications 2023 · Fig. 2",
+    "author": "Meng, Jiashen, Yao, Xuhui, Hong, Xufeng, Zhu, Lujun, Xiao, Zhitong, Jia, Yongfeng, Liu, Fang, Song, Huimin, Zhao, Yunlong, Pang, Quanquan",
+    "url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

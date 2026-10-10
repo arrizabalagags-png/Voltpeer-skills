@@ -10,24 +10,24 @@ Choose an example, get its data and source code, then work with your own data. K
 
 A Skill provides instructions and tools for an AI assistant. It runs inside an AI application that can read Skills and execute the required tools.
 
-[Browse examples](https://dazi.gsarrizabalaga.xyz/gallery.html) · [Get started](#get-started) · [Download plotting Starter (0.12.0 Beta)](docs/assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [Project website](https://dazi.gsarrizabalaga.xyz/)
+[Browse examples](https://dazi.gsarrizabalaga.xyz/gallery.html) · [Get started](#get-started) · [Download plotting Starter (0.12.0 Beta)](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [Project website](https://dazi.gsarrizabalaga.xyz/)
 
 ## See an example
 
 **Structure and spectra · Original synthetic teaching data, not experimental results.** Diffraction, Raman and spectral-component examples illustrate plotting methods; they do not establish material performance.
 
-<a href="assets/github-showcase/structure-spectra.png"><img src="assets/github-showcase/structure-spectra.png" alt="Synthetic structure and spectra: diffraction intensity, selected progress traces, generic Raman bands and known spectral components; not experimental results" width="780"></a>
+<a href="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/structure-spectra.png"><img src="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/structure-spectra.png" alt="Synthetic structure and spectra: diffraction intensity, selected progress traces, generic Raman bands and known spectral components; not experimental results" width="780"></a>
 
-[Data and model notes](assets/github-showcase/README.md#structure-and-spectra) · [Plotting source](examples/github_showcase/render.py) · [More examples](https://dazi.gsarrizabalaga.xyz/gallery.html). Click the image for its original size.
+[Data and model notes](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/assets/github-showcase/README.md#structure-and-spectra) · [Plotting source](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/examples/github_showcase/render.py) · [More examples](https://dazi.gsarrizabalaga.xyz/gallery.html). Click the image for its original size.
 
 <details>
 <summary>More examples: EIS, a mechanism illustration and a multi-panel figure</summary>
 
 **EIS · Synthetic circuit data, not an experimental fit.**
 
-<a href="assets/github-showcase/eis-cpe-warburg.png"><img src="assets/github-showcase/eis-cpe-warburg.png" alt="Synthetic EIS: Nyquist, magnitude and phase from the same complex impedance data" width="650"></a>
+<a href="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/eis-cpe-warburg.png"><img src="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/eis-cpe-warburg.png" alt="Synthetic EIS: Nyquist, magnitude and phase from the same complex impedance data" width="650"></a>
 
-[Data, code and model basis](assets/github-showcase/README.md#impedance-spectroscopy)
+[Data, code and model basis](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/assets/github-showcase/README.md#impedance-spectroscopy)
 
 **Lithium-metal interphase · Original conceptual illustration, not experimental validation.**
 
@@ -107,13 +107,13 @@ Confirm a method for unsupported plot types; do not fill gaps with demo paramete
 
 ## Current version and documentation
 
-The current source is **0.12.0 Beta, with 16 Skills**. The primary download is the **plotting Starter**. The [full 16-Skill package](docs/downloads/v0.12.0-cycling-rule-v1.2.1/VoltPeer-v0.12.0.zip) and [individual Skill packages and checksums](docs/downloads/v0.12.0-cycling-rule-v1.2.1/download-index.json) are available for installation as needed.
+The current source is **0.12.0 Beta, with 16 Skills**. The primary download is the **plotting Starter**. The [full 16-Skill package](docs/downloads/v0.12.0-scientific-guidance-v1.2.2/VoltPeer-v0.12.0.zip) and [individual Skill packages and checksums](docs/downloads/v0.12.0-scientific-guidance-v1.2.2/download-index.json) are available for installation as needed.
 
-These Beta packages are public in the repository. The latest full stable GitHub Release remains **v0.9.2**, separate from current development. The download index preserves its build-time status; see [version notes and historical downloads](docs/RELEASE_v0.12.0.md) for the current status.
+The recommended package revision is `scientific-guidance-v1.2.2`; historical archives remain separately available. The latest full stable GitHub Release remains **v0.9.2**, separate from current development. The download index preserves its build-time status; see [version notes and historical downloads](docs/RELEASE_v0.12.0.md) for the current status.
 
 **Installation through figure delivery has not been tested in every client, and full model validation for this version is incomplete.** Run an example first and consult [compatibility](docs/COMPATIBILITY.md) for the actual scope.
 
-[Plotting inputs](skills/voltpeer-plot/references/UPLOADED_DATA.md) · [Figure assembly](skills/voltpeer-assemble/references/COMPOSITION.md) · [Validation records](docs/EVAL.md) · [Maintainer guide](docs/MAINTAINER_GUIDE.md) · [Historical technical reference](docs/TECHNICAL_REFERENCE_v0.10.1.md)
+[Plotting inputs](skills/voltpeer-plot/references/UPLOADED_DATA.md) · [Figure assembly](skills/voltpeer-assemble/references/COMPOSITION.md) · [Validation records](docs/EVAL.md) · [Maintainer guide](docs/MAINTAINER_GUIDE.md) · [Historical technical reference](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/docs/TECHNICAL_REFERENCE_v0.10.1.md)
 
 ## Authors and licensing
 

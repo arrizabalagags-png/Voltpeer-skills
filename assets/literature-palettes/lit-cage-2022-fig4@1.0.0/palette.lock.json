@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-cage-2022-fig4",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-022-29743-1",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-cage-2022-fig4@1.0.0",
+  "sha256": "450bbfae41e82eb56de8c60af23da96c8f91331e5e97237a83bb57448a14cda8",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

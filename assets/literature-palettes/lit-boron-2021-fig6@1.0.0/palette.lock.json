@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-boron-2021-fig6",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-021-25610-7",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-boron-2021-fig6@1.0.0",
+  "sha256": "4ba9a6d06540a968085a53509f1b23e121b3e7ec3a4ef25828c126fd2c745eb5",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

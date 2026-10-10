@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-water-2023-fig3",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-38384-x",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-water-2023-fig3@1.0.0",
+  "sha256": "e7d6676b9ec304fc5a136efe72bd6bdd59d59f0926d990bafe8e5c20b2d19e90",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

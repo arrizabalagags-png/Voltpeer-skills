@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "id": "lit-chloride-2023-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Magenta / orange / teal · formulations",
+  "name_zh": "品红橙青 · 配方对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#FF0080",
+    "#E07100",
+    "#008080",
+    "#000000"
+  ],
+  "observed_series": [
+    "#FF0080",
+    "#FF8000",
+    "#008080",
+    "#000000"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FF8000",
+      "used": "#E07100",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#FF0080",
+    "new_or_intervention": "#E07100",
+    "limitation_or_failure": "#000000",
+    "mechanism_or_model": "#008080",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-36622-w",
+    "doi_url": "https://doi.org/10.1038/s41467-023-36622-w",
+    "title": "Electrolyte design principles for developing quasi-solid-state rechargeable halide-ion batteries",
+    "authors": [
+      "Yang, Xu",
+      "Zhang, Bao",
+      "Tian, Yao",
+      "Wang, Yao",
+      "Fu, Zhiqiang",
+      "Zhou, Dong",
+      "Liu, Hao",
+      "Kang, Feiyu",
+      "Li, Baohua",
+      "Wang, Chunsheng",
+      "Wang, Guoxiu"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-02-18",
+    "url": "https://www.nature.com/articles/s41467-023-36622-w",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "b, d, e",
+    "pdf_page": 5,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "5baa42edf5ccd4b2a6f0c448002039c3281d4f1c57aaa679ee630f068793cbe0",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FF0080": [
+        [
+          169.72,
+          72.45,
+          282.15,
+          150.82
+        ],
+        [
+          160.48,
+          246.2,
+          473.9,
+          261.27
+        ],
+        [
+          158.81,
+          244.54,
+          162.11,
+          247.83
+        ],
+        [
+          159.43,
+          245.23,
+          162.74,
+          248.53
+        ],
+        [
+          160.06,
+          245.96,
+          163.36,
+          249.26
+        ],
+        [
+          160.69,
+          246.31,
+          163.99,
+          249.6
+        ]
+      ],
+      "#FF8000": [
+        [
+          160.48,
+          242.9,
+          174.93,
+          291.81
+        ],
+        [
+          158.6,
+          240.96,
+          162.32,
+          244.47
+        ],
+        [
+          159.23,
+          260.08,
+          162.94,
+          263.59
+        ],
+        [
+          159.85,
+          261.37,
+          163.57,
+          264.87
+        ],
+        [
+          160.48,
+          260.43,
+          164.19,
+          263.94
+        ],
+        [
+          161.1,
+          257.13,
+          164.82,
+          260.64
+        ]
+      ],
+      "#008080": [
+        [
+          160.48,
+          259.11,
+          163.6,
+          290.76
+        ],
+        [
+          158.46,
+          257.97,
+          162.46,
+          261.4
+        ],
+        [
+          159.09,
+          279.59,
+          163.08,
+          283.02
+        ],
+        [
+          159.71,
+          279.76,
+          163.71,
+          283.2
+        ],
+        [
+          160.34,
+          286.04,
+          164.34,
+          289.48
+        ],
+        [
+          160.96,
+          288.37,
+          164.96,
+          291.81
+        ]
+      ],
+      "#000000": [
+        [
+          164.39,
+          431.32,
+          218.52,
+          438.6
+        ],
+        [
+          233.6,
+          431.32,
+          287.72,
+          438.6
+        ],
+        [
+          154.07,
+          395.9,
+          159.26,
+          398.53
+        ],
+        [
+          154.07,
+          394.07,
+          159.26,
+          396.69
+        ],
+        [
+          292.64,
+          395.9,
+          297.84,
+          398.53
+        ],
+        [
+          292.64,
+          394.07,
+          297.84,
+          396.69
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.774,
+    3.215,
+    4.773,
+    21.0
+  ],
+  "source_credit": {
+    "source": "Yang, Xu et al. · Nature Communications 2023 · Fig. 2",
+    "author": "Yang, Xu, Zhang, Bao, Tian, Yao, Wang, Yao, Fu, Zhiqiang, Zhou, Dong, Liu, Hao, Kang, Feiyu, Li, Baohua, Wang, Chunsheng, Wang, Guoxiu",
+    "url": "https://doi.org/10.1038/s41467-023-36622-w",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

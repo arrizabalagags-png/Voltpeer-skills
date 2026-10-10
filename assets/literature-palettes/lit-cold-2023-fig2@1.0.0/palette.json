@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "id": "lit-cold-2023-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Orange / cyan / red · formulations",
+  "name_zh": "橙青红 · 多配方对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#CD7B28",
+    "#11627E",
+    "#009CBD",
+    "#DE1C33"
+  ],
+  "observed_series": [
+    "#E4892D",
+    "#11627E",
+    "#00ADD2",
+    "#DE1C33"
+  ],
+  "adjustments": [
+    {
+      "observed": "#E4892D",
+      "used": "#CD7B28",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00ADD2",
+      "used": "#009CBD",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#CD7B28",
+    "new_or_intervention": "#11627E",
+    "limitation_or_failure": "#DE1C33",
+    "mechanism_or_model": "#009CBD",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-43163-9",
+    "doi_url": "https://doi.org/10.1038/s41467-023-43163-9",
+    "title": "Breaking solvation dominance of ethylene carbonate via molecular charge engineering enables lower temperature battery",
+    "authors": [
+      "Chen, Yuqing",
+      "He, Qiu",
+      "Zhao, Yun",
+      "Zhou, Wang",
+      "Xiao, Peitao",
+      "Gao, Peng",
+      "Tavajohi, Naser",
+      "Tu, Jian",
+      "Li, Baohua",
+      "He, Xiangming",
+      "Xing, Lidan",
+      "Fan, Xiulin",
+      "Liu, Jilei"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-12-14",
+    "url": "https://www.nature.com/articles/s41467-023-43163-9",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "b–d",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "696365f0ac769b563895531e710e79f761611913bc6315144b0bdf840d202162",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#E4892D": [
+        [
+          91.61,
+          319.64,
+          252.89,
+          378.32
+        ],
+        [
+          399.92,
+          212.05,
+          403.35,
+          213.49
+        ],
+        [
+          420.22,
+          217.34,
+          425.0,
+          218.69
+        ],
+        [
+          443.73,
+          222.26,
+          450.79,
+          225.09
+        ],
+        [
+          471.66,
+          228.63,
+          481.61,
+          233.29
+        ],
+        [
+          486.6,
+          237.53,
+          500.52,
+          257.78
+        ]
+      ],
+      "#11627E": [
+        [
+          91.58,
+          319.6,
+          253.35,
+          376.35
+        ],
+        [
+          431.58,
+          216.5,
+          437.26,
+          217.73
+        ],
+        [
+          443.88,
+          219.2,
+          450.64,
+          220.64
+        ],
+        [
+          457.32,
+          221.81,
+          465.22,
+          222.87
+        ],
+        [
+          471.93,
+          223.92,
+          481.34,
+          225.63
+        ],
+        [
+          505.72,
+          228.31,
+          518.83,
+          231.85
+        ]
+      ],
+      "#00ADD2": [
+        [
+          91.58,
+          319.66,
+          253.08,
+          371.11
+        ],
+        [
+          443.88,
+          216.41,
+          450.64,
+          217.91
+        ],
+        [
+          471.93,
+          220.97,
+          481.34,
+          222.63
+        ],
+        [
+          487.86,
+          224.37,
+          499.26,
+          228.46
+        ],
+        [
+          505.51,
+          231.07,
+          519.04,
+          237.53
+        ],
+        [
+          336.4,
+          201.17,
+          341.48,
+          205.53
+        ]
+      ],
+      "#DE1C33": [
+        [
+          91.58,
+          319.06,
+          253.22,
+          357.92
+        ],
+        [
+          471.96,
+          219.71,
+          481.31,
+          221.06
+        ],
+        [
+          488.04,
+          221.99,
+          499.07,
+          223.38
+        ],
+        [
+          336.4,
+          204.6,
+          341.48,
+          208.95
+        ],
+        [
+          348.24,
+          205.38,
+          353.32,
+          209.74
+        ],
+        [
+          354.74,
+          205.65,
+          359.82,
+          210.01
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.251,
+    6.836,
+    3.236,
+    4.861
+  ],
+  "source_credit": {
+    "source": "Chen, Yuqing et al. · Nature Communications 2023 · Fig. 2",
+    "author": "Chen, Yuqing, He, Qiu, Zhao, Yun, Zhou, Wang, Xiao, Peitao, Gao, Peng, Tavajohi, Naser, Tu, Jian, Li, Baohua, He, Xiangming, Xing, Lidan, Fan, Xiulin, Liu, Jilei",
+    "url": "https://doi.org/10.1038/s41467-023-43163-9",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

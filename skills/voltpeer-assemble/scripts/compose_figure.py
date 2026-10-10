@@ -22,6 +22,7 @@ def main() -> None:
     make.add_argument("--manifest", required=True)
     make.add_argument("--out", required=True, help="Extensionless output stem")
     make.add_argument("--strict", action="store_true", help="Block output on every QA warning")
+    make.add_argument("--svg", action="store_true", help="Export paired native SVG sidecars; preserves vector text and existing raster content")
     deliver = sub.add_parser('deliver', help='Create a result-first versioned Working folder')
     deliver.add_argument('--manifest', required=True, type=Path)
     deliver.add_argument('--out', required=True, type=Path)
@@ -56,7 +57,12 @@ def main() -> None:
             print(json.dumps({'result_folder': str(folder / 'results'), 'preview': str(folder / 'index.html'),
                               'review': '请核对组合图及来源；存在待审查项。' if result['warnings'] else '请核对最终尺寸的标签、图例和科学含义。'}, ensure_ascii=False))
         else:
-            result = compose(load_manifest(args.manifest), args.out, strict=args.strict)
+            manifest = load_manifest(args.manifest)
+            result = compose(manifest, args.out, strict=args.strict)
+            if args.svg:
+                from batterycompose.svg_export import export_svg
+                result['outputs']['svg'] = export_svg(manifest, result, Path(result['outputs']['pdf']).with_suffix('.svg'))
+                Path(result['outputs']['pdf']).with_suffix('.qa.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
             print(json.dumps({"status": result["status"], "warnings": result["warnings"],
                               "outputs": result["outputs"]}, ensure_ascii=False))
     except (ComposeError, ValueError, OSError, KeyError) as exc:

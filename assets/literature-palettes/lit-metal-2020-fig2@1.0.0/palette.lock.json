@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-metal-2020-fig2",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-020-19004-4",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-metal-2020-fig2@1.0.0",
+  "sha256": "ae39e56b5414dcb9ad450f79f977389112e9809f5ff75effe653bd38eea653d6",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

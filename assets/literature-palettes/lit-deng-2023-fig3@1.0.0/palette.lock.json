@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-deng-2023-fig3",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-40462-z",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-deng-2023-fig3@1.0.0",
+  "sha256": "6b119aac4195e367d0c2e6943cd0560ff28ee2ae5ab113eaef3fefe458f41f69",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

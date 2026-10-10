@@ -1,0 +1,340 @@
+{
+  "schema": 1,
+  "id": "lit-pouch-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Seven colours · cell conditions",
+  "name_zh": "七色 · 电芯条件",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#000000",
+    "#A900F7",
+    "#D57700",
+    "#00A64B",
+    "#0000FF",
+    "#009FA4",
+    "#BB832C"
+  ],
+  "observed_series": [
+    "#000000",
+    "#A900F7",
+    "#D57700",
+    "#00E668",
+    "#0000FF",
+    "#00C0C5",
+    "#FAAF3B"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00E668",
+      "used": "#00A64B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00C0C5",
+      "used": "#009FA4",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FAAF3B",
+      "used": "#BB832C",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#000000",
+    "new_or_intervention": "#A900F7",
+    "limitation_or_failure": "#BB832C",
+    "mechanism_or_model": "#D57700",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-39673-1",
+    "doi_url": "https://doi.org/10.1038/s41467-023-39673-1",
+    "title": "Weakly coordinated Li ion in single-ion-conductor-based composite enabling low electrolyte content Li-metal batteries",
+    "authors": [
+      "Kwon, Hyeokjin",
+      "Choi, Hyun-Ji",
+      "Jang, Jung-kyu",
+      "Lee, Jinhong",
+      "Jung, Jinkwan",
+      "Lee, Wonjun",
+      "Roh, Youngil",
+      "Baek, Jaewon",
+      "Shin, Dong Jae",
+      "Lee, Ju-Hyuk",
+      "Choi, Nam-Soon",
+      "Meng, Ying Shirley",
+      "Kim, Hee-Tak"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-07-08",
+    "url": "https://www.nature.com/articles/s41467-023-39673-1",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "b, c, e, f",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "dbd9d9a7dd7d4e89042b844bc439e28b43f3dfc38f159ee38f2278b45b73cd49",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#000000": [
+        [
+          166.39,
+          93.39,
+          171.18,
+          94.86
+        ],
+        [
+          166.28,
+          96.97,
+          171.02,
+          99.22
+        ],
+        [
+          166.31,
+          82.95,
+          171.02,
+          85.31
+        ],
+        [
+          333.41,
+          128.44,
+          349.47,
+          129.98
+        ],
+        [
+          320.93,
+          127.03,
+          333.41,
+          128.44
+        ],
+        [
+          283.44,
+          121.48,
+          320.93,
+          127.03
+        ]
+      ],
+      "#A900F7": [
+        [
+          394.94,
+          74.32,
+          397.8,
+          76.2
+        ],
+        [
+          397.8,
+          76.2,
+          400.64,
+          77.99
+        ],
+        [
+          404.91,
+          80.63,
+          407.77,
+          82.31
+        ],
+        [
+          407.77,
+          82.31,
+          412.04,
+          84.77
+        ],
+        [
+          412.04,
+          84.77,
+          414.87,
+          86.33
+        ],
+        [
+          414.87,
+          86.33,
+          417.73,
+          87.83
+        ]
+      ],
+      "#D57700": [
+        [
+          391.39,
+          68.88,
+          393.54,
+          70.41
+        ],
+        [
+          393.54,
+          70.41,
+          396.37,
+          72.32
+        ],
+        [
+          399.21,
+          74.2,
+          402.07,
+          75.99
+        ],
+        [
+          403.47,
+          76.9,
+          407.05,
+          79.04
+        ],
+        [
+          407.05,
+          79.05,
+          409.17,
+          80.28
+        ],
+        [
+          416.3,
+          84.27,
+          418.42,
+          85.36
+        ]
+      ],
+      "#00E668": [
+        [
+          308.45,
+          121.45,
+          345.89,
+          127.03
+        ],
+        [
+          295.97,
+          118.98,
+          308.45,
+          121.45
+        ],
+        [
+          258.48,
+          108.01,
+          295.97,
+          118.98
+        ],
+        [
+          240.99,
+          99.07,
+          258.48,
+          108.01
+        ]
+      ],
+      "#0000FF": [
+        [
+          320.93,
+          121.45,
+          349.47,
+          125.9
+        ],
+        [
+          308.45,
+          118.98,
+          320.93,
+          121.45
+        ],
+        [
+          270.96,
+          108.01,
+          308.45,
+          118.98
+        ],
+        [
+          240.99,
+          90.66,
+          270.96,
+          108.01
+        ],
+        [
+          172.71,
+          202.82,
+          175.01,
+          205.12
+        ],
+        [
+          173.28,
+          202.66,
+          175.58,
+          204.97
+        ]
+      ],
+      "#00C0C5": [
+        [
+          389.96,
+          77.08,
+          392.08,
+          81.31
+        ],
+        [
+          393.51,
+          82.98,
+          395.63,
+          84.83
+        ],
+        [
+          406.9,
+          91.97,
+          409.02,
+          93.23
+        ]
+      ],
+      "#FAAF3B": [
+        [
+          283.44,
+          108.98,
+          349.47,
+          124.52
+        ],
+        [
+          258.48,
+          96.81,
+          283.44,
+          108.98
+        ],
+        [
+          240.99,
+          81.6,
+          258.48,
+          96.81
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    21.0,
+    5.211,
+    3.247,
+    3.203,
+    8.592,
+    3.233,
+    3.283
+  ],
+  "source_credit": {
+    "source": "Kwon, Hyeokjin et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Kwon, Hyeokjin, Choi, Hyun-Ji, Jang, Jung-kyu, Lee, Jinhong, Jung, Jinkwan, Lee, Wonjun, Roh, Youngil, Baek, Jaewon, Shin, Dong Jae, Lee, Ju-Hyuk, Choi, Nam-Soon, Meng, Ying Shirley, Kim, Hee-Tak",
+    "url": "https://doi.org/10.1038/s41467-023-39673-1",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "id": "lit-potassium-2022-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Deep blue / warm colours · electrodes",
+  "name_zh": "深蓝暖色 · 电极对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#E34A24",
+    "#123B96",
+    "#59999B",
+    "#C57F26"
+  ],
+  "observed_series": [
+    "#E34A24",
+    "#123B96",
+    "#78CFD1",
+    "#ED992E"
+  ],
+  "adjustments": [
+    {
+      "observed": "#78CFD1",
+      "used": "#59999B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#ED992E",
+      "used": "#C57F26",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#E34A24",
+    "new_or_intervention": "#123B96",
+    "limitation_or_failure": "#C57F26",
+    "mechanism_or_model": "#59999B",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-32660-y",
+    "doi_url": "https://doi.org/10.1038/s41467-022-32660-y",
+    "title": "Codoped porous carbon nanofibres as a potassium metal host for nonaqueous K-ion batteries",
+    "authors": [
+      "Li, Siwu",
+      "Zhu, Haolin",
+      "Liu, Yuan",
+      "Han, Zhilong",
+      "Peng, Linfeng",
+      "Li, Shuping",
+      "Yu, Chuang",
+      "Cheng, Shijie",
+      "Xie, Jia"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-08-20",
+    "url": "https://www.nature.com/articles/s41467-022-32660-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "a–c",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "e0af841e8281e73c0f9cd33b0df4473c2b360072fb166b9bdf9e63128dc7c3fd",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#E34A24": [
+        [
+          435.71,
+          369.25,
+          471.36,
+          403.21
+        ],
+        [
+          471.36,
+          378.85,
+          509.19,
+          392.27
+        ],
+        [
+          509.19,
+          378.51,
+          535.24,
+          392.6
+        ],
+        [
+          312.19,
+          375.88,
+          336.51,
+          401.93
+        ],
+        [
+          336.51,
+          376.05,
+          389.05,
+          394.35
+        ],
+        [
+          389.05,
+          376.5,
+          411.68,
+          394.35
+        ]
+      ],
+      "#123B96": [
+        [
+          435.71,
+          366.84,
+          469.56,
+          404.84
+        ],
+        [
+          312.19,
+          374.59,
+          331.51,
+          407.83
+        ],
+        [
+          331.51,
+          374.14,
+          406.17,
+          399.46
+        ],
+        [
+          406.17,
+          373.92,
+          411.68,
+          396.43
+        ],
+        [
+          88.57,
+          375.06,
+          97.26,
+          408.29
+        ],
+        [
+          97.26,
+          367.48,
+          280.35,
+          408.01
+        ]
+      ],
+      "#78CFD1": [
+        [
+          222.27,
+          95.79,
+          232.38,
+          132.28
+        ],
+        [
+          239.17,
+          101.85,
+          249.28,
+          132.28
+        ],
+        [
+          256.01,
+          97.3,
+          266.12,
+          132.28
+        ],
+        [
+          272.86,
+          104.1,
+          282.96,
+          132.28
+        ],
+        [
+          289.75,
+          102.52,
+          299.86,
+          132.28
+        ],
+        [
+          217.16,
+          62.44,
+          230.3,
+          68.84
+        ]
+      ],
+      "#ED992E": [
+        [
+          104.53,
+          49.3,
+          187.54,
+          109.94
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.984,
+    10.04,
+    3.254,
+    3.262
+  ],
+  "source_credit": {
+    "source": "Li, Siwu et al. · Nature Communications 2022 · Fig. 2",
+    "author": "Li, Siwu, Zhu, Haolin, Liu, Yuan, Han, Zhilong, Peng, Linfeng, Li, Shuping, Yu, Chuang, Cheng, Shijie, Xie, Jia",
+    "url": "https://doi.org/10.1038/s41467-022-32660-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

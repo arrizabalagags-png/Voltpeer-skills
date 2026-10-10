@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "count": 50,
+  "assets": [
+    {
+      "id": "lit-rahman-2023-fig1",
+      "version": "1.0.0",
+      "file": "lit-rahman-2023-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-wang-2023-fig2",
+      "version": "1.0.0",
+      "file": "lit-wang-2023-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-li-2023-fig4",
+      "version": "1.0.0",
+      "file": "lit-li-2023-fig4@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-deng-2023-fig3",
+      "version": "1.0.0",
+      "file": "lit-deng-2023-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cation-2023-fig2",
+      "version": "1.0.0",
+      "file": "lit-cation-2023-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-water-2023-fig3",
+      "version": "1.0.0",
+      "file": "lit-water-2023-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-sodium-2023-fig1",
+      "version": "1.0.0",
+      "file": "lit-sodium-2023-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cold-2023-fig2",
+      "version": "1.0.0",
+      "file": "lit-cold-2023-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-potassium-2022-fig2",
+      "version": "1.0.0",
+      "file": "lit-potassium-2022-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-gas-2023-fig1",
+      "version": "1.0.0",
+      "file": "lit-gas-2023-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-interface-2020-fig2",
+      "version": "1.0.0",
+      "file": "lit-interface-2020-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-metal-2020-fig2",
+      "version": "1.0.0",
+      "file": "lit-metal-2020-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-solvent-2021-fig2",
+      "version": "1.0.0",
+      "file": "lit-solvent-2021-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-solvent-2021-fig5",
+      "version": "1.0.0",
+      "file": "lit-solvent-2021-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-solvent-2021-fig6",
+      "version": "1.0.0",
+      "file": "lit-solvent-2021-fig6@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cathode-2021-fig3",
+      "version": "1.0.0",
+      "file": "lit-cathode-2021-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cathode-2021-fig5",
+      "version": "1.0.0",
+      "file": "lit-cathode-2021-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-carbon-2021-fig2",
+      "version": "1.0.0",
+      "file": "lit-carbon-2021-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-carbon-2021-fig3",
+      "version": "1.0.0",
+      "file": "lit-carbon-2021-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-coating-2021-fig2",
+      "version": "1.0.0",
+      "file": "lit-coating-2021-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-coating-2021-fig4",
+      "version": "1.0.0",
+      "file": "lit-coating-2021-fig4@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-anion-2022-fig1",
+      "version": "1.0.0",
+      "file": "lit-anion-2022-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-anion-2022-fig5",
+      "version": "1.0.0",
+      "file": "lit-anion-2022-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-electrode-2022-fig1",
+      "version": "1.0.0",
+      "file": "lit-electrode-2022-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-potassium-2022-fig6",
+      "version": "1.0.0",
+      "file": "lit-potassium-2022-fig6@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-zinc-2022-fig1",
+      "version": "1.0.0",
+      "file": "lit-zinc-2022-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-chloride-2023-fig2",
+      "version": "1.0.0",
+      "file": "lit-chloride-2023-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-chloride-2023-fig4",
+      "version": "1.0.0",
+      "file": "lit-chloride-2023-fig4@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-ether-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-ether-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-micelle-2023-fig3",
+      "version": "1.0.0",
+      "file": "lit-micelle-2023-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-copper-2023-fig3",
+      "version": "1.0.0",
+      "file": "lit-copper-2023-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-sulfur-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-sulfur-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cation-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-cation-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-membrane-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-membrane-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-aluminium-2023-fig2",
+      "version": "1.0.0",
+      "file": "lit-aluminium-2023-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-aluminium-2023-fig3",
+      "version": "1.0.0",
+      "file": "lit-aluminium-2023-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-aluminium-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-aluminium-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-pouch-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-pouch-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-binder-2023-fig5",
+      "version": "1.0.0",
+      "file": "lit-binder-2023-fig5@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-binder-2023-fig7",
+      "version": "1.0.0",
+      "file": "lit-binder-2023-fig7@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-domain-2023-fig4",
+      "version": "1.0.0",
+      "file": "lit-domain-2023-fig4@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-diatomite-2019-fig1",
+      "version": "1.0.0",
+      "file": "lit-diatomite-2019-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-manganese-2019-fig3",
+      "version": "1.0.0",
+      "file": "lit-manganese-2019-fig3@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-polymer-2019-fig1",
+      "version": "1.0.0",
+      "file": "lit-polymer-2019-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-spinel-2019-fig2",
+      "version": "1.0.0",
+      "file": "lit-spinel-2019-fig2@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-spinel-2019-fig6",
+      "version": "1.0.0",
+      "file": "lit-spinel-2019-fig6@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-sodium-sei-2021-fig1",
+      "version": "1.0.0",
+      "file": "lit-sodium-sei-2021-fig1@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-boron-2021-fig6",
+      "version": "1.0.0",
+      "file": "lit-boron-2021-fig6@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-boron-2021-fig7",
+      "version": "1.0.0",
+      "file": "lit-boron-2021-fig7@1.0.0/palette.json"
+    },
+    {
+      "id": "lit-cage-2022-fig4",
+      "version": "1.0.0",
+      "file": "lit-cage-2022-fig4@1.0.0/palette.json"
+    }
+  ]
+}

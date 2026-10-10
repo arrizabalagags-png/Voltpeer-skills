@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-cathode-2021-fig3",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-021-27313-5",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-cathode-2021-fig3@1.0.0",
+  "sha256": "3ae04e900ea8f6bbd4fe98a3a2d5978d9bba0d3966b98d234441384b092188b8",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

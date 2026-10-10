@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "id": "lit-binder-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Eight warm shades · loading sequences",
+  "name_zh": "暖色八阶 · 载量序列",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#AA8B00",
+    "#C38100",
+    "#EC6800",
+    "#F73B00",
+    "#E31A1C",
+    "#D10900",
+    "#860200",
+    "#660B00"
+  ],
+  "observed_series": [
+    "#FECF00",
+    "#FDA800",
+    "#FB6F00",
+    "#F73B00",
+    "#E31A1C",
+    "#D10900",
+    "#860200",
+    "#660B00"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FECF00",
+      "used": "#AA8B00",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FDA800",
+      "used": "#C38100",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FB6F00",
+      "used": "#EC6800",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#AA8B00",
+    "new_or_intervention": "#C38100",
+    "limitation_or_failure": "#660B00",
+    "mechanism_or_model": "#EC6800",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-41513-1",
+    "doi_url": "https://doi.org/10.1038/s41467-023-41513-1",
+    "title": "Regulating electrostatic phenomena by cationic polymer binder for scalable high-areal-capacity Li battery electrodes",
+    "authors": [
+      "Kim, Jung-Hui",
+      "Lee, Kyung Min",
+      "Kim, Ji Won",
+      "Kweon, Seong Hyeon",
+      "Moon, Hyun-Seok",
+      "Yim, Taeeun",
+      "Kwak, Sang Kyu",
+      "Lee, Sang-Young"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-09-15",
+    "url": "https://www.nature.com/articles/s41467-023-41513-1",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "a",
+    "pdf_page": 6,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "875c3fd8e9c62577ffd38023a18a126998600d460588556566022b237433f624",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FECF00": [
+        [
+          83.54,
+          84.03,
+          113.86,
+          135.43
+        ],
+        [
+          83.56,
+          85.89,
+          100.37,
+          119.82
+        ],
+        [
+          100.37,
+          119.82,
+          114.55,
+          164.9
+        ]
+      ],
+      "#FDA800": [
+        [
+          83.54,
+          103.38,
+          111.85,
+          164.92
+        ],
+        [
+          111.85,
+          84.06,
+          123.01,
+          103.38
+        ],
+        [
+          83.59,
+          87.72,
+          123.61,
+          164.9
+        ]
+      ],
+      "#FB6F00": [
+        [
+          83.54,
+          112.68,
+          113.0,
+          135.54
+        ],
+        [
+          113.0,
+          84.03,
+          137.15,
+          112.68
+        ],
+        [
+          83.59,
+          86.51,
+          112.87,
+          120.5
+        ],
+        [
+          112.87,
+          120.5,
+          136.97,
+          164.9
+        ]
+      ],
+      "#F73B00": [
+        [
+          83.54,
+          84.03,
+          152.84,
+          134.41
+        ],
+        [
+          83.64,
+          88.27,
+          152.5,
+          164.9
+        ]
+      ],
+      "#E31A1C": [
+        [
+          427.81,
+          120.35,
+          432.02,
+          124.57
+        ],
+        [
+          441.74,
+          102.19,
+          445.95,
+          106.41
+        ],
+        [
+          449.72,
+          96.64,
+          453.94,
+          100.86
+        ],
+        [
+          459.43,
+          92.55,
+          463.65,
+          96.77
+        ],
+        [
+          473.34,
+          89.04,
+          477.55,
+          93.26
+        ],
+        [
+          484.02,
+          86.06,
+          488.23,
+          90.27
+        ]
+      ],
+      "#D10900": [
+        [
+          83.54,
+          102.49,
+          141.44,
+          133.99
+        ],
+        [
+          141.44,
+          84.06,
+          165.0,
+          102.49
+        ],
+        [
+          83.54,
+          85.83,
+          100.35,
+          103.61
+        ],
+        [
+          100.35,
+          103.61,
+          165.34,
+          164.9
+        ]
+      ],
+      "#860200": [
+        [
+          83.54,
+          84.05,
+          183.87,
+          164.92
+        ],
+        [
+          83.62,
+          88.84,
+          184.42,
+          164.9
+        ]
+      ],
+      "#660B00": [
+        [
+          83.54,
+          84.03,
+          197.7,
+          164.92
+        ],
+        [
+          83.56,
+          88.97,
+          196.55,
+          164.9
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.28,
+    3.251,
+    3.208,
+    3.763,
+    4.74,
+    5.6,
+    10.384,
+    13.021
+  ],
+  "source_credit": {
+    "source": "Kim, Jung-Hui et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Kim, Jung-Hui, Lee, Kyung Min, Kim, Ji Won, Kweon, Seong Hyeon, Moon, Hyun-Seok, Yim, Taeeun, Kwak, Sang Kyu, Lee, Sang-Young",
+    "url": "https://doi.org/10.1038/s41467-023-41513-1",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

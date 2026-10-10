@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "id": "lit-cation-2023-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Red / green · component comparisons",
+  "name_zh": "红绿 · 组分对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#FF0000",
+    "#00A600"
+  ],
+  "observed_series": [
+    "#FF0000",
+    "#00FF00"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00FF00",
+      "used": "#00A600",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#FF0000",
+    "new_or_intervention": "#00A600",
+    "limitation_or_failure": "#00A600",
+    "mechanism_or_model": "#00A600",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-38229-7",
+    "doi_url": "https://doi.org/10.1038/s41467-023-38229-7",
+    "title": "A fluorinated cation introduces new interphasial chemistries to enable high-voltage lithium metal batteries",
+    "authors": [
+      "Liu, Qian",
+      "Jiang, Wei",
+      "Xu, Jiayi",
+      "Xu, Yaobin",
+      "Yang, Zhenzhen",
+      "Yoo, Dong-Joo",
+      "Pupek, Krzysztof Z.",
+      "Wang, Chongmin",
+      "Liu, Cong",
+      "Xu, Kang",
+      "Zhang, Zhengcheng"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-06-21",
+    "url": "https://www.nature.com/articles/s41467-023-38229-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "d–f",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "2e51cf22f657e475e7cae8064a98f971710b55e6225ce68d6f48102b099a7a64",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FF0000": [
+        [
+          242.57,
+          169.42,
+          389.47,
+          271.62
+        ],
+        [
+          389.4,
+          204.36,
+          536.27,
+          271.62
+        ],
+        [
+          242.57,
+          300.71,
+          389.47,
+          375.05
+        ],
+        [
+          389.4,
+          310.8,
+          536.27,
+          375.05
+        ],
+        [
+          242.64,
+          104.5,
+          389.52,
+          168.4
+        ],
+        [
+          389.45,
+          146.68,
+          536.27,
+          168.4
+        ]
+      ],
+      "#00FF00": [
+        [
+          242.57,
+          212.87,
+          389.47,
+          271.43
+        ],
+        [
+          389.4,
+          202.22,
+          536.27,
+          271.62
+        ],
+        [
+          242.57,
+          300.99,
+          389.47,
+          374.0
+        ],
+        [
+          389.4,
+          281.48,
+          536.27,
+          375.05
+        ],
+        [
+          242.64,
+          143.73,
+          389.52,
+          168.1
+        ],
+        [
+          389.45,
+          128.35,
+          536.27,
+          168.4
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.998,
+    3.254
+  ],
+  "source_credit": {
+    "source": "Liu, Qian et al. · Nature Communications 2023 · Fig. 2",
+    "author": "Liu, Qian, Jiang, Wei, Xu, Jiayi, Xu, Yaobin, Yang, Zhenzhen, Yoo, Dong-Joo, Pupek, Krzysztof Z., Wang, Chongmin, Liu, Cong, Xu, Kang, Zhang, Zhengcheng",
+    "url": "https://doi.org/10.1038/s41467-023-38229-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

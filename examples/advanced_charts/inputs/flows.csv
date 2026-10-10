@@ -1,0 +1,15 @@
+source,target,count
+Input A,Group 1,65
+Input A,Group 2,35
+Input B,Group 1,25
+Input B,Group 2,35
+Input B,Group 3,40
+Input C,Group 2,25
+Input C,Group 3,35
+Group 1,Output X,55
+Group 1,Output Y,35
+Group 2,Output X,40
+Group 2,Output Y,35
+Group 2,Output Z,20
+Group 3,Output Y,25
+Group 3,Output Z,50

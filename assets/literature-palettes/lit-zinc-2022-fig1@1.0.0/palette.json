@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "id": "lit-zinc-2022-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Red / blue paired shades · electrochemistry",
+  "name_zh": "红蓝双层 · 电化学对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#FF2A2A",
+    "#2A2AFF",
+    "#8080FF",
+    "#DE6E6E"
+  ],
+  "observed_series": [
+    "#FF2A2A",
+    "#2A2AFF",
+    "#8080FF",
+    "#FF7E7E"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FF7E7E",
+      "used": "#DE6E6E",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#FF2A2A",
+    "new_or_intervention": "#2A2AFF",
+    "limitation_or_failure": "#DE6E6E",
+    "mechanism_or_model": "#8080FF",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-32955-0",
+    "doi_url": "https://doi.org/10.1038/s41467-022-32955-0",
+    "title": "Self-repairing interphase reconstructed in each cycle for highly reversible aqueous zinc batteries",
+    "authors": [
+      "Zhang, Wenyao",
+      "Dong, Muyao",
+      "Jiang, Keren",
+      "Yang, Diling",
+      "Tan, Xuehai",
+      "Zhai, Shengli",
+      "Feng, Renfei",
+      "Chen, Ning",
+      "King, Graham",
+      "Zhang, Hao",
+      "Zeng, Hongbo",
+      "Li, Hui",
+      "Antonietti, Markus",
+      "Li, Zhi"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-09-12",
+    "url": "https://www.nature.com/articles/s41467-022-32955-0",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "a–c, e",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "2670ae303a2cfeae47ef8e1bcbc05e8763364e81ae901c761dd695d67cf1c644",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FF2A2A": [
+        [
+          404.82,
+          66.01,
+          538.94,
+          84.56
+        ],
+        [
+          102.82,
+          71.95,
+          186.04,
+          86.25
+        ],
+        [
+          103.51,
+          393.76,
+          138.86,
+          397.67
+        ],
+        [
+          103.51,
+          374.19,
+          183.3,
+          378.11
+        ],
+        [
+          103.51,
+          354.63,
+          146.56,
+          358.54
+        ],
+        [
+          414.76,
+          213.01,
+          522.69,
+          251.15
+        ]
+      ],
+      "#2A2AFF": [
+        [
+          404.82,
+          146.09,
+          538.94,
+          162.48
+        ],
+        [
+          102.82,
+          146.93,
+          186.04,
+          164.85
+        ],
+        [
+          103.51,
+          432.9,
+          107.29,
+          436.82
+        ],
+        [
+          103.51,
+          413.34,
+          115.5,
+          417.25
+        ],
+        [
+          414.59,
+          275.62,
+          522.69,
+          312.08
+        ],
+        [
+          204.61,
+          150.14,
+          292.78,
+          163.67
+        ]
+      ],
+      "#8080FF": [
+        [
+          404.82,
+          130.14,
+          538.94,
+          148.48
+        ],
+        [
+          102.82,
+          134.04,
+          186.04,
+          148.2
+        ],
+        [
+          204.61,
+          134.34,
+          292.78,
+          148.6
+        ],
+        [
+          295.31,
+          76.58,
+          380.44,
+          167.46
+        ]
+      ],
+      "#FF7E7E": [
+        [
+          404.82,
+          81.41,
+          538.94,
+          100.58
+        ],
+        [
+          102.82,
+          91.74,
+          186.04,
+          104.73
+        ],
+        [
+          204.61,
+          85.05,
+          292.78,
+          100.39
+        ],
+        [
+          295.31,
+          69.46,
+          380.44,
+          167.4
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.739,
+    7.308,
+    3.256,
+    3.201
+  ],
+  "source_credit": {
+    "source": "Zhang, Wenyao et al. · Nature Communications 2022 · Fig. 1",
+    "author": "Zhang, Wenyao, Dong, Muyao, Jiang, Keren, Yang, Diling, Tan, Xuehai, Zhai, Shengli, Feng, Renfei, Chen, Ning, King, Graham, Zhang, Hao, Zeng, Hongbo, Li, Hui, Antonietti, Markus, Li, Zhi",
+    "url": "https://doi.org/10.1038/s41467-022-32955-0",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-wang-2023-fig2",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-36075-1",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-wang-2023-fig2@1.0.0",
+  "sha256": "4893f8190c35dccbd6267ca365d6200c0ea8540426b4abf57561cde29424ee37",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

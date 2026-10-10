@@ -1,8 +1,10 @@
 # 软件适配与实际验证状态
 
-当前活动工程是 **VoltPeer 0.12.0 Beta，共 16 个 `voltpeer-*` Skill**。绘图 Starter 只包含一个绘图技能，路径为 `assets/cycling-rule-v1.2.1/starter/`；全部技能包与单 Skill 包位于 `downloads/v0.12.0-cycling-rule-v1.2.1/`。这些 Beta 包已在仓库公开，完整正式 Release 仍为 v0.9.2。[当前版本与包范围](RELEASE_v0.12.0.md) · [校验索引](downloads/v0.12.0-cycling-rule-v1.2.1/download-index.json) · [安全迁移](NAMING_MIGRATION.md)。
+当前活动工程是 **VoltPeer 0.12.0 Beta，共 16 个 `voltpeer-*` Skill**。绘图 Starter 只包含一个绘图技能，路径为 `assets/scientific-guidance-v1.2.2/starter/`；全部技能包与单 Skill 包位于 `downloads/v0.12.0-scientific-guidance-v1.2.2/`。本次为独立 Beta 包修订，完整正式 Release 仍为 v0.9.2。[当前版本与包范围](RELEASE_v0.12.0.md) · [校验索引](downloads/v0.12.0-scientific-guidance-v1.2.2/download-index.json) · [安全迁移](NAMING_MIGRATION.md)。
 
-默认路线是 **DeepSeek Harness 官方桌面端 + 项目工作区技能**，这条推荐路线尚未完成当前版本的原生桌面全程实测。当前 0.12.0 的 ZIP 结构与本地程序记录见[交付证据](validation/2026-10-03-cycling-delivery.json)；完整 69 项行为 EVAL 和原生桌面发现到结果链路仍待实跑。以下 0.10.1 与带日期的安装、API、环境及科学记录保留原版本范围，不能作为当前版本已通过的证明。此前有限 Flash/Pro 直连 API pilot 保留为历史 PARTIAL_API_PILOT，[去敏结果和用量](validation/2026-10-01-api-pilot.json)。活动入口核对于 2026-10-03。
+默认路线是 **DeepSeek Harness 官方桌面端 + 项目工作区技能**，这条推荐路线尚未完成当前版本的原生桌面全程实测。当前 0.12.0 的 ZIP 结构与本地程序记录见[交付证据](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/docs/validation/2026-10-03-cycling-delivery.json)；完整 69 项行为 EVAL 和原生桌面发现到结果链路仍待实跑。以下 0.10.1 与带日期的安装、API、环境及科学记录保留原版本范围，不能作为当前版本已通过的证明。此前有限 Flash/Pro 直连 API pilot 保留为历史 PARTIAL_API_PILOT，[去敏结果和用量](validation/2026-10-01-api-pilot.json)。活动入口说明更新于 2026-10-10；旧测试仅适用于各自记录的版本。
+
+本次 `scientific-guidance-v1.2.2` 统一逐圈图规则，并纳入现有拼版对齐修订。解压后的实际本地程序验证记录与原生客户端验证分别保存；本次未运行原生桌面或完整模型 E2E。
 
 ## 0.10.1 固定绘图 Starter 实测
 
@@ -18,7 +20,7 @@
 
 ## DeepSeek Harness 桌面端主线
 
-第一次画图可下载 [v0.12.0 Beta 绘图 Starter](assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip)，解压后让 AI 读包内 `AGENT_GUIDE.md`。其中 `start.py setup` 仅准备隔离的 Python 环境和依赖，不需要 API key；一个固定 `batteryplot` 实现覆盖普通上传的 10 种图型。AI 负责识别图型、确认字段/科学条件和调用程序，不为每份数据重写绘图代码。Demo 与作者输入分开，其他任务按下面路线装所需 Skill。旧 v0.10.1 Starter 保留在上面的冻结记录中。
+第一次画图可下载 [v0.12.0 Beta 绘图 Starter](assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip)，解压后让 AI 读包内 `AGENT_GUIDE.md`。其中 `start.py setup` 仅准备隔离的 Python 环境和依赖，不需要 API key；一个固定 `batteryplot` 实现覆盖普通上传的 10 种图型。AI 负责识别图型、确认字段/科学条件和调用程序，不为每份数据重写绘图代码。Demo 与作者输入分开，其他任务按下面路线装所需 Skill。旧 v0.10.1 Starter 保留在上面的冻结记录中。
 
 Starter 的 Codex 适配为项目 `.agents/skills`，DSH 为项目 `.dsh/skills`；共用标准 name/description frontmatter。路径适配和本地执行已测试，原生发现/真实模型表现仍分别记录。[Codex 官方本地目录](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。
 

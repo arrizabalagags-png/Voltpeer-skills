@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-spinel-2019-fig6",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-019-12626-3",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-spinel-2019-fig6@1.0.0",
+  "sha256": "ea23b501eb97d480c729f4f08b0f9896b2cbbe1e0bd4a478b0a0e8e5cc0a8ef9",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-binder-2023-fig5",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-41513-1",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-binder-2023-fig5@1.0.0",
+  "sha256": "8557943d0dfff5bd195f9d79b2baa09fdb3ca499c03ddea5286ad5d4ad7c816a",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "id": "lit-spinel-2019-fig6",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Green / blue / pink · absorption spectra",
+  "name_zh": "绿蓝粉 · 吸收光谱",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#008000",
+    "#0000FF",
+    "#FF0080"
+  ],
+  "observed_series": [
+    "#008000",
+    "#0000FF",
+    "#FF0080"
+  ],
+  "adjustments": [],
+  "roles": {
+    "reference_or_baseline": "#008000",
+    "new_or_intervention": "#0000FF",
+    "limitation_or_failure": "#FF0080",
+    "mechanism_or_model": "#FF0080",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-019-12626-3",
+    "doi_url": "https://doi.org/10.1038/s41467-019-12626-3",
+    "title": "Correlation between manganese dissolution and dynamic phase stability in spinel-based lithium-ion battery",
+    "authors": [
+      "Liu, Tongchao",
+      "Dai, Alvin",
+      "Lu, Jun",
+      "Yuan, Yifei",
+      "Xiao, Yinguo",
+      "Yu, Lei",
+      "Li, Matthew",
+      "Gim, Jihyeon",
+      "Ma, Lu",
+      "Liu, Jiajie",
+      "Zhan, Chun",
+      "Li, Luxi",
+      "Zheng, Jiaxin",
+      "Ren, Yang",
+      "Wu, Tianpin",
+      "Shahbazian-Yassar, Reza",
+      "Wen, Jianguo",
+      "Pan, Feng",
+      "Amine, Khalil"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2019-10-17",
+    "url": "https://www.nature.com/articles/s41467-019-12626-3",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "6",
+    "panels": "d",
+    "pdf_page": 8,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "7bb1aa22dcf4a0e5b24b9173763f45f583e0ab86d296076e67660ab481bdcd3e",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#008000": [
+        [
+          91.08,
+          308.44,
+          290.9,
+          354.27
+        ],
+        [
+          91.08,
+          315.96,
+          290.9,
+          354.6
+        ],
+        [
+          91.08,
+          377.99,
+          292.37,
+          411.68
+        ],
+        [
+          91.08,
+          379.28,
+          292.37,
+          412.09
+        ]
+      ],
+      "#0000FF": [
+        [
+          103.03,
+          208.35,
+          278.64,
+          215.3
+        ],
+        [
+          351.68,
+          208.37,
+          527.43,
+          214.4
+        ],
+        [
+          340.76,
+          281.41,
+          540.06,
+          403.66
+        ]
+      ],
+      "#FF0080": [
+        [
+          340.76,
+          275.56,
+          540.06,
+          404.06
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    5.137,
+    8.592,
+    3.774
+  ],
+  "source_credit": {
+    "source": "Liu, Tongchao et al. · Nature Communications 2019 · Fig. 6",
+    "author": "Liu, Tongchao, Dai, Alvin, Lu, Jun, Yuan, Yifei, Xiao, Yinguo, Yu, Lei, Li, Matthew, Gim, Jihyeon, Ma, Lu, Liu, Jiajie, Zhan, Chun, Li, Luxi, Zheng, Jiaxin, Ren, Yang, Wu, Tianpin, Shahbazian-Yassar, Reza, Wen, Jianguo, Pan, Feng, Amine, Khalil",
+    "url": "https://doi.org/10.1038/s41467-019-12626-3",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

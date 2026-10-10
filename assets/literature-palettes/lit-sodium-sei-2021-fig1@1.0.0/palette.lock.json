@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-sodium-sei-2021-fig1",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-021-23368-6",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-sodium-sei-2021-fig1@1.0.0",
+  "sha256": "1aff0ed0c7210f3c1165dc6e379af210a78514e94253e1d3e64ce70dfd80c9e6",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

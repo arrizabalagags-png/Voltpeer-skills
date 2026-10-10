@@ -28,3 +28,5 @@ workspace/
 outputs/
 private/
 notes/
+# Advanced-chart audit renders are local evidence; distributable assets are versioned by the website builder.
+examples/advanced_charts/results/

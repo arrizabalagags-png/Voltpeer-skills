@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "id": "lit-boron-2021-fig7",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Burgundy / pink shades · absorption-edge states",
+  "name_zh": "酒红粉阶 · 吸收边状态",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#CF6A77",
+    "#8E1D21",
+    "#DA6E7B"
+  ],
+  "observed_series": [
+    "#CF6A77",
+    "#8E1D21",
+    "#E67481"
+  ],
+  "adjustments": [
+    {
+      "observed": "#E67481",
+      "used": "#DA6E7B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#CF6A77",
+    "new_or_intervention": "#8E1D21",
+    "limitation_or_failure": "#DA6E7B",
+    "mechanism_or_model": "#DA6E7B",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-25610-7",
+    "doi_url": "https://doi.org/10.1038/s41467-021-25610-7",
+    "title": "Boron-doped sodium layered oxide for reversible oxygen redox reaction in Na-ion battery cathodes",
+    "authors": [
+      "Guo, Yu-Jie",
+      "Wang, Peng-Fei",
+      "Niu, Yu-Bin",
+      "Zhang, Xu-Dong",
+      "Li, Qinghao",
+      "Yu, Xiqian",
+      "Fan, Min",
+      "Chen, Wan-Ping",
+      "Yu, Yang",
+      "Liu, Xiangfeng",
+      "Meng, Qinghai",
+      "Xin, Sen",
+      "Yin, Ya-Xia",
+      "Guo, Yu-Guo"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-09-06",
+    "url": "https://www.nature.com/articles/s41467-021-25610-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "7",
+    "panels": "a, d",
+    "pdf_page": 8,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "fd8be748341ea0c64dcc4c443eac86024a15bd6299795cea402992cad858e622",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#CF6A77": [
+        [
+          242.01,
+          79.42,
+          367.01,
+          158.31
+        ],
+        [
+          403.8,
+          67.43,
+          530.27,
+          154.25
+        ],
+        [
+          403.98,
+          204.19,
+          530.1,
+          282.57
+        ],
+        [
+          80.05,
+          76.61,
+          205.38,
+          159.92
+        ],
+        [
+          79.88,
+          202.06,
+          206.0,
+          284.98
+        ]
+      ],
+      "#8E1D21": [
+        [
+          79.25,
+          85.68,
+          205.83,
+          159.7
+        ],
+        [
+          242.01,
+          70.57,
+          367.59,
+          157.11
+        ],
+        [
+          403.8,
+          64.45,
+          530.27,
+          154.25
+        ],
+        [
+          79.88,
+          200.34,
+          206.0,
+          281.31
+        ],
+        [
+          403.98,
+          196.61,
+          530.1,
+          283.37
+        ]
+      ],
+      "#E67481": [
+        [
+          242.52,
+          225.07,
+          368.64,
+          286.13
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.511,
+    8.944,
+    3.232
+  ],
+  "source_credit": {
+    "source": "Guo, Yu-Jie et al. · Nature Communications 2021 · Fig. 7",
+    "author": "Guo, Yu-Jie, Wang, Peng-Fei, Niu, Yu-Bin, Zhang, Xu-Dong, Li, Qinghao, Yu, Xiqian, Fan, Min, Chen, Wan-Ping, Yu, Yang, Liu, Xiangfeng, Meng, Qinghai, Xin, Sen, Yin, Ya-Xia, Guo, Yu-Guo",
+    "url": "https://doi.org/10.1038/s41467-021-25610-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

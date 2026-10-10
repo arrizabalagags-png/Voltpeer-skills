@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "id": "lit-cathode-2021-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Red / blue / magenta · diffraction",
+  "name_zh": "红蓝品红 · 衍射对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#FF0000",
+    "#0000FF",
+    "#FC00FC"
+  ],
+  "observed_series": [
+    "#FF0000",
+    "#0000FF",
+    "#FF00FF"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FF00FF",
+      "used": "#FC00FC",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#FF0000",
+    "new_or_intervention": "#0000FF",
+    "limitation_or_failure": "#FC00FC",
+    "mechanism_or_model": "#FC00FC",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-27313-5",
+    "doi_url": "https://doi.org/10.1038/s41467-021-27313-5",
+    "title": "A rechargeable aqueous manganese-ion battery based on intercalation chemistry",
+    "authors": [
+      "Bi, Songshan",
+      "Wang, Shuai",
+      "Yue, Fang",
+      "Tie, Zhiwei",
+      "Niu, Zhiqiang"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-11-30",
+    "url": "https://www.nature.com/articles/s41467-021-27313-5",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "h",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "ac1d06d65185862905bc036d8ee2f43b594ad430cdc8d0f3910465e1d8cf7852",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FF0000": [
+        [
+          202.41,
+          66.7,
+          214.65,
+          94.2
+        ],
+        [
+          178.52,
+          94.2,
+          202.41,
+          98.51
+        ],
+        [
+          157.97,
+          98.45,
+          178.52,
+          109.02
+        ],
+        [
+          151.84,
+          109.02,
+          157.97,
+          151.06
+        ],
+        [
+          231.19,
+          341.57,
+          385.67,
+          362.22
+        ]
+      ],
+      "#0000FF": [
+        [
+          143.21,
+          127.4,
+          151.88,
+          151.98
+        ],
+        [
+          128.28,
+          103.22,
+          143.21,
+          127.4
+        ],
+        [
+          91.69,
+          80.48,
+          106.57,
+          102.88
+        ],
+        [
+          231.19,
+          398.82,
+          385.67,
+          415.99
+        ]
+      ],
+      "#FF00FF": [
+        [
+          231.19,
+          368.16,
+          385.67,
+          388.77
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.998,
+    8.592,
+    3.209
+  ],
+  "source_credit": {
+    "source": "Bi, Songshan et al. · Nature Communications 2021 · Fig. 5",
+    "author": "Bi, Songshan, Wang, Shuai, Yue, Fang, Tie, Zhiwei, Niu, Zhiqiang",
+    "url": "https://doi.org/10.1038/s41467-021-27313-5",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

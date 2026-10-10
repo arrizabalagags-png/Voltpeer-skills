@@ -1,0 +1,14 @@
+source,target,weight
+Module A,Module B,18
+Module A,Module C,5
+Module A,Module D,2
+Module A,Module F,7
+Module B,Module C,15
+Module B,Module D,4
+Module B,Module E,9
+Module C,Module D,22
+Module C,Module E,3
+Module C,Module F,6
+Module D,Module E,11
+Module D,Module F,5
+Module E,Module F,16

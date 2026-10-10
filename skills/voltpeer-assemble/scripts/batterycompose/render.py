@@ -108,7 +108,8 @@ def _plot_rect(panel: dict, placed: list[float]) -> list[float] | None:
             (right - left) * width, (bottom - top) * height]
 
 
-def _alignment_audit(panels: list[dict], tolerance_mm: float = 1.5 / PT_PER_MM) -> dict:
+def _alignment_audit(panels: list[dict], tolerance_mm: float = 1.5 / PT_PER_MM,
+                     guides: list[dict] | None = None) -> dict:
     """Measure final-size plot rectangles, never just equal outer grid cells.
 
     A mixed-content panel may be independent, but the author must say why.
@@ -165,7 +166,37 @@ def _alignment_audit(panels: list[dict], tolerance_mm: float = 1.5 / PT_PER_MM) 
                             issues.append(f"Group {name}: panels {first['label']}/{second['label']} plot-area {direction} {edge} differs by {delta:.2f} mm")
         if len(checks) == group_check_count:
             issues.append(f"Group {name}: no members share a row or column; declare a meaningful comparison or independent reasons")
-    if len(panels) > 1 and not groups and not issues:
+    # Explicit guides also compare mixed-span panels. Equal outer grid slots
+    # alone cannot detect a wide graph failing to align with a smaller one.
+    by_label = {panel['label']: panel for panel in panels}
+    edges = {'left': lambda r: r[0], 'right': lambda r: r[0]+r[2],
+             'top': lambda r: r[1], 'bottom': lambda r: r[1]+r[3],
+             'width': lambda r: r[2], 'height': lambda r: r[3]}
+    if guides is not None and not isinstance(guides, list):
+        issues.append('alignment_guides must be a list')
+        guides = []
+    for guide in guides or []:
+        if not isinstance(guide, dict):
+            issues.append('Each alignment guide must be an object'); continue
+        labels, edge = guide.get('panels'), guide.get('edge')
+        if (not isinstance(labels, list) or len(labels)<2 or
+                any(not isinstance(label,str) for label in labels) or
+                len(set(labels))!=len(labels) or edge not in edges or
+                any(label not in by_label for label in labels)):
+            issues.append('Invalid alignment guide: '+str(guide.get('id','unnamed'))); continue
+        if any(by_label[label].get('plot_rect_mm') is None for label in labels):
+            issues.append('Alignment guide needs measured plot rectangles: '+str(guide.get('id','unnamed'))); continue
+        first = labels[0]
+        for second in labels[1:]:
+            a = edges[edge](by_label[first]['plot_rect_mm'])
+            b = edges[edge](by_label[second]['plot_rect_mm'])
+            delta = abs(a-b)
+            checks.append({'guide':guide.get('id','unnamed'),'panels':[first,second],
+                           'direction':'explicit','edge':edge,'first_mm':round(a,4),
+                           'second_mm':round(b,4),'delta_mm':round(delta,4),'pass':delta<=tolerance_mm})
+            if delta>tolerance_mm:
+                issues.append(f'Guide {guide.get("id","unnamed")}: panels {first}/{second} {edge} differs by {delta:.2f} mm')
+    if len(panels) > 1 and not groups and not guides and not issues:
         # Mixed content can be valid, but it has no common plot ruler.
         status = "independent_panels_visual_review_required"
     else:
@@ -176,7 +207,7 @@ def _alignment_audit(panels: list[dict], tolerance_mm: float = 1.5 / PT_PER_MM) 
 
 def compose(manifest: dict, stem: str | Path, *, strict: bool = False) -> dict:
     """Reserve a complete version before writing; preserve every earlier export."""
-    with reserve_stem(stem, ('.pdf', '.png', '.qa.json', '.alignment.png', '_panel_checks')) as (reserved, version):
+    with reserve_stem(stem, ('.pdf', '.png', '.svg', '.qa.json', '.alignment.png', '_panel_checks')) as (reserved, version):
         result = _compose(manifest, reserved, strict=strict)
         result['output_version'] = version
         result['parent_version'] = version - 1 if version > 1 else None
@@ -282,7 +313,7 @@ def _compose(manifest: dict, stem: str | Path, *, strict: bool = False) -> dict:
                 next(p for p in infos if p["label"] == letter).get("whitespace_reason")
                 for letter in gap["panels"]):
                 warnings.append(f"Panels {'/'.join(gap['panels'])}: visible gap is {gap['interpanel_gap_mm']:.1f} mm; review editorial packing")
-    alignment_audit = _alignment_audit(infos)
+    alignment_audit = _alignment_audit(infos, guides=manifest.get('alignment_guides'))
     warnings.extend(alignment_audit["issues"])
     if strict and warnings:
         raise ComposeError("Strict assembly blocked: " + "; ".join(warnings))

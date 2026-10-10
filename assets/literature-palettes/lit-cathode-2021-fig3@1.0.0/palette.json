@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "id": "lit-cathode-2021-fig3",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Seven colours · diffraction states",
+  "name_zh": "七色 · 衍射状态",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#FF0000",
+    "#B38823",
+    "#959245",
+    "#00A700",
+    "#3F97CC",
+    "#0000FF",
+    "#8000FF"
+  ],
+  "observed_series": [
+    "#FF0000",
+    "#E6AF2D",
+    "#EDE76D",
+    "#00DC00",
+    "#4FBDFF",
+    "#0000FF",
+    "#8000FF"
+  ],
+  "adjustments": [
+    {
+      "observed": "#E6AF2D",
+      "used": "#B38823",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#EDE76D",
+      "used": "#959245",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#00DC00",
+      "used": "#00A700",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#4FBDFF",
+      "used": "#3F97CC",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#FF0000",
+    "new_or_intervention": "#B38823",
+    "limitation_or_failure": "#8000FF",
+    "mechanism_or_model": "#959245",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-27313-5",
+    "doi_url": "https://doi.org/10.1038/s41467-021-27313-5",
+    "title": "A rechargeable aqueous manganese-ion battery based on intercalation chemistry",
+    "authors": [
+      "Bi, Songshan",
+      "Wang, Shuai",
+      "Yue, Fang",
+      "Tie, Zhiwei",
+      "Niu, Zhiqiang"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-11-30",
+    "url": "https://www.nature.com/articles/s41467-021-27313-5",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "3",
+    "panels": "b, c",
+    "pdf_page": 5,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "ac1d06d65185862905bc036d8ee2f43b594ad430cdc8d0f3910465e1d8cf7852",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FF0000": [
+        [
+          176.73,
+          102.95,
+          192.29,
+          107.24
+        ],
+        [
+          149.11,
+          107.24,
+          176.73,
+          124.75
+        ],
+        [
+          211.98,
+          120.05,
+          330.14,
+          142.89
+        ],
+        [
+          352.29,
+          133.79,
+          404.33,
+          143.11
+        ],
+        [
+          139.98,
+          304.79,
+          144.59,
+          309.4
+        ],
+        [
+          162.62,
+          306.2,
+          167.23,
+          310.81
+        ]
+      ],
+      "#E6AF2D": [
+        [
+          211.98,
+          112.18,
+          330.14,
+          133.15
+        ]
+      ],
+      "#EDE76D": [
+        [
+          211.98,
+          102.23,
+          329.72,
+          124.34
+        ],
+        [
+          352.29,
+          111.25,
+          404.33,
+          121.47
+        ]
+      ],
+      "#00DC00": [
+        [
+          211.98,
+          95.94,
+          330.14,
+          112.76
+        ],
+        [
+          352.29,
+          103.6,
+          404.33,
+          107.95
+        ]
+      ],
+      "#4FBDFF": [
+        [
+          147.54,
+          81.72,
+          160.27,
+          88.59
+        ],
+        [
+          160.27,
+          88.59,
+          191.71,
+          102.95
+        ],
+        [
+          211.98,
+          85.04,
+          330.14,
+          103.59
+        ],
+        [
+          352.29,
+          94.64,
+          404.33,
+          97.21
+        ]
+      ],
+      "#0000FF": [
+        [
+          147.54,
+          124.75,
+          159.02,
+          130.77
+        ],
+        [
+          159.02,
+          130.77,
+          187.57,
+          145.71
+        ],
+        [
+          211.98,
+          79.02,
+          330.14,
+          93.84
+        ],
+        [
+          352.29,
+          81.8,
+          404.33,
+          85.63
+        ],
+        [
+          146.0,
+          337.35,
+          161.2,
+          338.71
+        ],
+        [
+          213.86,
+          337.14,
+          229.06,
+          338.77
+        ]
+      ],
+      "#8000FF": [
+        [
+          211.98,
+          66.13,
+          330.14,
+          82.11
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.998,
+    3.249,
+    3.243,
+    3.217,
+    3.226,
+    8.592,
+    6.247
+  ],
+  "source_credit": {
+    "source": "Bi, Songshan et al. · Nature Communications 2021 · Fig. 3",
+    "author": "Bi, Songshan, Wang, Shuai, Yue, Fang, Tie, Zhiwei, Niu, Zhiqiang",
+    "url": "https://doi.org/10.1038/s41467-021-27313-5",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

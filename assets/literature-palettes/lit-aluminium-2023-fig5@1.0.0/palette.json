@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "id": "lit-aluminium-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Blue shades · literature comparisons",
+  "name_zh": "蓝阶 · 文献数据对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#105CA4",
+    "#3A8AC2",
+    "#5F96B7",
+    "#7B93A2"
+  ],
+  "observed_series": [
+    "#105CA4",
+    "#3A8AC2",
+    "#70B1D7",
+    "#B0D2E7"
+  ],
+  "adjustments": [
+    {
+      "observed": "#70B1D7",
+      "used": "#5F96B7",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#B0D2E7",
+      "used": "#7B93A2",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#105CA4",
+    "new_or_intervention": "#3A8AC2",
+    "limitation_or_failure": "#7B93A2",
+    "mechanism_or_model": "#5F96B7",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-39258-y",
+    "doi_url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "title": "A solution-to-solid conversion chemistry enables ultrafast-charging and long-lived molten salt aluminium batteries",
+    "authors": [
+      "Meng, Jiashen",
+      "Yao, Xuhui",
+      "Hong, Xufeng",
+      "Zhu, Lujun",
+      "Xiao, Zhitong",
+      "Jia, Yongfeng",
+      "Liu, Fang",
+      "Song, Huimin",
+      "Zhao, Yunlong",
+      "Pang, Quanquan"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-07-03",
+    "url": "https://www.nature.com/articles/s41467-023-39258-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "e",
+    "pdf_page": 6,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "1388470e31dd1ce8b9507ba25fc04c62db780f3d51a7626367cefd88ece96ade",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#105CA4": [
+        [
+          409.46,
+          221.9,
+          411.9,
+          242.9
+        ],
+        [
+          413.6,
+          246.77,
+          415.71,
+          249.2
+        ],
+        [
+          406.73,
+          190.54,
+          409.62,
+          193.43
+        ],
+        [
+          407.73,
+          218.25,
+          410.62,
+          221.14
+        ],
+        [
+          410.71,
+          243.63,
+          413.6,
+          246.52
+        ],
+        [
+          415.68,
+          249.42,
+          418.58,
+          252.31
+        ]
+      ],
+      "#3A8AC2": [
+        [
+          410.71,
+          250.55,
+          413.6,
+          253.45
+        ],
+        [
+          415.68,
+          252.88,
+          418.58,
+          255.77
+        ],
+        [
+          425.63,
+          254.01,
+          428.52,
+          256.91
+        ],
+        [
+          435.55,
+          254.47,
+          438.44,
+          257.37
+        ],
+        [
+          455.42,
+          254.93,
+          458.32,
+          257.83
+        ],
+        [
+          465.37,
+          255.64,
+          468.27,
+          258.53
+        ]
+      ],
+      "#70B1D7": [
+        [
+          406.73,
+          264.42,
+          409.62,
+          267.31
+        ],
+        [
+          407.73,
+          264.42,
+          410.62,
+          267.31
+        ],
+        [
+          410.71,
+          264.42,
+          413.6,
+          267.31
+        ],
+        [
+          415.68,
+          264.42,
+          418.58,
+          267.31
+        ],
+        [
+          425.63,
+          264.42,
+          428.52,
+          267.31
+        ],
+        [
+          455.42,
+          264.42,
+          458.32,
+          267.31
+        ]
+      ],
+      "#B0D2E7": [
+        [
+          418.22,
+          235.5,
+          426.01,
+          249.39
+        ],
+        [
+          429.06,
+          252.34,
+          435.04,
+          255.39
+        ],
+        [
+          439.2,
+          256.8,
+          444.77,
+          257.85
+        ],
+        [
+          415.68,
+          232.09,
+          418.58,
+          234.98
+        ],
+        [
+          425.63,
+          249.88,
+          428.52,
+          252.77
+        ],
+        [
+          435.55,
+          254.93,
+          438.44,
+          257.83
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    6.798,
+    3.754,
+    3.215,
+    3.212
+  ],
+  "source_credit": {
+    "source": "Meng, Jiashen et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Meng, Jiashen, Yao, Xuhui, Hong, Xufeng, Zhu, Lujun, Xiao, Zhitong, Jia, Yongfeng, Liu, Fang, Song, Huimin, Zhao, Yunlong, Pang, Quanquan",
+    "url": "https://doi.org/10.1038/s41467-023-39258-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

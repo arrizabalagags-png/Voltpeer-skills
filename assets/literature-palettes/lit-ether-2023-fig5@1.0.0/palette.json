@@ -1,0 +1,264 @@
+{
+  "schema": 1,
+  "id": "lit-ether-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Muted purple / teal / pink / gold · electrolytes",
+  "name_zh": "灰紫青粉金 · 电解液对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#797596",
+    "#66979B",
+    "#D67174",
+    "#B38700"
+  ],
+  "observed_series": [
+    "#797596",
+    "#77B0B4",
+    "#FF868A",
+    "#ECB200"
+  ],
+  "adjustments": [
+    {
+      "observed": "#77B0B4",
+      "used": "#66979B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FF868A",
+      "used": "#D67174",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#ECB200",
+      "used": "#B38700",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#797596",
+    "new_or_intervention": "#66979B",
+    "limitation_or_failure": "#B38700",
+    "mechanism_or_model": "#D67174",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-36647-1",
+    "doi_url": "https://doi.org/10.1038/s41467-023-36647-1",
+    "title": "Non-polar ether-based electrolyte solutions for stable high-voltage non-aqueous lithium metal batteries",
+    "authors": [
+      "Li, Zheng",
+      "Rao, Harsha",
+      "Atwi, Rasha",
+      "Sivakumar, Bhuvaneswari M.",
+      "Gwalani, Bharat",
+      "Gray, Scott",
+      "Han, Kee Sung",
+      "Everett, Thomas A.",
+      "Ajantiwalay, Tanvi A.",
+      "Murugesan, Vijayakumar",
+      "Rajput, Nav Nidhi",
+      "Pol, Vilas G."
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-02-16",
+    "url": "https://www.nature.com/articles/s41467-023-36647-1",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "a, b, d",
+    "pdf_page": 8,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "2cdbcc5e218b666914f6eb64c1abbd8c9465b32a2d5cef25d470e0cdb99448a9",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#797596": [
+        [
+          82.5,
+          56.29,
+          251.52,
+          149.17
+        ],
+        [
+          149.82,
+          95.69,
+          246.82,
+          125.76
+        ],
+        [
+          287.17,
+          99.1,
+          291.46,
+          103.37
+        ],
+        [
+          288.02,
+          104.22,
+          292.3,
+          108.5
+        ],
+        [
+          288.82,
+          94.44,
+          293.1,
+          98.72
+        ],
+        [
+          289.67,
+          91.95,
+          293.95,
+          96.23
+        ]
+      ],
+      "#77B0B4": [
+        [
+          82.53,
+          56.2,
+          251.71,
+          152.06
+        ],
+        [
+          149.96,
+          96.81,
+          246.78,
+          123.85
+        ],
+        [
+          287.17,
+          90.07,
+          291.46,
+          94.35
+        ],
+        [
+          288.02,
+          72.76,
+          292.3,
+          77.04
+        ],
+        [
+          288.82,
+          72.71,
+          293.1,
+          76.99
+        ],
+        [
+          289.67,
+          71.54,
+          293.95,
+          75.82
+        ]
+      ],
+      "#FF868A": [
+        [
+          82.54,
+          56.25,
+          249.9,
+          148.75
+        ],
+        [
+          149.82,
+          101.24,
+          246.82,
+          120.68
+        ],
+        [
+          288.82,
+          151.29,
+          293.1,
+          155.57
+        ],
+        [
+          290.47,
+          74.45,
+          294.75,
+          78.73
+        ],
+        [
+          291.32,
+          79.63,
+          295.6,
+          83.91
+        ],
+        [
+          292.12,
+          77.46,
+          296.4,
+          81.74
+        ]
+      ],
+      "#ECB200": [
+        [
+          82.51,
+          55.73,
+          136.29,
+          153.18
+        ],
+        [
+          302.85,
+          150.16,
+          307.13,
+          154.44
+        ],
+        [
+          304.49,
+          140.34,
+          308.78,
+          144.62
+        ],
+        [
+          305.29,
+          134.46,
+          309.58,
+          138.74
+        ],
+        [
+          306.94,
+          103.8,
+          311.22,
+          108.08
+        ],
+        [
+          307.79,
+          147.58,
+          312.07,
+          151.86
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    4.377,
+    3.248,
+    3.244,
+    3.29
+  ],
+  "source_credit": {
+    "source": "Li, Zheng et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Li, Zheng, Rao, Harsha, Atwi, Rasha, Sivakumar, Bhuvaneswari M., Gwalani, Bharat, Gray, Scott, Han, Kee Sung, Everett, Thomas A., Ajantiwalay, Tanvi A., Murugesan, Vijayakumar, Rajput, Nav Nidhi, Pol, Vilas G.",
+    "url": "https://doi.org/10.1038/s41467-023-36647-1",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

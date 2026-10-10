@@ -1,0 +1,245 @@
+{
+  "schema": 1,
+  "id": "lit-coating-2021-fig4",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Green / red / blue / black · composition",
+  "name_zh": "绿红蓝黑 · 元素组成",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#659E42",
+    "#EB2A2C",
+    "#1F4DA0",
+    "#231F20"
+  ],
+  "observed_series": [
+    "#69A545",
+    "#EB2A2C",
+    "#1F4DA0",
+    "#231F20"
+  ],
+  "adjustments": [
+    {
+      "observed": "#69A545",
+      "used": "#659E42",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#659E42",
+    "new_or_intervention": "#EB2A2C",
+    "limitation_or_failure": "#231F20",
+    "mechanism_or_model": "#1F4DA0",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-27841-0",
+    "doi_url": "https://doi.org/10.1038/s41467-021-27841-0",
+    "title": "Suppressing electrolyte-lithium metal reactivity via Li+-desolvation in uniform nano-porous separator",
+    "authors": [
+      "Sheng, Li",
+      "Wang, Qianqian",
+      "Liu, Xiang",
+      "Cui, Hao",
+      "Wang, Xiaolin",
+      "Xu, Yulong",
+      "Li, Zonglong",
+      "Wang, Li",
+      "Chen, Zonghai",
+      "Xu, Gui-Liang",
+      "Wang, Jianlong",
+      "Tang, Yaping",
+      "Amine, Khalil",
+      "Xu, Hong",
+      "He, Xiangming"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-01-10",
+    "url": "https://www.nature.com/articles/s41467-021-27841-0",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "4",
+    "panels": "k, l",
+    "pdf_page": 6,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "fd06b4d5e309735642a8e2def80b1f31b3490aed073bab49f68ca539e799f969",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#69A545": [
+        [
+          412.43,
+          486.14,
+          525.99,
+          502.33
+        ],
+        [
+          411.21,
+          484.92,
+          413.66,
+          487.37
+        ],
+        [
+          421.53,
+          490.76,
+          423.98,
+          493.22
+        ],
+        [
+          431.86,
+          495.4,
+          434.31,
+          497.86
+        ],
+        [
+          442.18,
+          496.86,
+          444.63,
+          499.32
+        ],
+        [
+          452.5,
+          498.08,
+          454.95,
+          500.53
+        ]
+      ],
+      "#EB2A2C": [
+        [
+          412.43,
+          502.37,
+          525.99,
+          503.94
+        ],
+        [
+          411.7,
+          373.68,
+          521.74,
+          375.1
+        ],
+        [
+          81.68,
+          362.79,
+          171.38,
+          383.7
+        ],
+        [
+          86.34,
+          177.09,
+          183.72,
+          248.52
+        ],
+        [
+          86.28,
+          67.09,
+          183.79,
+          140.28
+        ],
+        [
+          81.64,
+          491.9,
+          171.21,
+          493.63
+        ]
+      ],
+      "#1F4DA0": [
+        [
+          412.43,
+          472.32,
+          525.99,
+          501.01
+        ],
+        [
+          411.7,
+          333.19,
+          521.74,
+          370.89
+        ],
+        [
+          81.68,
+          287.04,
+          171.38,
+          338.8
+        ],
+        [
+          86.34,
+          177.09,
+          183.72,
+          250.9
+        ],
+        [
+          86.28,
+          67.09,
+          183.79,
+          121.88
+        ],
+        [
+          81.64,
+          436.96,
+          171.21,
+          448.94
+        ]
+      ],
+      "#231F20": [
+        [
+          412.43,
+          414.24,
+          525.99,
+          460.66
+        ],
+        [
+          411.7,
+          315.04,
+          521.74,
+          352.88
+        ],
+        [
+          86.34,
+          177.09,
+          183.72,
+          248.36
+        ],
+        [
+          86.28,
+          67.09,
+          183.79,
+          138.87
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.219,
+    4.286,
+    7.993,
+    16.3
+  ],
+  "source_credit": {
+    "source": "Sheng, Li et al. · Nature Communications 2022 · Fig. 4",
+    "author": "Sheng, Li, Wang, Qianqian, Liu, Xiang, Cui, Hao, Wang, Xiaolin, Xu, Yulong, Li, Zonglong, Wang, Li, Chen, Zonghai, Xu, Gui-Liang, Wang, Jianlong, Tang, Yaping, Amine, Khalil, Xu, Hong, He, Xiangming",
+    "url": "https://doi.org/10.1038/s41467-021-27841-0",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

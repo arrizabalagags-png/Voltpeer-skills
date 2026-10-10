@@ -39,6 +39,23 @@ python scripts/render_template.py \
 
 重配色只处理本库原创 SVG 的颜色，不会碰作者的原始显微图、已发表图片或实验数值。`scripts/preview_styles.py --out path/style-preview` 可重新生成预览。
 
+## 文献配色与完整 Figure 示例
+
+网站上的文献配色附 `palette.json` 和 `palette.lock.json`。作者已经选定时，保留 `community:<id>@<version>`，不要再问一遍风格，也不要自动下载其他版本。先核对本地锁文件的 SHA256、ID、版本和颜色数量，再将真实样品绑定到颜色；原论文样品名不自动套用到作者数据。
+
+```bash
+python scripts/plot_uploaded.py inspect --data path/to/author.csv
+python scripts/plot_uploaded.py plot \
+  --data path/to/author.csv --metadata path/to/mapping.json \
+  --out path/to/new-output
+```
+
+在已经核对的映射 JSON 中写入 `style: "community:<id>@<version>"` 与 `community_style_lock: "palette.lock.json"`。锁文件的相对路径以映射 JSON 所在目录为基准。实际参数与输入契约以 `plot_uploaded.py --help` 及 [上传数据说明](UPLOADED_DATA.md) 为准。配色锁只改变样式，不会让缺单位或条件的数据自动合格。样品多于颜色时不能循环复用；先换够用的配色或确认分图方案。
+
+仓库根目录 `examples/paper_figures/` 提供循环、溶剂化方法与原位结构三套解析模型。先重画包内 CSV，再为作者文件建立真实映射。谱峰、RDF 和晶格公式只用于说明图件关系；不能替换为任意 Excel 后宣称识别成功。容量、CE、保持率及倍率测试逐圈用点；连续电压、阻抗和光谱用无点实线；全电池保持率写明参考圈和容量，图轴保留四边框。
+
+文献原色与白底细线用色分开记录；原色、调整理由、DOI 和图号一同保留。网页深浅主题不会改变白底论文图或 CSV。文献配色不是期刊官方规范，也未做色觉认证。
+
 ## English
 
 Choose a named preset once per manuscript figure set. Record its code in plotting metadata; the CLI refuses to draw a final chart without that choice. The three warm/cool palettes preserve the user's supplied swatch families, while plotted lines use darker members for final-size contrast. Schematic recoloring applies only to this project's original editable SVGs.

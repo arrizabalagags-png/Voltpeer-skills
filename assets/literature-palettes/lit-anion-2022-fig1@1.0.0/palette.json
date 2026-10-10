@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "id": "lit-anion-2022-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Black / pink / olive · reactions",
+  "name_zh": "黑粉橄榄 · 反应对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#000000",
+    "#FF425D",
+    "#808000"
+  ],
+  "observed_series": [
+    "#000000",
+    "#FF425D",
+    "#808000"
+  ],
+  "adjustments": [],
+  "roles": {
+    "reference_or_baseline": "#000000",
+    "new_or_intervention": "#FF425D",
+    "limitation_or_failure": "#808000",
+    "mechanism_or_model": "#808000",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-29199-3",
+    "doi_url": "https://doi.org/10.1038/s41467-022-29199-3",
+    "title": "Fluorinated ether electrolyte with controlled solvation structure for high voltage lithium metal batteries",
+    "authors": [
+      "Zhao, Yan",
+      "Zhou, Tianhong",
+      "Ashirov, Timur",
+      "Kazzi, Mario El",
+      "Cancellieri, Claudia",
+      "Jeurgens, Lars P. H.",
+      "Choi, Jang Wook",
+      "Coskun, Ali"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-05-06",
+    "url": "https://www.nature.com/articles/s41467-022-29199-3",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "d",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "1f7663453a32a8d444c665fe6020bf5959dddf8d46f119aace7b61514a5ea499",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#000000": [
+        [
+          100.07,
+          153.93,
+          111.67,
+          160.37
+        ],
+        [
+          122.6,
+          150.87,
+          151.45,
+          160.37
+        ],
+        [
+          151.45,
+          150.87,
+          163.16,
+          157.37
+        ],
+        [
+          173.87,
+          150.87,
+          185.71,
+          157.44
+        ],
+        [
+          127.94,
+          71.88,
+          135.76,
+          88.46
+        ],
+        [
+          127.94,
+          88.46,
+          137.17,
+          96.91
+        ]
+      ],
+      "#FF425D": [
+        [
+          91.8,
+          286.9,
+          181.76,
+          294.36
+        ],
+        [
+          181.76,
+          274.14,
+          216.07,
+          286.9
+        ],
+        [
+          326.2,
+          249.45,
+          328.24,
+          250.7
+        ],
+        [
+          328.24,
+          248.24,
+          331.07,
+          249.45
+        ],
+        [
+          342.93,
+          247.87,
+          346.16,
+          249.17
+        ],
+        [
+          346.16,
+          249.17,
+          348.4,
+          250.62
+        ]
+      ],
+      "#808000": [
+        [
+          96.58,
+          286.74,
+          186.64,
+          294.36
+        ],
+        [
+          186.65,
+          281.91,
+          216.07,
+          286.74
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    21.0,
+    3.393,
+    4.195
+  ],
+  "source_credit": {
+    "source": "Zhao, Yan et al. · Nature Communications 2022 · Fig. 1",
+    "author": "Zhao, Yan, Zhou, Tianhong, Ashirov, Timur, Kazzi, Mario El, Cancellieri, Claudia, Jeurgens, Lars P. H., Choi, Jang Wook, Coskun, Ali",
+    "url": "https://doi.org/10.1038/s41467-022-29199-3",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

@@ -29,6 +29,19 @@ python examples/demo_assemble.py outputs/assemble-demo
 
 The example contains no research observations.
 
+### Editable whole-figure SVG
+
+For panels exported from the same plotting run as both PDF and SVG, add `editable_svg_path` beside the PDF `path` in each panel record. Check that the two files have the same content and aspect ratio. Then use:
+
+```bash
+python scripts/compose_figure.py compose \
+  --manifest path/to/figure_manifest.json --out path/to/Fig3 --strict --svg
+```
+
+The exporter uses the measured PDF placement for each paired native SVG, prefixes internal IDs and preserves editable text and paths. It blocks external links, executable SVG, missing sidecars, cropping and incompatible aspect ratios. SVG sidecars are assertions by the author, so a geometric check does not prove their content matches the PDF. Embedded raster elements remain raster; the operando XRD teaching example contains an embedded raster matrix. This option applies to `compose`; `deliver` retains its existing PDF/PNG contract. Direct SVG input still requires CairoSVG and native Cairo. Paired PDF input with SVG export does not require Cairo.
+
+Three complete analytic teaching examples are in `examples/paper_figures/` at the repository root. Their downloaded source package includes this composer. They show cycling, solvation methods and an illustrative FCC operando map, with declared inputs, panel roles and replay commands. They are not measured battery results or universal journal templates. Empty layout resources remain a separate panel-manifest route.
+
 `demo_assemble.py --help` only displays arguments. Use `--output NEW_FOLDER --without-svg` for a PDF/PNG-only demonstration when native Cairo is unavailable. SVG input specifically requires both the CairoSVG Python package and working native Cairo libraries; a successful package install does not prove SVG input is usable. Export a supplied SVG to vector PDF in its source editor when that optional capability is unavailable. Do not rename a raster file to PDF or claim it became editable.
 
 For ordinary handoff after inspection, use `compose_figure.py deliver --manifest MANIFEST --out WORKING_FOLDER [--strict]`. Final PDF/PNG appear in `results/`, a root `index.html` opens them, and detailed QA, source mappings and recovery are retained under `.voltpeer/`. Existing outputs receive new version names. The older `compose` command still exports developer-facing diagnostics; it also preserves earlier versions. PNG DPI is a preview choice and does not change embedded raster source resolution. Named journal requirements still need exact article/content-class confirmation. Public sharing uses `scripts/share_bundle.py` only after author-confirmed rights and license; do not publish the private Working folder.
@@ -112,3 +125,8 @@ Some PDF text scanners report oversized text boxes when an SVG-to-PDF export enc
 ## Related open-source practice
 
 The workflow draws on general ideas visible in [Figure Composer](https://github.com/WangHuiNEU/open-science-toolkit/blob/main/skills_assets/figure-composer/SKILL.md) (claim-led panel roles and composite review), [polish-sci-figures](https://github.com/zhoy0409-debug/polish-sci-figures) (fixed canvas and final-placement QA), and [FigureFlow](https://github.com/maxschelski/figureflow) (reproducible physical layout). This package does not redistribute their code, figures or templates. FigureFlow is GPL-3.0; this assembler is an original MIT implementation.
+
+
+### Explicit alignment guides (native Figure deliveries 1.0.1)
+
+A manifest may include `alignment_guides`, for example `[{"id":"outer-right","edge":"right","panels":["a","b","d"]}]`. Each guide measures a named edge of the actual `plot_box_fraction` after physical placement, even across different column spans. Accepted edges: left, right, top, bottom, width, height. Guides need two or more unique existing panel labels and measured plot rectangles. Missing/invalid declarations or a difference over 1.5 pt block strict export. A colourbar or twin-axis label stays in a reserved outer margin; equal grid cells are not sufficient evidence of axis alignment. Existing manifests without guides retain the original group checks.

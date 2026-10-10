@@ -5,7 +5,11 @@ description: Plot author-uploaded battery data with the shipped fixed program an
 
 # Battery figures and uploaded data
 
+For the three complete **analytic teaching Figures** (full-cell cycling, solvation methods and operando XRD), see [examples/paper_figures](../../examples/paper_figures/README.md). Their supplied CSV, model assumptions and redraw commands stay separate from the author-upload route. They are reproducible teaching inputs, not measurements or substitutes for missing experimental data. Literature palettes include observed/used colours, paper identity and a local SHA256 lock; use the selected lock via [STYLE_PRESETS.md](references/STYLE_PRESETS.md).
+
 ## Supported numeric uploads: use the fixed short route first
+
+For selecting a reference encoding across omics, statistics and model evaluation, see [20 advanced chart examples](../../examples/advanced_charts/README.md). These are original synthetic CSV demonstrations of Sankey, UpSet, enrichment, heatmaps, embeddings and classification plots. Each source/data download has a version and hash; `render.py` replays the declared CSV. Read the selected method and input manifest before adapting a real dataset. This example library does not expand the fixed author-upload program's supported schemas, invent missing experiments or replace a validated domain analysis pipeline.
 
 For LAND / 蓝电 or NEWARE / 新威 exports with several sheets, preamble rows or legacy XLS, first use the available `voltpeer-data` instrument-export route. Let the assistant select the cycle/step/record table and map declared units; do not ask the user to hand-edit column names. The resulting CSV retains original cells and adds `vp_` fields plus source row references. Then continue the existing plotting route below using the actual scientific context. Native CEX/NDA/NDAX require a verified reader or the vendor export; never pretend those binary files are CSV. If the preparation skill is not installed, locate the supplied import compatibility package or explain the specific missing helper rather than inventing a parser.
 

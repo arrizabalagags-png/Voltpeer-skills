@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "id": "lit-sodium-sei-2021-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Cyan / yellow / red · microscopy annotations",
+  "name_zh": "青黄红 · 显微结构标注",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#0099D1",
+    "#949400",
+    "#FF0000"
+  ],
+  "observed_series": [
+    "#00B0F0",
+    "#FFFF00",
+    "#FF0000"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00B0F0",
+      "used": "#0099D1",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FFFF00",
+      "used": "#949400",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#0099D1",
+    "new_or_intervention": "#949400",
+    "limitation_or_failure": "#FF0000",
+    "mechanism_or_model": "#FF0000",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-23368-6",
+    "doi_url": "https://doi.org/10.1038/s41467-021-23368-6",
+    "title": "Probing the Na metal solid electrolyte interphase via cryo-transmission electron microscopy",
+    "authors": [
+      "Han, Bing",
+      "Zou, Yucheng",
+      "Zhang, Zhen",
+      "Yang, Xuming",
+      "Shi, Xiaobo",
+      "Meng, Hong",
+      "Wang, Hong",
+      "Xu, Kang",
+      "Deng, Yonghong",
+      "Gu, Meng"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-05-24",
+    "url": "https://www.nature.com/articles/s41467-021-23368-6",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "a, c–h",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "c0c96884f7bb0926e2b3e79ef00ce7f212486c218c2e74a532d990d4312f9b34",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#00B0F0": [
+        [
+          182.04,
+          175.31,
+          188.9,
+          201.3
+        ],
+        [
+          183.56,
+          174.78,
+          190.41,
+          200.76
+        ],
+        [
+          206.74,
+          90.0,
+          218.04,
+          101.31
+        ],
+        [
+          361.53,
+          79.96,
+          391.67,
+          143.34
+        ],
+        [
+          412.84,
+          64.82,
+          451.68,
+          135.34
+        ],
+        [
+          180.7,
+          295.78,
+          207.23,
+          322.99
+        ]
+      ],
+      "#FFFF00": [
+        [
+          285.6,
+          194.19,
+          304.39,
+          203.97
+        ],
+        [
+          287.61,
+          196.67,
+          307.3,
+          207.2
+        ],
+        [
+          367.83,
+          106.88,
+          372.88,
+          111.79
+        ],
+        [
+          374.42,
+          103.8,
+          395.32,
+          124.41
+        ],
+        [
+          296.65,
+          301.21,
+          302.62,
+          307.33
+        ]
+      ],
+      "#FF0000": [
+        [
+          145.44,
+          64.26,
+          225.86,
+          143.34
+        ],
+        [
+          220.92,
+          61.26,
+          232.59,
+          77.17
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.242,
+    3.233,
+    3.998
+  ],
+  "source_credit": {
+    "source": "Han, Bing et al. · Nature Communications 2021 · Fig. 1",
+    "author": "Han, Bing, Zou, Yucheng, Zhang, Zhen, Yang, Xuming, Shi, Xiaobo, Meng, Hong, Wang, Hong, Xu, Kang, Deng, Yonghong, Gu, Meng",
+    "url": "https://doi.org/10.1038/s41467-021-23368-6",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

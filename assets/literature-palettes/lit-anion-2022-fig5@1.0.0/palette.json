@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "id": "lit-anion-2022-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Black / pink / purple / orange · Raman",
+  "name_zh": "黑粉紫橙 · 拉曼组分",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#000000",
+    "#FF425D",
+    "#8000FF",
+    "#E07100"
+  ],
+  "observed_series": [
+    "#000000",
+    "#FF425D",
+    "#8000FF",
+    "#FF8000"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FF8000",
+      "used": "#E07100",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#000000",
+    "new_or_intervention": "#FF425D",
+    "limitation_or_failure": "#E07100",
+    "mechanism_or_model": "#8000FF",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-29199-3",
+    "doi_url": "https://doi.org/10.1038/s41467-022-29199-3",
+    "title": "Fluorinated ether electrolyte with controlled solvation structure for high voltage lithium metal batteries",
+    "authors": [
+      "Zhao, Yan",
+      "Zhou, Tianhong",
+      "Ashirov, Timur",
+      "Kazzi, Mario El",
+      "Cancellieri, Claudia",
+      "Jeurgens, Lars P. H.",
+      "Choi, Jang Wook",
+      "Coskun, Ali"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-05-06",
+    "url": "https://www.nature.com/articles/s41467-022-29199-3",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "a, c, d",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "1f7663453a32a8d444c665fe6020bf5959dddf8d46f119aace7b61514a5ea499",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#000000": [
+        [
+          452.74,
+          177.6,
+          455.82,
+          179.14
+        ],
+        [
+          425.09,
+          85.45,
+          428.17,
+          87.0
+        ],
+        [
+          153.6,
+          129.48,
+          161.35,
+          136.0
+        ],
+        [
+          153.6,
+          133.33,
+          156.45,
+          136.0
+        ],
+        [
+          146.73,
+          119.11,
+          159.53,
+          128.2
+        ],
+        [
+          146.73,
+          125.73,
+          149.62,
+          128.2
+        ]
+      ],
+      "#FF425D": [
+        [
+          360.5,
+          183.9,
+          472.49,
+          230.44
+        ],
+        [
+          359.74,
+          132.31,
+          415.4,
+          133.41
+        ],
+        [
+          415.4,
+          89.65,
+          471.07,
+          133.4
+        ],
+        [
+          128.04,
+          102.39,
+          239.8,
+          182.23
+        ]
+      ],
+      "#8000FF": [
+        [
+          360.45,
+          184.28,
+          472.39,
+          229.69
+        ],
+        [
+          415.4,
+          89.07,
+          471.07,
+          133.13
+        ],
+        [
+          128.37,
+          112.08,
+          240.12,
+          172.84
+        ]
+      ],
+      "#FF8000": [
+        [
+          127.62,
+          163.24,
+          239.8,
+          199.27
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    21.0,
+    3.393,
+    6.247,
+    3.215
+  ],
+  "source_credit": {
+    "source": "Zhao, Yan et al. · Nature Communications 2022 · Fig. 5",
+    "author": "Zhao, Yan, Zhou, Tianhong, Ashirov, Timur, Kazzi, Mario El, Cancellieri, Claudia, Jeurgens, Lars P. H., Choi, Jang Wook, Coskun, Ali",
+    "url": "https://doi.org/10.1038/s41467-022-29199-3",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

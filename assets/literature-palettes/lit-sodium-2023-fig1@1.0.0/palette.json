@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "id": "lit-sodium-2023-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Blue / red · structure and transport",
+  "name_zh": "蓝红 · 结构与输运",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#0274FE",
+    "#D73038"
+  ],
+  "observed_series": [
+    "#0274FE",
+    "#D73038"
+  ],
+  "adjustments": [],
+  "roles": {
+    "reference_or_baseline": "#0274FE",
+    "new_or_intervention": "#D73038",
+    "limitation_or_failure": "#D73038",
+    "mechanism_or_model": "#D73038",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-39384-7",
+    "doi_url": "https://doi.org/10.1038/s41467-023-39384-7",
+    "title": "Bridging multiscale interfaces for developing ionically conductive high-voltage iron sulfate-containing sodium-based battery positive electrodes",
+    "authors": [
+      "Zhang, Jiyu",
+      "Yan, Yongliang",
+      "Wang, Xin",
+      "Cui, Yanyan",
+      "Zhang, Zhengfeng",
+      "Wang, Sen",
+      "Xie, Zhengkun",
+      "Yan, Pengfei",
+      "Chen, Weihua"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-06-22",
+    "url": "https://www.nature.com/articles/s41467-023-39384-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "b, f",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "c8a0f64ad1e59f74bf803b90c9e68686eb261cf43a9ad2dba2677c300c0d6511",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#0274FE": [
+        [
+          460.76,
+          299.35,
+          466.53,
+          304.14
+        ],
+        [
+          469.97,
+          288.79,
+          475.98,
+          296.04
+        ],
+        [
+          479.79,
+          288.06,
+          483.96,
+          290.02
+        ],
+        [
+          488.38,
+          289.04,
+          491.94,
+          290.27
+        ],
+        [
+          496.36,
+          289.53,
+          499.8,
+          291.62
+        ],
+        [
+          504.1,
+          290.76,
+          507.04,
+          291.99
+        ]
+      ],
+      "#D73038": [
+        [
+          285.88,
+          100.91,
+          315.1,
+          145.22
+        ],
+        [
+          315.1,
+          120.3,
+          338.8,
+          144.61
+        ],
+        [
+          338.8,
+          64.32,
+          360.16,
+          144.36
+        ],
+        [
+          360.16,
+          118.09,
+          406.07,
+          144.12
+        ],
+        [
+          406.07,
+          132.46,
+          427.8,
+          144.0
+        ],
+        [
+          427.8,
+          136.02,
+          449.41,
+          144.0
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    4.258,
+    4.806
+  ],
+  "source_credit": {
+    "source": "Zhang, Jiyu et al. · Nature Communications 2023 · Fig. 1",
+    "author": "Zhang, Jiyu, Yan, Yongliang, Wang, Xin, Cui, Yanyan, Zhang, Zhengfeng, Wang, Sen, Xie, Zhengkun, Yan, Pengfei, Chen, Weihua",
+    "url": "https://doi.org/10.1038/s41467-023-39384-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

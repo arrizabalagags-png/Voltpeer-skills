@@ -1,0 +1,298 @@
+{
+  "schema": 1,
+  "id": "lit-micelle-2023-fig3",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Blue / orange paired shades · efficiency",
+  "name_zh": "蓝橙双阶 · 效率对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#000000",
+    "#3899C7",
+    "#0080BF",
+    "#CF7945",
+    "#C64A00"
+  ],
+  "observed_series": [
+    "#000000",
+    "#48C4FF",
+    "#0080BF",
+    "#FF9555",
+    "#C64A00"
+  ],
+  "adjustments": [
+    {
+      "observed": "#48C4FF",
+      "used": "#3899C7",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FF9555",
+      "used": "#CF7945",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#000000",
+    "new_or_intervention": "#3899C7",
+    "limitation_or_failure": "#C64A00",
+    "mechanism_or_model": "#0080BF",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-37524-7",
+    "doi_url": "https://doi.org/10.1038/s41467-023-37524-7",
+    "title": "Sulfolane-containing aqueous electrolyte solutions for producing efficient ampere-hour-level zinc metal battery pouch cells",
+    "authors": [
+      "Wang, Yu",
+      "Wang, Tairan",
+      "Bu, Shuyu",
+      "Zhu, Jiaxiong",
+      "Wang, Yanbo",
+      "Zhang, Rong",
+      "Hong, Hu",
+      "Zhang, Wenjun",
+      "Fan, Jun",
+      "Zhi, Chunyi"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-04-01",
+    "url": "https://www.nature.com/articles/s41467-023-37524-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "3",
+    "panels": "c–e",
+    "pdf_page": 5,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "57fcaad71f61ec99a392b60df4f6420caa0290a36a2a087fa7f07b2d9e42040e",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#000000": [
+        [
+          394.47,
+          393.12,
+          401.95,
+          401.05
+        ],
+        [
+          401.95,
+          393.12,
+          409.43,
+          401.05
+        ],
+        [
+          394.47,
+          324.43,
+          401.95,
+          340.52
+        ],
+        [
+          401.95,
+          324.43,
+          409.43,
+          340.52
+        ],
+        [
+          95.34,
+          365.02,
+          99.8,
+          369.33
+        ],
+        [
+          95.94,
+          363.5,
+          100.41,
+          367.82
+        ]
+      ],
+      "#48C4FF": [
+        [
+          98.0,
+          392.42,
+          102.46,
+          396.74
+        ],
+        [
+          98.6,
+          387.18,
+          103.06,
+          391.49
+        ],
+        [
+          99.2,
+          381.69,
+          103.66,
+          386.01
+        ],
+        [
+          99.92,
+          367.82,
+          104.39,
+          372.13
+        ],
+        [
+          100.53,
+          372.13,
+          104.99,
+          376.44
+        ],
+        [
+          101.13,
+          365.6,
+          105.59,
+          369.91
+        ]
+      ],
+      "#0080BF": [
+        [
+          95.34,
+          359.77,
+          99.8,
+          364.08
+        ],
+        [
+          95.94,
+          354.87,
+          100.41,
+          359.18
+        ],
+        [
+          96.66,
+          353.35,
+          101.13,
+          357.67
+        ],
+        [
+          97.27,
+          353.0,
+          101.73,
+          357.32
+        ],
+        [
+          98.0,
+          352.42,
+          102.46,
+          356.73
+        ],
+        [
+          98.6,
+          352.77,
+          103.06,
+          357.08
+        ]
+      ],
+      "#FF9555": [
+        [
+          94.73,
+          355.8,
+          99.2,
+          360.11
+        ],
+        [
+          95.34,
+          348.69,
+          99.8,
+          353.0
+        ],
+        [
+          95.94,
+          347.75,
+          100.41,
+          352.07
+        ],
+        [
+          96.66,
+          347.52,
+          101.13,
+          351.84
+        ],
+        [
+          97.27,
+          347.52,
+          101.73,
+          351.84
+        ],
+        [
+          98.0,
+          347.52,
+          102.46,
+          351.84
+        ]
+      ],
+      "#C64A00": [
+        [
+          95.34,
+          352.07,
+          99.8,
+          356.38
+        ],
+        [
+          95.94,
+          350.55,
+          100.41,
+          354.87
+        ],
+        [
+          96.66,
+          349.62,
+          101.13,
+          353.93
+        ],
+        [
+          97.27,
+          349.04,
+          101.73,
+          353.35
+        ],
+        [
+          98.0,
+          349.39,
+          102.46,
+          353.7
+        ],
+        [
+          98.6,
+          349.04,
+          103.06,
+          353.35
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    21.0,
+    3.206,
+    4.339,
+    3.244,
+    4.794
+  ],
+  "source_credit": {
+    "source": "Wang, Yu et al. · Nature Communications 2023 · Fig. 3",
+    "author": "Wang, Yu, Wang, Tairan, Bu, Shuyu, Zhu, Jiaxiong, Wang, Yanbo, Zhang, Rong, Hong, Hu, Zhang, Wenjun, Fan, Jun, Zhi, Chunyi",
+    "url": "https://doi.org/10.1038/s41467-023-37524-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

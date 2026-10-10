@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-carbon-2021-fig3",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-021-27791-7",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-carbon-2021-fig3@1.0.0",
+  "sha256": "0d3ff7d8cc159489e92e8d0184471c40ff1aa5e316ddd865a80443272b855693",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

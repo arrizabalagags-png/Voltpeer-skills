@@ -10,24 +10,24 @@
 
 Skill 是给 AI 助手使用的工作说明和配套工具，需要在能读取技能、执行相应工具的 AI 软件中运行。
 
-[查看样图](https://dazi.gsarrizabalaga.xyz/gallery.html) · [开始使用](#开始使用) · [下载绘图 Starter（0.12.0 Beta）](docs/assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [项目网站](https://dazi.gsarrizabalaga.xyz/)
+[查看样图](https://dazi.gsarrizabalaga.xyz/gallery.html) · [开始使用](#开始使用) · [下载绘图 Starter（0.12.0 Beta）](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [项目网站](https://dazi.gsarrizabalaga.xyz/)
 
 ## 看看效果
 
 **结构与光谱 · 原创合成演示，非实验数据。** 展示衍射、Raman 与谱峰组合的画法，不用于证明材料性能。
 
-<a href="assets/github-showcase/structure-spectra.png"><img src="assets/github-showcase/structure-spectra.png" alt="结构与光谱合成示例：衍射强度、选定进度曲线、通用 Raman 谱与已知谱峰成分；非实验结果" width="780"></a>
+<a href="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/structure-spectra.png"><img src="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/structure-spectra.png" alt="结构与光谱合成示例：衍射强度、选定进度曲线、通用 Raman 谱与已知谱峰成分；非实验结果" width="780"></a>
 
-[配套数据与模型说明](assets/github-showcase/README.md#structure-and-spectra) · [绘图源码](examples/github_showcase/render.py) · [更多样图](https://dazi.gsarrizabalaga.xyz/gallery.html)。点击图片可看原尺寸。
+[配套数据与模型说明](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/assets/github-showcase/README.md#structure-and-spectra) · [绘图源码](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/examples/github_showcase/render.py) · [更多样图](https://dazi.gsarrizabalaga.xyz/gallery.html)。点击图片可看原尺寸。
 
 <details>
 <summary>补充示例：EIS、机理示意与多面板绘图</summary>
 
 **EIS · 合成电路数据，非实验拟合。**
 
-<a href="assets/github-showcase/eis-cpe-warburg.png"><img src="assets/github-showcase/eis-cpe-warburg.png" alt="合成 EIS：同一组复阻抗数据的 Nyquist、模值与相位" width="650"></a>
+<a href="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/eis-cpe-warburg.png"><img src="https://raw.githubusercontent.com/arrizabalagags-png/Voltpeer-skills/main/assets/github-showcase/eis-cpe-warburg.png" alt="合成 EIS：同一组复阻抗数据的 Nyquist、模值与相位" width="650"></a>
 
-[数据、源码与模型依据](assets/github-showcase/README.md#impedance-spectroscopy)
+[数据、源码与模型依据](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/assets/github-showcase/README.md#impedance-spectroscopy)
 
 **锂金属界面 · 原创概念示意，非实验验证。**
 
@@ -107,13 +107,13 @@ Starter 含**一个绘图 Skill、固定 Python 程序和示例**。运行需要
 
 ## 当前版本与文档
 
-当前源码为 **0.12.0 Beta，共 16 个 Skill**。推荐的是**绘图 Starter**；[全部 16 个技能包](docs/downloads/v0.12.0-cycling-rule-v1.2.1/VoltPeer-v0.12.0.zip)和[单 Skill 包及校验索引](docs/downloads/v0.12.0-cycling-rule-v1.2.1/download-index.json)供按需安装。
+当前源码为 **0.12.0 Beta，共 16 个 Skill**。推荐的是**绘图 Starter**；[全部 16 个技能包](docs/downloads/v0.12.0-scientific-guidance-v1.2.2/VoltPeer-v0.12.0.zip)和[单 Skill 包及校验索引](docs/downloads/v0.12.0-scientific-guidance-v1.2.2/download-index.json)供按需安装。
 
-这些 Beta 包已在仓库公开。GitHub 最近的完整正式 Release 仍为 **v0.9.2**，与当前开发版分开。索引保留打包时的状态，现状与历史下载见[版本说明](docs/RELEASE_v0.12.0.md)。
+当前推荐包修订为 `scientific-guidance-v1.2.2`，与旧包分别保存。GitHub 最近的完整正式 Release 仍为 **v0.9.2**，与当前开发版分开。索引保留打包时的状态，现状与历史下载见[版本说明](docs/RELEASE_v0.12.0.md)。
 
 **尚未完成全部客户端的安装到出图实测，也未完成当前版本的全量模型验证。** 建议先跑示例，具体范围见[软件适配](docs/COMPATIBILITY.md)。
 
-[绘图输入说明](skills/voltpeer-plot/references/UPLOADED_DATA.md) · [Figure 拼版说明](skills/voltpeer-assemble/references/COMPOSITION.md) · [验证记录](docs/EVAL.md) · [维护指南](docs/MAINTAINER_GUIDE.md) · [历史技术资料](docs/TECHNICAL_REFERENCE_v0.10.1.md)
+[绘图输入说明](skills/voltpeer-plot/references/UPLOADED_DATA.md) · [Figure 拼版说明](skills/voltpeer-assemble/references/COMPOSITION.md) · [验证记录](docs/EVAL.md) · [维护指南](docs/MAINTAINER_GUIDE.md) · [历史技术资料](https://github.com/arrizabalagags-png/Voltpeer-skills/blob/main/docs/TECHNICAL_REFERENCE_v0.10.1.md)
 
 ## 作者与许可
 

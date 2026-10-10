@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "id": "lit-boron-2021-fig6",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Red / violet / green / magenta · operando diffraction",
+  "name_zh": "红紫绿品红 · 原位衍射",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#D82421",
+    "#382D8F",
+    "#527F5F",
+    "#DC007A"
+  ],
+  "observed_series": [
+    "#D82421",
+    "#382D8F",
+    "#527F5F",
+    "#DC007A"
+  ],
+  "adjustments": [],
+  "roles": {
+    "reference_or_baseline": "#D82421",
+    "new_or_intervention": "#382D8F",
+    "limitation_or_failure": "#DC007A",
+    "mechanism_or_model": "#527F5F",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-25610-7",
+    "doi_url": "https://doi.org/10.1038/s41467-021-25610-7",
+    "title": "Boron-doped sodium layered oxide for reversible oxygen redox reaction in Na-ion battery cathodes",
+    "authors": [
+      "Guo, Yu-Jie",
+      "Wang, Peng-Fei",
+      "Niu, Yu-Bin",
+      "Zhang, Xu-Dong",
+      "Li, Qinghao",
+      "Yu, Xiqian",
+      "Fan, Min",
+      "Chen, Wan-Ping",
+      "Yu, Yang",
+      "Liu, Xiangfeng",
+      "Meng, Qinghai",
+      "Xin, Sen",
+      "Yin, Ya-Xia",
+      "Guo, Yu-Guo"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-09-06",
+    "url": "https://www.nature.com/articles/s41467-021-25610-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "6",
+    "panels": "a",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "fd8be748341ea0c64dcc4c443eac86024a15bd6299795cea402992cad858e622",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#D82421": [
+        [
+          319.1,
+          408.17,
+          381.48,
+          411.99
+        ],
+        [
+          319.1,
+          405.48,
+          368.27,
+          409.47
+        ],
+        [
+          319.1,
+          402.78,
+          381.48,
+          406.95
+        ],
+        [
+          319.1,
+          400.26,
+          381.48,
+          404.35
+        ],
+        [
+          319.1,
+          397.22,
+          381.48,
+          401.83
+        ],
+        [
+          319.1,
+          395.05,
+          368.1,
+          399.31
+        ]
+      ],
+      "#382D8F": [
+        [
+          319.1,
+          377.76,
+          381.48,
+          381.5
+        ],
+        [
+          319.1,
+          375.85,
+          381.48,
+          378.89
+        ],
+        [
+          319.1,
+          373.85,
+          381.48,
+          376.37
+        ],
+        [
+          319.1,
+          371.86,
+          381.48,
+          373.85
+        ],
+        [
+          319.1,
+          368.73,
+          381.48,
+          371.33
+        ],
+        [
+          319.1,
+          366.3,
+          381.48,
+          368.73
+        ]
+      ],
+      "#527F5F": [
+        [
+          319.1,
+          385.49,
+          368.01,
+          389.23
+        ],
+        [
+          319.1,
+          382.63,
+          381.48,
+          386.54
+        ],
+        [
+          319.1,
+          380.2,
+          368.1,
+          384.02
+        ],
+        [
+          319.1,
+          362.65,
+          381.48,
+          363.69
+        ],
+        [
+          206.4,
+          380.63,
+          311.69,
+          389.14
+        ],
+        [
+          206.4,
+          381.15,
+          311.69,
+          386.79
+        ]
+      ],
+      "#DC007A": [
+        [
+          319.1,
+          417.9,
+          381.48,
+          419.64
+        ],
+        [
+          319.1,
+          414.94,
+          381.47,
+          417.12
+        ],
+        [
+          319.1,
+          412.16,
+          367.75,
+          414.51
+        ],
+        [
+          367.75,
+          413.38,
+          381.48,
+          414.51
+        ],
+        [
+          319.1,
+          327.64,
+          381.48,
+          330.59
+        ],
+        [
+          319.1,
+          326.25,
+          367.92,
+          328.07
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    5.007,
+    10.824,
+    4.606,
+    4.856
+  ],
+  "source_credit": {
+    "source": "Guo, Yu-Jie et al. · Nature Communications 2021 · Fig. 6",
+    "author": "Guo, Yu-Jie, Wang, Peng-Fei, Niu, Yu-Bin, Zhang, Xu-Dong, Li, Qinghao, Yu, Xiqian, Fan, Min, Chen, Wan-Ping, Yu, Yang, Liu, Xiangfeng, Meng, Qinghai, Xin, Sen, Yin, Ya-Xia, Guo, Yu-Guo",
+    "url": "https://doi.org/10.1038/s41467-021-25610-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

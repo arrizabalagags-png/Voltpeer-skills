@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "id": "lit-electrode-2022-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Purple / gold · material annotations",
+  "name_zh": "紫金 · 材料结构标注",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#B58800",
+    "#A87FC9"
+  ],
+  "observed_series": [
+    "#FFC000",
+    "#B98CDD"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FFC000",
+      "used": "#B58800",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#B98CDD",
+      "used": "#A87FC9",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#B58800",
+    "new_or_intervention": "#A87FC9",
+    "limitation_or_failure": "#A87FC9",
+    "mechanism_or_model": "#A87FC9",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-30020-4",
+    "doi_url": "https://doi.org/10.1038/s41467-022-30020-4",
+    "title": "Enabling high energy lithium metal batteries via single-crystal Ni-rich cathode material co-doping strategy",
+    "authors": [
+      "Ou, Xing",
+      "Liu, Tongchao",
+      "Zhong, Wentao",
+      "Fan, Xinming",
+      "Guo, Xueyi",
+      "Huang, Xiaojing",
+      "Cao, Liang",
+      "Hu, Junhua",
+      "Zhang, Bao",
+      "Chu, Yong S.",
+      "Hu, Guorong",
+      "Lin, Zhang",
+      "Dahbi, Mouad",
+      "Alami, Jones",
+      "Amine, Khalil",
+      "Yang, Chenghao",
+      "Lu, Jun"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-04-28",
+    "url": "https://www.nature.com/articles/s41467-022-30020-4",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "a, e–g",
+    "pdf_page": 3,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "7e5aa1b46956825a1511ec610e97b59460bd04559da525da2ebb6d086d016de0",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#FFC000": [
+        [
+          256.68,
+          156.06,
+          270.95,
+          170.39
+        ],
+        [
+          259.54,
+          160.02,
+          273.82,
+          174.35
+        ]
+      ],
+      "#B98CDD": [
+        [
+          118.21,
+          226.46,
+          476.92,
+          312.91
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.238,
+    3.209
+  ],
+  "source_credit": {
+    "source": "Ou, Xing et al. · Nature Communications 2022 · Fig. 1",
+    "author": "Ou, Xing, Liu, Tongchao, Zhong, Wentao, Fan, Xinming, Guo, Xueyi, Huang, Xiaojing, Cao, Liang, Hu, Junhua, Zhang, Bao, Chu, Yong S., Hu, Guorong, Lin, Zhang, Dahbi, Mouad, Alami, Jones, Amine, Khalil, Yang, Chenghao, Lu, Jun",
+    "url": "https://doi.org/10.1038/s41467-022-30020-4",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

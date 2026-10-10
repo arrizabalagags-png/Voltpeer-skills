@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "id": "lit-polymer-2019-fig1",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Brown / orange shades · polymer diagrams",
+  "name_zh": "棕橙阶 · 聚合物示意",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#DA732D",
+    "#BB6900",
+    "#AE5A21"
+  ],
+  "observed_series": [
+    "#ED7D31",
+    "#BB6900",
+    "#AE5A21"
+  ],
+  "adjustments": [
+    {
+      "observed": "#ED7D31",
+      "used": "#DA732D",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#DA732D",
+    "new_or_intervention": "#BB6900",
+    "limitation_or_failure": "#AE5A21",
+    "mechanism_or_model": "#AE5A21",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-019-12423-y",
+    "doi_url": "https://doi.org/10.1038/s41467-019-12423-y",
+    "title": "Solid-state polymer electrolytes for high-performance lithium metal batteries",
+    "authors": [
+      "Choudhury, Snehashis",
+      "Stalin, Sanjuna",
+      "Vu, Duylinh",
+      "Warren, Alexander",
+      "Deng, Yue",
+      "Biswal, Prayag",
+      "Archer, Lynden A."
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2019-09-27",
+    "url": "https://www.nature.com/articles/s41467-019-12423-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "1",
+    "panels": "a, c",
+    "pdf_page": 2,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "f792816528921c9c7ab82a30d9015b201d092c16b5ad12f4beda96dda63808b1",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#ED7D31": [
+        [
+          122.55,
+          498.37,
+          133.23,
+          500.72
+        ],
+        [
+          132.52,
+          498.62,
+          143.21,
+          500.97
+        ],
+        [
+          142.6,
+          498.86,
+          153.29,
+          501.22
+        ],
+        [
+          153.19,
+          499.54,
+          163.88,
+          501.89
+        ],
+        [
+          163.78,
+          500.2,
+          174.47,
+          502.55
+        ]
+      ],
+      "#BB6900": [
+        [
+          126.62,
+          605.04,
+          128.67,
+          616.5
+        ],
+        [
+          153.76,
+          605.13,
+          155.95,
+          616.6
+        ]
+      ],
+      "#AE5A21": [
+        [
+          212.32,
+          595.62,
+          258.6,
+          597.06
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.245,
+    4.091,
+    4.902
+  ],
+  "source_credit": {
+    "source": "Choudhury, Snehashis et al. · Nature Communications 2019 · Fig. 1",
+    "author": "Choudhury, Snehashis, Stalin, Sanjuna, Vu, Duylinh, Warren, Alexander, Deng, Yue, Biswal, Prayag, Archer, Lynden A.",
+    "url": "https://doi.org/10.1038/s41467-019-12423-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

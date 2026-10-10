@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "packs": [
+    {
+      "resource_id": "plot_starter",
+      "version": "0.12.0",
+      "channel": "beta",
+      "file": "VoltPeer-Plot-Starter-v0.12.0.zip",
+      "bytes": 746960,
+      "sha256": "d613f5e3780dc7e08faaaef678b23cc15de0d01740717aadac6c5d4a606146d8",
+      "hosts": [
+        "dsh",
+        "codex"
+      ],
+      "scientific_runtime": "batteryplot",
+      "plot_kinds": [
+        "coulombic_efficiency",
+        "full_cell_cycling",
+        "half_cell_cycling",
+        "symmetric_cell_voltage",
+        "voltage_capacity",
+        "nyquist",
+        "cycle_retention",
+        "rate_capability",
+        "tofsims_map",
+        "tofsims_depth"
+      ],
+      "validation": "canonical Skill content and extracted runtime checked separately; native/model NOT_RUN",
+      "package_revision": "scientific-guidance-v1.2.2"
+    }
+  ]
+}

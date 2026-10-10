@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-zinc-2022-fig1",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-022-32955-0",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-zinc-2022-fig1@1.0.0",
+  "sha256": "885e6edfe15783bb5728ce89c8694a2941fc9f3043986e2e48f1b933c13555d3",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

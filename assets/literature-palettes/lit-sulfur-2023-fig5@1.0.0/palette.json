@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "id": "lit-sulfur-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Blue / orange / green / gold · voltage states",
+  "name_zh": "蓝橙绿金 · 电压状态",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#007AC7",
+    "#F75C00",
+    "#E07100",
+    "#009850",
+    "#AD8B23"
+  ],
+  "observed_series": [
+    "#007AC7",
+    "#FF5F00",
+    "#FF8000",
+    "#009850",
+    "#FFCC33"
+  ],
+  "adjustments": [
+    {
+      "observed": "#FF5F00",
+      "used": "#F75C00",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FF8000",
+      "used": "#E07100",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FFCC33",
+      "used": "#AD8B23",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#007AC7",
+    "new_or_intervention": "#F75C00",
+    "limitation_or_failure": "#AD8B23",
+    "mechanism_or_model": "#E07100",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-37995-8",
+    "doi_url": "https://doi.org/10.1038/s41467-023-37995-8",
+    "title": "Exploiting nonaqueous self-stratified electrolyte systems toward large-scale energy storage",
+    "authors": [
+      "Wang, Zhenkang",
+      "Ji, Haoqing",
+      "Zhou, Jinqiu",
+      "Zheng, Yiwei",
+      "Liu, Jie",
+      "Qian, Tao",
+      "Yan, Chenglin"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-04-20",
+    "url": "https://www.nature.com/articles/s41467-023-37995-8",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "c",
+    "pdf_page": 5,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "f499adde3e6af740040a26e50f7f90de51e09671e8bcc33618d95565ce5229b9",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#007AC7": [
+        [
+          214.59,
+          91.19,
+          218.22,
+          94.82
+        ],
+        [
+          219.24,
+          95.27,
+          222.87,
+          98.9
+        ],
+        [
+          223.88,
+          96.56,
+          227.51,
+          100.19
+        ],
+        [
+          228.52,
+          100.77,
+          232.15,
+          104.39
+        ],
+        [
+          233.17,
+          102.8,
+          236.8,
+          106.42
+        ],
+        [
+          237.81,
+          105.66,
+          241.44,
+          109.29
+        ]
+      ],
+      "#FF5F00": [
+        [
+          214.59,
+          93.55,
+          218.22,
+          97.17
+        ],
+        [
+          219.24,
+          93.22,
+          222.87,
+          96.84
+        ],
+        [
+          223.88,
+          93.4,
+          227.51,
+          97.02
+        ],
+        [
+          228.52,
+          93.9,
+          232.15,
+          97.53
+        ],
+        [
+          233.17,
+          94.46,
+          236.8,
+          98.09
+        ],
+        [
+          237.81,
+          95.78,
+          241.44,
+          99.4
+        ]
+      ],
+      "#FF8000": [
+        [
+          429.4,
+          58.14,
+          531.54,
+          142.79
+        ]
+      ],
+      "#009850": [
+        [
+          429.4,
+          58.14,
+          515.44,
+          142.79
+        ]
+      ],
+      "#FFCC33": [
+        [
+          429.4,
+          58.14,
+          524.21,
+          142.79
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    4.557,
+    3.238,
+    3.215,
+    3.745,
+    3.234
+  ],
+  "source_credit": {
+    "source": "Wang, Zhenkang et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Wang, Zhenkang, Ji, Haoqing, Zhou, Jinqiu, Zheng, Yiwei, Liu, Jie, Qian, Tao, Yan, Chenglin",
+    "url": "https://doi.org/10.1038/s41467-023-37995-8",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

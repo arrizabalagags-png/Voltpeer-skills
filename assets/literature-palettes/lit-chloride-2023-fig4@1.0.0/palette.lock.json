@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-chloride-2023-fig4",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-36622-w",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-chloride-2023-fig4@1.0.0",
+  "sha256": "03eb359fc990add35567eaa309a974246a94f69a0eb3db19576fb5ef2bf440fa",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

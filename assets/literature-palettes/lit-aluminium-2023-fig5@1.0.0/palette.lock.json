@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-aluminium-2023-fig5",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-39258-y",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-aluminium-2023-fig5@1.0.0",
+  "sha256": "de82d42d8dcea081e30ddf43d69b0cff572395cd05529aac0e6b0865e361c279",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

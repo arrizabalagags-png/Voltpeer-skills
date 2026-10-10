@@ -90,7 +90,7 @@ python <installed-voltpeer-plot>/scripts/plot_uploaded.py plot --data my_data.cs
 | 想展示什么 | `kind` | 最少数据列 | 不可省略的说明 |
 | --- | --- | --- | --- |
 | 库伦效率 | `coulombic_efficiency` | `series, cycle, ce_pct`，或分子/分母两列 | CE 定义、电芯、倍率/电流密度、温度、容量基准 |
-| 全电池循环容量 | `full_cell_cycling` | `series, cycle, discharge_capacity` | 正负极、容量分母、N/P、载量、液量、电压范围、倍率 |
+| 全电池循环容量 | `full_cell_cycling` | `series, cycle, discharge_capacity` | 正负极、容量分母、N/P、载量、液量、电压范围、倍率；同cycle的ce_pct或charge_capacity、ce_definition，明确reference_cycle/reference_capacity/retention_basis |
 | 半电池循环容量 | `half_cell_cycling` | 同上 | 工作电极与对/参比金属、容量分母、载量、电压范围 |
 | 对称电池电压 | `symmetric_cell_voltage` | `series, time_h, voltage_mv` | 两侧电极、正负极性、电流密度、每半周期面积容量、外加压力（若相关）、失效判据 |
 | 充放电曲线 | `voltage_capacity` | `series, cycle, direction, capacity, voltage_v` | `charge/discharge` 方向、选取圈数、容量分母、电压范围 |

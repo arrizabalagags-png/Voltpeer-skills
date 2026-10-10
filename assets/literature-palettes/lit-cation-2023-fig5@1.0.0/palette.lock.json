@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-cation-2023-fig5",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-38229-7",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-cation-2023-fig5@1.0.0",
+  "sha256": "1fa6bacc142da5b9071cb9b230555b1ec53b6cc4ee04e94659cb1fc929380aa1",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

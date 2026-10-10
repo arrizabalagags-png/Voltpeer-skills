@@ -1,0 +1,245 @@
+{
+  "schema": 1,
+  "id": "lit-membrane-2023-fig5",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Six colours · voltage cycle sequences",
+  "name_zh": "六色 · 电压循环序列",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#008000",
+    "#009F9F",
+    "#0000FF",
+    "#8000FF",
+    "#E07100",
+    "#FC00FC"
+  ],
+  "observed_series": [
+    "#008000",
+    "#00C7C7",
+    "#0000FF",
+    "#8000FF",
+    "#FF8000",
+    "#FF00FF"
+  ],
+  "adjustments": [
+    {
+      "observed": "#00C7C7",
+      "used": "#009F9F",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FF8000",
+      "used": "#E07100",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#FF00FF",
+      "used": "#FC00FC",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#008000",
+    "new_or_intervention": "#009F9F",
+    "limitation_or_failure": "#FC00FC",
+    "mechanism_or_model": "#0000FF",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-023-38492-8",
+    "doi_url": "https://doi.org/10.1038/s41467-023-38492-8",
+    "title": "An asymmetric electrolyte to simultaneously meet contradictory requirements of anode and cathode",
+    "authors": [
+      "Chen, Shengmei",
+      "Ying, Yiran",
+      "Ma, Longtao",
+      "Zhu, Daming",
+      "Huang, Haitao",
+      "Song, Li",
+      "Zhi, Chunyi"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2023-05-22",
+    "url": "https://www.nature.com/articles/s41467-023-38492-8",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "5",
+    "panels": "a",
+    "pdf_page": 7,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "663727f1eaf695ceacc8069551e0d2a34d7c72b1ad657a62eb7080a254c36364",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#008000": [
+        [
+          326.84,
+          107.05,
+          506.28,
+          148.73
+        ],
+        [
+          86.53,
+          110.3,
+          266.45,
+          148.73
+        ]
+      ],
+      "#00C7C7": [
+        [
+          326.84,
+          81.4,
+          502.86,
+          137.98
+        ],
+        [
+          326.84,
+          84.74,
+          502.86,
+          148.65
+        ]
+      ],
+      "#0000FF": [
+        [
+          326.84,
+          81.4,
+          505.06,
+          141.89
+        ],
+        [
+          326.84,
+          83.36,
+          501.96,
+          148.65
+        ],
+        [
+          86.53,
+          81.4,
+          209.54,
+          139.85
+        ],
+        [
+          86.53,
+          84.41,
+          198.87,
+          148.73
+        ]
+      ],
+      "#8000FF": [
+        [
+          326.84,
+          81.4,
+          504.89,
+          141.89
+        ],
+        [
+          326.84,
+          83.36,
+          501.88,
+          148.65
+        ],
+        [
+          86.53,
+          81.4,
+          241.61,
+          139.04
+        ],
+        [
+          86.53,
+          84.25,
+          230.88,
+          148.73
+        ]
+      ],
+      "#FF8000": [
+        [
+          326.84,
+          81.4,
+          507.01,
+          141.89
+        ],
+        [
+          326.84,
+          83.36,
+          503.99,
+          148.73
+        ],
+        [
+          86.53,
+          81.4,
+          172.17,
+          139.85
+        ],
+        [
+          86.53,
+          84.5,
+          163.14,
+          148.73
+        ]
+      ],
+      "#FF00FF": [
+        [
+          326.84,
+          81.4,
+          501.39,
+          141.89
+        ],
+        [
+          326.84,
+          83.36,
+          498.38,
+          148.73
+        ],
+        [
+          86.53,
+          81.4,
+          164.76,
+          140.5
+        ],
+        [
+          86.53,
+          84.98,
+          152.15,
+          148.73
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    5.137,
+    3.251,
+    8.592,
+    6.247,
+    3.215,
+    3.209
+  ],
+  "source_credit": {
+    "source": "Chen, Shengmei et al. · Nature Communications 2023 · Fig. 5",
+    "author": "Chen, Shengmei, Ying, Yiran, Ma, Longtao, Zhu, Daming, Huang, Haitao, Song, Li, Zhi, Chunyi",
+    "url": "https://doi.org/10.1038/s41467-023-38492-8",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

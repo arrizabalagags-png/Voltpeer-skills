@@ -1,0 +1,494 @@
+{
+  "status": "PASS",
+  "package_revision": "scientific-guidance-v1.2.2",
+  "version": "0.12.0",
+  "channel": "beta",
+  "skill_count": 16,
+  "archives": [
+    {
+      "file": "single/voltpeer-assemble-v0.12.0.zip",
+      "sha256": "42d2c3a6695e17d6fa30607e9a4d9f38e55d97b2ab516d40ef427d05041d09de",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-claim-check-v0.12.0.zip",
+      "sha256": "0fd042bb81ad4099e376e1274c0d8beb51b2fe14ca2f5324580db8af0963e0b4",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-data-v0.12.0.zip",
+      "sha256": "f530596f3038e9ae114d32df7328b94114057215693025f6bfc24b078ac7a0e7",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-experiment-plan-v0.12.0.zip",
+      "sha256": "92d799122ffe287e22676986bffaea1ec603ec7fedce2c47b4995e3926f69291",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-literature-v0.12.0.zip",
+      "sha256": "294dce48c6fe09585fd150cc5c899075bf631b4a3d4a78d56fba9b6824ee4f64",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-mechanism-v0.12.0.zip",
+      "sha256": "17183918f078105950948128fe1ea08e2667f160e3b1c5acef9fa37dcba82b1f",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-metrics-v0.12.0.zip",
+      "sha256": "dfb9ad20e231754ebfb5daf884c67b055150987dace7950dea58887f2aa8f206",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-plan-v0.12.0.zip",
+      "sha256": "7e8fa4970cf2f8d04d2c95ae62ea4db2812865d0cf9621d3a1baf310448beca1",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-plot-v0.12.0.zip",
+      "sha256": "bcdd0383ce43d0a2bf2202562e68a09e7473bc68db6a56676ba17c5232fcb962",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-polish-v0.12.0.zip",
+      "sha256": "0797fe73c8153c311df7ad7715465ed16e3c97080f0046e33db03e6cb4b98595",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-response-v0.12.0.zip",
+      "sha256": "a333972a6ee04bca58b46bdaa0ce4b3bf145ab04b615e00d0e44b303342f9d05",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-review-audit-v0.12.0.zip",
+      "sha256": "0cc3a88be502c79e2dd2e6c52b9b57c31a2d438b708f833adba4c1fc5c4f8c64",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-reviewer-v0.12.0.zip",
+      "sha256": "18c187d5f59bc8b89f1c13ea8e2230f60c231137bd0b6be886ebbfc77979de53",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-submission-v0.12.0.zip",
+      "sha256": "749f4e1f00da53c513a17b93d1504df705acd3f2f066a685108e0bb037d5a822",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-workflow-v0.12.0.zip",
+      "sha256": "bbaf90824dd2919b6ca8c4aef06b2e6992140bf1120d55f7eb99af3f2fa36f1d",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "single/voltpeer-write-v0.12.0.zip",
+      "sha256": "89fe7fb59d612a1f3f430a82d4f531fb0a3a4a6fc0709fe92f2300321deddf56",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "VoltPeer-v0.12.0.zip",
+      "sha256": "c800ee08068c7ec45ca63726073d1fc62b54529ebc94e7f88707b0c457237a8c",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "VoltPeer-WorkBuddy-Starter-v0.12.0.zip",
+      "sha256": "95815284953d7930cee3125db721b343f04c1856e4ffbbe65d55c429c34215bc",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "VoltPeer-WorkBuddy-v0.12.0.zip",
+      "sha256": "c13eaa83543b22a4db6f31bdb875e951a66b95220cae039012a602e0fdc376b1",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-assemble-workbuddy-v0.12.0.zip",
+      "sha256": "51d9f9d4568d8c21be9eb1635e5bbf80d19491693d24204e4fa02ac7f1638d38",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-claim-check-workbuddy-v0.12.0.zip",
+      "sha256": "ace2fbed2357ee73aa4cd301234c7321da53dd6d93b385953d24f90aa2334ddb",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-data-workbuddy-v0.12.0.zip",
+      "sha256": "7fd20d276f451181bd9e6ec750ce32a2383207b47673529ce21b9401d2ea73a8",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-experiment-plan-workbuddy-v0.12.0.zip",
+      "sha256": "67b292f12f13d6033266db26b43409e82768abf6585672621b05366a417b352f",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-literature-workbuddy-v0.12.0.zip",
+      "sha256": "c56c2f321acff2dc5463b286ca0220523504efab742e8b81571e1fb773666fdd",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-mechanism-workbuddy-v0.12.0.zip",
+      "sha256": "c486c8b8ed09f70977b083c0e51b475769ed68a6e61fcdbe673e5a5ce65776dc",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-metrics-workbuddy-v0.12.0.zip",
+      "sha256": "8dfbff09caba3a5c6ebf0d03d94b89ad6afae8df82bbd252888c8ff70654b725",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-plan-workbuddy-v0.12.0.zip",
+      "sha256": "ab2935916f93066200f02ee699dece7b67aa58082f606d3f9374a2ced4f3e2d6",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-plot-workbuddy-v0.12.0.zip",
+      "sha256": "efe678ed93130f5d656f9e36998f0c28e22be3ce00a53c3d7d9f79a2667ac09c",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-polish-workbuddy-v0.12.0.zip",
+      "sha256": "08552f1a58bcbf34c87172f73d69f3d5dfaad4e931086e765a8559f52eb048cc",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-response-workbuddy-v0.12.0.zip",
+      "sha256": "b1dd5808f68089666ede5aa49c4170f6eab8661502b80a8d3af21144adb4377b",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-review-audit-workbuddy-v0.12.0.zip",
+      "sha256": "48f60570ac564cfe0722082d921d3816f2715fabbded0c8ad5fa8057446e5603",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-reviewer-workbuddy-v0.12.0.zip",
+      "sha256": "3bb46d6374c7ecbf9b395f397cd3679857831d187019eab0871d593406105759",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-submission-workbuddy-v0.12.0.zip",
+      "sha256": "224b485f47303bd5494c1d875a5215d192bc104c62131bd0ae4df6bd2b857242",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-workflow-workbuddy-v0.12.0.zip",
+      "sha256": "d73fa5a20f770dcf6b7d2ef622fd8cda46cdc729e48a96d2d6303df85b199be0",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    },
+    {
+      "file": "workbuddy/voltpeer-write-workbuddy-v0.12.0.zip",
+      "sha256": "c01ca73066e4ff582c11fcc7bc042ac6b10f6664cfde57093112e1d2473b0fca",
+      "canonical_content": "PASS",
+      "zip_structure": "PASS"
+    }
+  ],
+  "starter_sha256": "d613f5e3780dc7e08faaaef678b23cc15de0d01740717aadac6c5d4a606146d8",
+  "starter_bytes": 746960,
+  "csv_members_preserved": 30,
+  "historical_archives_unchanged": 3312,
+  "extracted_starter_demo": "PASS",
+  "abnormal_ce": {
+    "input_sha256": "631ba740157cda1e7ea9c116bdc43d856991b8d7c3d525c3e8e89663b25e0cbc",
+    "row_count": 8,
+    "original_values": [
+      91.25,
+      97.125,
+      100.5,
+      98.75,
+      99.0,
+      101.125,
+      97.5,
+      99.8
+    ],
+    "output_values": [
+      91.25,
+      97.125,
+      100.5,
+      98.75,
+      99.0,
+      101.125,
+      97.5,
+      99.8
+    ],
+    "linestyle": "None",
+    "marker": "o",
+    "markerfacecolor": "none",
+    "original_input_unchanged": true,
+    "anomalies_above_100_visible": true,
+    "formats": [
+      ".pdf",
+      ".svg",
+      ".png",
+      ".json"
+    ],
+    "scope": "extracted fixed implementation, synthetic fixture"
+  },
+  "full_cell_same_cycle_and_reference": "PASS",
+  "missing_or_inconsistent_scientific_conditions_blocked": {
+    "missing_ce": "Synthetic full cell: full-cell cycling needs measured CE or same-cycle charge_capacity; capacity alone cannot supply CE",
+    "wrong_reference_capacity": "Synthetic full cell: reference_capacity does not match the declared source cycle",
+    "changed_reference_rate": "Direct comparison blocked: conditions differ: {'rate': ['1 C', '2 C']}"
+  },
+  "continuous_signal_unmarked_solid": "PASS",
+  "assembly": {
+    "status": "PASS",
+    "source_formats": [
+      "PNG",
+      "PNG",
+      "PDF",
+      "PDF",
+      "SVG",
+      "SVG"
+    ],
+    "source_fixtures": [
+      {
+        "label": "a",
+        "format": "png",
+        "size_mm": [
+          80,
+          60
+        ],
+        "aspect": 1.3330980945659845,
+        "sha256": "14e8a6ae35a2094a63632e3239b6ae364899722ab86d20616ea790ed4f6c2c9f"
+      },
+      {
+        "label": "b",
+        "format": "png",
+        "size_mm": [
+          84,
+          60
+        ],
+        "aspect": 1.4001411432604094,
+        "sha256": "2a29375bd02e5b6b52c8e41939b707808951ceef366dea287ac9510760ae5986"
+      },
+      {
+        "label": "c",
+        "format": "pdf",
+        "size_mm": [
+          80,
+          80
+        ],
+        "aspect": 1.0,
+        "sha256": "831899e21b791c466cce5ab96813c18a063fb20179b43b9dedf01fa04fee62cb"
+      },
+      {
+        "label": "d",
+        "format": "pdf",
+        "size_mm": [
+          84,
+          80
+        ],
+        "aspect": 1.05,
+        "sha256": "8816139b48a5d4650a0f5e5909141f5f97618a7725b52f236c4452010122c497"
+      },
+      {
+        "label": "e",
+        "format": "svg",
+        "size_mm": [
+          80,
+          50
+        ],
+        "aspect": 1.6,
+        "sha256": "edbd04dc5e9d5e72bebb8d4de224d23fad20ef33444c94245f8a8d3dffb8780b"
+      },
+      {
+        "label": "f",
+        "format": "svg",
+        "size_mm": [
+          84,
+          50
+        ],
+        "aspect": 1.68,
+        "sha256": "c01dc7a09fb739dfa9077ef9b6e854d6a6a753d55600eac345c5eeacbb4b4662"
+      }
+    ],
+    "source_hashes_unchanged": true,
+    "no_crop": true,
+    "uniform_aspect_preservation": true,
+    "measured_alignment_checks": [
+      {
+        "group": "row-0",
+        "panels": [
+          "a",
+          "b"
+        ],
+        "direction": "row",
+        "edge": "top",
+        "first_mm": 17.0,
+        "second_mm": 17.0,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-0",
+        "panels": [
+          "a",
+          "b"
+        ],
+        "direction": "row",
+        "edge": "bottom",
+        "first_mm": 53.6,
+        "second_mm": 53.6,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-0",
+        "panels": [
+          "a",
+          "b"
+        ],
+        "direction": "row",
+        "edge": "height",
+        "first_mm": 36.6,
+        "second_mm": 36.6,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-1",
+        "panels": [
+          "c",
+          "d"
+        ],
+        "direction": "row",
+        "edge": "top",
+        "first_mm": 86.0,
+        "second_mm": 86.0,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-1",
+        "panels": [
+          "c",
+          "d"
+        ],
+        "direction": "row",
+        "edge": "bottom",
+        "first_mm": 134.8,
+        "second_mm": 134.8,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-1",
+        "panels": [
+          "c",
+          "d"
+        ],
+        "direction": "row",
+        "edge": "height",
+        "first_mm": 48.8,
+        "second_mm": 48.8,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-2",
+        "panels": [
+          "e",
+          "f"
+        ],
+        "direction": "row",
+        "edge": "top",
+        "first_mm": 167.5,
+        "second_mm": 167.5,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-2",
+        "panels": [
+          "e",
+          "f"
+        ],
+        "direction": "row",
+        "edge": "bottom",
+        "first_mm": 198.0,
+        "second_mm": 198.0,
+        "delta_mm": 0.0,
+        "pass": true
+      },
+      {
+        "group": "row-2",
+        "panels": [
+          "e",
+          "f"
+        ],
+        "direction": "row",
+        "edge": "height",
+        "first_mm": 30.5,
+        "second_mm": 30.5,
+        "delta_mm": 0.0,
+        "pass": true
+      }
+    ],
+    "negative_misalignment_blocked": true,
+    "pdf_size_mm": [
+      180,
+      214.0
+    ],
+    "png_size_px": [
+      2126,
+      2528
+    ],
+    "pdf_original_vector_text_preserved": [
+      "FIXTURE_C",
+      "FIXTURE_D"
+    ],
+    "paired_native_editable_svg": "PASS",
+    "visual_review": "PASS: inspected mixed-six.png, abnormal-ce.png and full-cell.png; labels, frame edges and geometry scale fixtures are visible; no axis clipping observed."
+  },
+  "regression_suites": [
+    {
+      "suite": "test_batteryplot.py",
+      "status": "PASS",
+      "log": "test_batteryplot.log"
+    },
+    {
+      "suite": "test_batterycompose.py",
+      "status": "PASS",
+      "log": "test_batterycompose.log"
+    }
+  ],
+  "runtime_python": "3.12.14",
+  "matplotlib": "3.11.2",
+  "native_desktop_discovery_to_delivery": "NOT_RUN_CURRENT_TREE",
+  "full_model_behavior": "NOT_RUN_CURRENT_TREE",
+  "scope": "Synthetic fixed-program checks only, no experimental validation or native/model E2E."
+}

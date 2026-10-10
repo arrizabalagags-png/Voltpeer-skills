@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "id": "lit-carbon-2021-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Blue shades · structure annotations",
+  "name_zh": "蓝阶 · 结构标注",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#203864",
+    "#2E75B6",
+    "#7A90BB"
+  ],
+  "observed_series": [
+    "#203864",
+    "#2E75B6",
+    "#8FAADC"
+  ],
+  "adjustments": [
+    {
+      "observed": "#8FAADC",
+      "used": "#7A90BB",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#203864",
+    "new_or_intervention": "#2E75B6",
+    "limitation_or_failure": "#7A90BB",
+    "mechanism_or_model": "#7A90BB",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-27791-7",
+    "doi_url": "https://doi.org/10.1038/s41467-021-27791-7",
+    "title": "Coupling aqueous zinc batteries and perovskite solar cells for simultaneous energy harvest, conversion and storage",
+    "authors": [
+      "Chen, Peng",
+      "Li, Tian-Tian",
+      "Yang, Yuan-Bo",
+      "Li, Guo-Ran",
+      "Gao, Xue-Ping"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-01-10",
+    "url": "https://www.nature.com/articles/s41467-021-27791-7",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "a, d",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "e37019af5d28fc992b89b3f9adbbbc2c0ad51255302574a449de57fee2de8c4c",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#203864": [
+        [
+          315.07,
+          251.15,
+          351.49,
+          279.08
+        ],
+        [
+          336.1,
+          221.22,
+          410.63,
+          252.78
+        ]
+      ],
+      "#2E75B6": [
+        [
+          351.65,
+          244.17,
+          385.36,
+          273.22
+        ],
+        [
+          380.6,
+          219.23,
+          424.67,
+          249.7
+        ]
+      ],
+      "#8FAADC": [
+        [
+          399.83,
+          235.39,
+          445.09,
+          264.58
+        ],
+        [
+          435.74,
+          219.14,
+          443.7,
+          238.07
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    11.595,
+    4.843,
+    3.214
+  ],
+  "source_credit": {
+    "source": "Chen, Peng et al. · Nature Communications 2022 · Fig. 2",
+    "author": "Chen, Peng, Li, Tian-Tian, Yang, Yuan-Bo, Li, Guo-Ran, Gao, Xue-Ping",
+    "url": "https://doi.org/10.1038/s41467-021-27791-7",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

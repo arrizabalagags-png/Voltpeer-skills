@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "id": "lit-solvent-2021-fig2",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Orange / purple / pink · spectra",
+  "name_zh": "橙紫粉 · 光谱对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#DB732B",
+    "#4C3D97",
+    "#BD79AD"
+  ],
+  "observed_series": [
+    "#F38030",
+    "#4C3D97",
+    "#C57EB4"
+  ],
+  "adjustments": [
+    {
+      "observed": "#F38030",
+      "used": "#DB732B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#C57EB4",
+      "used": "#BD79AD",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#DB732B",
+    "new_or_intervention": "#4C3D97",
+    "limitation_or_failure": "#BD79AD",
+    "mechanism_or_model": "#BD79AD",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-021-26947-9",
+    "doi_url": "https://doi.org/10.1038/s41467-021-26947-9",
+    "title": "Horizontally arranged zinc platelet electrodeposits modulated by fluorinated covalent organic framework film for high-rate and durable aqueous zinc ion batteries",
+    "authors": [
+      "Zhao, Zedong",
+      "Wang, Rong",
+      "Peng, Chengxin",
+      "Chen, Wuji",
+      "Wu, Tianqi",
+      "Hu, Bo",
+      "Weng, Weijun",
+      "Yao, Ying",
+      "Zeng, Jiaxi",
+      "Chen, Zhihong",
+      "Liu, Peiying",
+      "Liu, Yicheng",
+      "Li, Guisheng",
+      "Guo, Jia",
+      "Lu, Hongbin",
+      "Guo, Zaiping"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2021-11-16",
+    "url": "https://www.nature.com/articles/s41467-021-26947-9",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "2",
+    "panels": "h",
+    "pdf_page": 4,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "9ac1c6f7f513c61a0d06fe3331140f4520b056151d33119e91db44f4ce2c9576",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#F38030": [
+        [
+          391.31,
+          286.47,
+          406.82,
+          296.43
+        ],
+        [
+          360.29,
+          286.07,
+          391.31,
+          300.66
+        ],
+        [
+          316.35,
+          285.92,
+          360.29,
+          289.08
+        ],
+        [
+          299.1,
+          285.96,
+          316.35,
+          287.77
+        ],
+        [
+          312.95,
+          66.45,
+          422.89,
+          134.9
+        ],
+        [
+          327.86,
+          195.29,
+          329.91,
+          197.31
+        ]
+      ],
+      "#4C3D97": [
+        [
+          360.29,
+          304.11,
+          406.82,
+          326.97
+        ],
+        [
+          352.95,
+          304.52,
+          360.29,
+          311.2
+        ],
+        [
+          299.1,
+          305.17,
+          352.95,
+          323.56
+        ]
+      ],
+      "#C57EB4": [
+        [
+          375.79,
+          333.59,
+          406.82,
+          344.16
+        ],
+        [
+          360.29,
+          333.57,
+          375.79,
+          348.7
+        ],
+        [
+          299.1,
+          332.02,
+          360.29,
+          354.62
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.231,
+    8.672,
+    3.23
+  ],
+  "source_credit": {
+    "source": "Zhao, Zedong et al. · Nature Communications 2021 · Fig. 2",
+    "author": "Zhao, Zedong, Wang, Rong, Peng, Chengxin, Chen, Wuji, Wu, Tianqi, Hu, Bo, Weng, Weijun, Yao, Ying, Zeng, Jiaxi, Chen, Zhihong, Liu, Peiying, Liu, Yicheng, Li, Guisheng, Guo, Jia, Lu, Hongbin, Guo, Zaiping",
+    "url": "https://doi.org/10.1038/s41467-021-26947-9",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

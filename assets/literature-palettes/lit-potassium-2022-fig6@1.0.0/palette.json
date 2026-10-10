@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "id": "lit-potassium-2022-fig6",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Six warm shades · cycling states",
+  "name_zh": "暖色六阶 · 循环状态",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#AA8D25",
+    "#C57F26",
+    "#E32921",
+    "#B00047",
+    "#781F82",
+    "#C77877"
+  ],
+  "observed_series": [
+    "#F7CC36",
+    "#ED992E",
+    "#E32921",
+    "#B00047",
+    "#781F82",
+    "#F0918F"
+  ],
+  "adjustments": [
+    {
+      "observed": "#F7CC36",
+      "used": "#AA8D25",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#ED992E",
+      "used": "#C57F26",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#F0918F",
+      "used": "#C77877",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#AA8D25",
+    "new_or_intervention": "#C57F26",
+    "limitation_or_failure": "#C77877",
+    "mechanism_or_model": "#E32921",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-022-32660-y",
+    "doi_url": "https://doi.org/10.1038/s41467-022-32660-y",
+    "title": "Codoped porous carbon nanofibres as a potassium metal host for nonaqueous K-ion batteries",
+    "authors": [
+      "Li, Siwu",
+      "Zhu, Haolin",
+      "Liu, Yuan",
+      "Han, Zhilong",
+      "Peng, Linfeng",
+      "Li, Shuping",
+      "Yu, Chuang",
+      "Cheng, Shijie",
+      "Xie, Jia"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2022-08-20",
+    "url": "https://www.nature.com/articles/s41467-022-32660-y",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "6",
+    "panels": "b",
+    "pdf_page": 9,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "e0af841e8281e73c0f9cd33b0df4473c2b360072fb166b9bdf9e63128dc7c3fd",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#F7CC36": [
+        [
+          99.09,
+          172.88,
+          127.21,
+          201.33
+        ],
+        [
+          127.21,
+          201.33,
+          172.09,
+          218.97
+        ],
+        [
+          99.14,
+          196.56,
+          128.27,
+          213.81
+        ],
+        [
+          128.27,
+          162.78,
+          168.32,
+          196.56
+        ],
+        [
+          184.29,
+          197.45,
+          214.08,
+          214.87
+        ],
+        [
+          214.08,
+          162.78,
+          261.01,
+          197.45
+        ]
+      ],
+      "#ED992E": [
+        [
+          99.09,
+          178.87,
+          133.76,
+          206.33
+        ],
+        [
+          133.76,
+          206.33,
+          154.23,
+          218.36
+        ],
+        [
+          99.14,
+          183.69,
+          134.31,
+          208.27
+        ],
+        [
+          134.31,
+          162.84,
+          154.89,
+          183.69
+        ],
+        [
+          184.24,
+          187.97,
+          222.23,
+          212.15
+        ],
+        [
+          222.23,
+          162.78,
+          252.91,
+          187.97
+        ]
+      ],
+      "#E32921": [
+        [
+          99.09,
+          182.03,
+          137.69,
+          218.97
+        ],
+        [
+          99.31,
+          162.78,
+          134.09,
+          199.39
+        ],
+        [
+          184.24,
+          162.78,
+          232.22,
+          207.05
+        ],
+        [
+          184.46,
+          188.35,
+          231.94,
+          218.97
+        ]
+      ],
+      "#B00047": [
+        [
+          99.09,
+          191.35,
+          120.78,
+          218.75
+        ],
+        [
+          99.53,
+          162.78,
+          123.94,
+          192.51
+        ],
+        [
+          184.24,
+          162.78,
+          220.79,
+          201.89
+        ],
+        [
+          184.74,
+          194.9,
+          220.57,
+          218.97
+        ]
+      ],
+      "#781F82": [
+        [
+          99.09,
+          196.4,
+          112.07,
+          218.03
+        ],
+        [
+          99.75,
+          162.78,
+          117.67,
+          187.47
+        ],
+        [
+          184.24,
+          162.78,
+          212.47,
+          197.23
+        ],
+        [
+          185.01,
+          199.56,
+          212.36,
+          218.97
+        ]
+      ],
+      "#F0918F": [
+        [
+          506.38,
+          55.74,
+          508.43,
+          58.4
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "high",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    3.208,
+    3.262,
+    4.56,
+    7.15,
+    9.064,
+    3.291
+  ],
+  "source_credit": {
+    "source": "Li, Siwu et al. · Nature Communications 2022 · Fig. 6",
+    "author": "Li, Siwu, Zhu, Haolin, Liu, Yuan, Han, Zhilong, Peng, Linfeng, Li, Shuping, Yu, Chuang, Cheng, Shijie, Xie, Jia",
+    "url": "https://doi.org/10.1038/s41467-022-32660-y",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

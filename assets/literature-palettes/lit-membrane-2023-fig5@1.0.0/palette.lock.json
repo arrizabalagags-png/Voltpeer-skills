@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-membrane-2023-fig5",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-38492-8",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-membrane-2023-fig5@1.0.0",
+  "sha256": "dcba7e4e93296f8fef3d622c46ae15edcc905c0faa74f810bb6b9a82efc4b5f7",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}

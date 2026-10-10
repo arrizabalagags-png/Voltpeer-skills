@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "id": "lit-manganese-2019-fig3",
+  "version": "1.0.0",
+  "category": "style",
+  "palette_kind": "categorical",
+  "name": "Five colours · structure energies",
+  "name_zh": "五色 · 结构能量对照",
+  "description": "Selected source vector strokes; original previews and a generic sample mapping.",
+  "description_zh": "文献线条取色；图样与样品映射由 VoltPeer 单独生成。",
+  "author": "VoltPeer",
+  "license": "CC-BY-4.0",
+  "background": "#FFFFFF",
+  "series": [
+    "#D92B18",
+    "#3D638E",
+    "#B58825",
+    "#4CA15B",
+    "#696594"
+  ],
+  "observed_series": [
+    "#D92B18",
+    "#3D638E",
+    "#F5B832",
+    "#62CE75",
+    "#696594"
+  ],
+  "adjustments": [
+    {
+      "observed": "#F5B832",
+      "used": "#B58825",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    },
+    {
+      "observed": "#62CE75",
+      "used": "#4CA15B",
+      "reason": "Darkened to measured white-background contrast ≥3.2 for thin traces."
+    }
+  ],
+  "roles": {
+    "reference_or_baseline": "#D92B18",
+    "new_or_intervention": "#3D638E",
+    "limitation_or_failure": "#696594",
+    "mechanism_or_model": "#B58825",
+    "neutral_context": "#4F5A67"
+  },
+  "pastels": {
+    "blue": "#EAF0F8",
+    "teal": "#E8F4F2",
+    "rust": "#F8EDE7",
+    "purple": "#F1ECF8"
+  },
+  "line_pt": 1.15,
+  "role_scope": "Generic roles and pale auxiliary fills are VoltPeer additions; not the source paper sample semantics.",
+  "paper": {
+    "doi": "10.1038/s41467-019-11439-8",
+    "doi_url": "https://doi.org/10.1038/s41467-019-11439-8",
+    "title": "Overlooked electrolyte destabilization by manganese (II) in lithium-ion batteries",
+    "authors": [
+      "Wang, Cun",
+      "Xing, Lidan",
+      "Vatamanu, Jenel",
+      "Chen, Zhi",
+      "Lan, Guangyuan",
+      "Li, Weishan",
+      "Xu, Kang"
+    ],
+    "journal": "Nature Communications",
+    "publication_date": "2019-07-31",
+    "url": "https://www.nature.com/articles/s41467-019-11439-8",
+    "metadata_source": "Publisher HTML citation metadata",
+    "checked_at": "2026-10-07"
+  },
+  "colour_source": {
+    "figure": "3",
+    "panels": "f",
+    "pdf_page": 6,
+    "method": "PDF vector stroke RGB → rounded 8-bit HEX; source page visually checked. No bitmap figure is redistributed.",
+    "pdf_sha256": "8a7ce1bf33266de633f24410903ee1506553e37428f99524368249d4db0c770b",
+    "licence": "CC-BY-4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "observation_boxes_pt": {
+      "#D92B18": [
+        [
+          340.89,
+          415.95,
+          350.33,
+          463.89
+        ]
+      ],
+      "#3D638E": [
+        [
+          366.35,
+          397.41,
+          375.76,
+          463.89
+        ]
+      ],
+      "#F5B832": [
+        [
+          391.77,
+          399.47,
+          401.21,
+          463.89
+        ]
+      ],
+      "#62CE75": [
+        [
+          417.23,
+          355.62,
+          426.67,
+          463.89
+        ]
+      ],
+      "#696594": [
+        [
+          442.68,
+          373.41,
+          452.09,
+          463.89
+        ]
+      ]
+    },
+    "review": "selected curves / outlines only; unrelated microscopy and photographs excluded"
+  },
+  "saturation": "balanced",
+  "preview_scope": "Original analytic teaching models; no measured values from the cited paper.",
+  "cvd_level": "not_verified",
+  "white_contrast": [
+    4.873,
+    6.225,
+    3.224,
+    3.203,
+    5.399
+  ],
+  "source_credit": {
+    "source": "Wang, Cun et al. · Nature Communications 2019 · Fig. 3",
+    "author": "Wang, Cun, Xing, Lidan, Vatamanu, Jenel, Chen, Zhi, Lan, Guangyuan, Li, Weishan, Xu, Kang",
+    "url": "https://doi.org/10.1038/s41467-019-11439-8",
+    "licence": "CC-BY-4.0",
+    "scope": "Vector stroke colours selected from the cited figure; explicit contrast adjustments recorded. Plot/code/data are independent teaching materials."
+  },
+  "created_at": "2026-10-07",
+  "updated_at": "2026-10-07"
+}

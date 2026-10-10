@@ -1,0 +1,11 @@
+{
+  "asset_id": "lit-sodium-2023-fig1",
+  "asset_version": "1.0.0",
+  "asset_path": "palette.json",
+  "source_url": "https://doi.org/10.1038/s41467-023-39384-7",
+  "asset_file": "palette.json",
+  "style_id": "community:lit-sodium-2023-fig1@1.0.0",
+  "sha256": "c81c00bcb7abbfc7a2fabace6b597ac9dc4cb6cc4d14e185d2caa056af2cbed9",
+  "retrieved_at": "2026-10-07",
+  "review_status": "source_and_vector_selection_reviewed_not_cvd_certified"
+}
