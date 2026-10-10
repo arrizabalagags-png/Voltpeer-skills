@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "revision": "scientific-guidance-v1.2.2",
+  "issue": "New index inherited old plot_starter record; found by entry-usability cross-review.",
+  "before": {
+    "url": "assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip",
+    "sha256": "289b1d3a2e37fd11c8c3955fc3be1394b21abfb3a0c676bfeb06fb72344979df",
+    "bytes": 743774
+  },
+  "after": {
+    "url": "assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip",
+    "bytes": 746960,
+    "sha256": "d613f5e3780dc7e08faaaef678b23cc15de0d01740717aadac6c5d4a606146d8"
+  },
+  "changes": "Only the new revision index JSON and its generator were corrected. Historical indexes and all fixed ZIP bytes remain unchanged.",
+  "checks": [
+    {
+      "mirror": "private",
+      "download_index_starter": "PASS",
+      "registry_starter": "PASS",
+      "both_current_pointers": "PASS",
+      "extracted_starter_manifest": "PASS",
+      "all_35_zip_hashes": "UNCHANGED"
+    },
+    {
+      "mirror": "public",
+      "download_index_starter": "PASS",
+      "registry_starter": "PASS",
+      "both_current_pointers": "PASS",
+      "extracted_starter_manifest": "PASS",
+      "all_35_zip_hashes": "UNCHANGED"
+    }
+  ],
+  "native_desktop_discovery_to_delivery": "NOT_RUN_CURRENT_TREE",
+  "full_model_behavior": "NOT_RUN_CURRENT_TREE",
+  "generator_actual_fresh_build": "PASS: independently rebuilt revision in a fresh destination; index plot_starter URL, bytes and SHA match its actual Starter."
+}

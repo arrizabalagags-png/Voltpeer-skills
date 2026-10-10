@@ -221,9 +221,9 @@
     }
   ],
   "plot_starter": {
-    "url": "assets/cycling-rule-v1.2.1/starter/VoltPeer-Plot-Starter-v0.12.0.zip",
-    "sha256": "289b1d3a2e37fd11c8c3955fc3be1394b21abfb3a0c676bfeb06fb72344979df",
-    "bytes": 743774
+    "url": "assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip",
+    "bytes": 746960,
+    "sha256": "d613f5e3780dc7e08faaaef678b23cc15de0d01740717aadac6c5d4a606146d8"
   },
   "native_host_discovery": "NOT_RUN",
   "full_model_gate": "NOT_RUN",

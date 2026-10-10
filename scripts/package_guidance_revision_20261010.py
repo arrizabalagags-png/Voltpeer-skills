@@ -108,7 +108,7 @@ def starter(out):
     dump(target.parent/'plot-starter.json',base_registry)
     return {'path':target.relative_to(out).as_posix(),'bytes':len(payload),'sha256':digest(payload),'changes':changes}
 
-def packages(out):
+def packages(out, starter_record):
     dest=out/NEW_REL
     dest.mkdir(parents=True,exist_ok=True)
     index=json.loads((BASE/'download-index.json').read_text(encoding='utf8'))
@@ -156,6 +156,8 @@ def packages(out):
         publication='FROZEN_LOCAL_BETA_CANDIDATE; Github publication and ECS deployment are separate events',
         base_package_revision='cycling-rule-v1.2.1',archives=records,skill_count=16,
         current_native_desktop_e2e='NOT_RUN_CURRENT_TREE',full_model_behavior='NOT_RUN_CURRENT_TREE')
+    index['plot_starter']={'url':starter_record['path'],'bytes':starter_record['bytes'],
+                           'sha256':starter_record['sha256']}
     dump(dest/'download-index.json',index)
     (dest/'distribution-sha256.txt').write_text(''.join(r['sha256']+'  '+r['file']+'\n' for r in records),encoding='utf8')
     return {'archives':records,'changes':changed,'download_index':(NEW_REL/'download-index.json').as_posix()}
@@ -170,7 +172,7 @@ def main():
     first=starter(out)
     if args.starter_only:
         print(json.dumps(first,ensure_ascii=False));return
-    result=packages(out)
+    result=packages(out, first)
     result.update(starter=first,revision=REVISION,version=VERSION,channel='beta',skill_count=16)
     pointer=json.loads((ROOT/'docs/assets/cycling-rule-v1.0.0/skill-downloads.json').read_text(encoding='utf8'))
     old_base='downloads/v0.12.0-cycling-rule-v1.2.1/'

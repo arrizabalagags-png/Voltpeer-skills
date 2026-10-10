@@ -21,3 +21,8 @@
 验证全部使用合成工程夹具，不代表实验科学结论或任何期刊接受。原生桌面发现到交付、完整 Flash/Pro 行为和 macOS 实机仍为 NOT_RUN。Github 同步与 ECS 部署由主发布流程另行记录。
 
 证据：`skills-review.json`、`skills-runtime-verification.json`。
+
+
+## 交叉审查补修
+
+入口审查发现新下载索引的 `plot_starter` 字段仍指旧包。已修新索引和生成器，并在两套镜像核对新 Starter URL、实际字节/SHA、注册表、两个当前指针和解压 manifest；35 ZIP 与 Starter 字节均未改变。证据：`2026-10-10-starter-index-followup.json`。
