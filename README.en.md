@@ -12,6 +12,8 @@ A Skill provides instructions and tools for an AI assistant. It runs inside an A
 
 [Browse examples](https://dazi.gsarrizabalaga.xyz/gallery.html) · [Get started](#get-started) · [Download plotting Starter (0.12.0 Beta)](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [Project website](https://dazi.gsarrizabalaga.xyz/)
 
+**Review workflow update (2026-11-26).** Freeze the manuscript version, use Gemini or another assistant to propose paragraph-level edits, and verify changes to numbers, citations, causal claims and figures against their evidence. Six updated skills cover coordination, writing, polishing, referee review, pre-submission checks and reviewer responses. [Workflow guide](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [Six-skill source bundle](docs/downloads/review-workflow-v1.0.0/VoltPeer-Review-Workflow-v1.0.0.zip)
+
 ## See an example
 
 **Structure and spectra · Original synthetic teaching data, not experimental results.** Diffraction, Raman and spectral-component examples illustrate plotting methods; they do not establish material performance.

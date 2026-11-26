@@ -1,5 +1,11 @@
 # 更新记录 / Changelog
 
+## Review workflow revision — 2026-11-26
+
+- Added a handoff workflow for frozen drafts, parallel editing, evidence decisions, recovery of incomplete batches, and export checks.
+- Updated response, polishing, writing, referee review, and preflight skills with guidance on direct prose, claim strength, source-specific comparisons, and synchronization across manuscript files.
+- Added a standalone figure evidence guide covering provenance, panel geometry, digitization, mechanism arrows, rights, and actual manuscript embeds.
+
 ## 0.12.0 — 2026-10-03 (local Beta candidate)
 
 - Add an original mechanism drawing Skill and sixteen editable native SVG templates, with evidence boundaries and reproducible parameters.

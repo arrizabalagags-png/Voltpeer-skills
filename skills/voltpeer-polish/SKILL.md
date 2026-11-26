@@ -11,6 +11,8 @@ For model/tool adaptation or resuming a task, read [the execution guide](referen
 
 Use this for language, flow, translation, concision, or journal-style adjustment of existing battery manuscript text. Identify whether the text is a research article, Review, Perspective or another stated type, and its section's job before editing. Preserve the author's intended argument and section structure unless the user asks for a substantive rewrite. When a paragraph lacks evidence, mark the gap; do not hide it with smoother prose.
 
+For requests to make prose sound less generated or to apply another editor's suggestions, start from the author's aim and existing voice. Remove filler and repeated rhetorical patterns. Treat each proposed scientific change as a decision that must follow the source. [Direct scientific prose and candidate review](references/PROSE_REVIEW.md).
+
 ## Battery language references
 
 Use the relevant sections of the [battery editing guide](references/battery-language-100/DOMAIN_GUIDE.md) before revising a battery passage. Consult the [terminology guide](references/battery-language-100/GLOSSARY.md) for terms present in the draft and [sentence functions](references/battery-language-100/PHRASE_FUNCTIONS.md) when expression needs repair. These are self-contained references; another polishing Skill need not be installed.
@@ -24,6 +26,8 @@ For a substantial edit, first lock the affected values, units, denominators, ele
 Keep every value, unit, denominator, battery configuration, tested branch, cycle baseline, condition, source, citation key, and uncertainty attached to the same claim. Do not change `may`, `suggests`, or `is consistent with` into causal certainty. Keep material-level, electrode-level, cell-level, and system-level language distinct. Respect the manuscript's glossary for cathode/anode, lithiation/delithiation, sodiation/desodiation, efficiency, retention, and energy boundary.
 
 If a phrase is ambiguous, propose a precise alternative and flag the decision. If the source is not available, do not assert that a scientific correction is verified. For translation, maintain technical meaning and citation positions while using natural prose in the target language. Avoid repeated template openings, empty claims of novelty, and inflated adjectives. Retain productive caveats and counterevidence.
+
+For a Word deliverable, follow the provided style sample and preserve native runs, superscripts, subscripts, equations, citations and cross-references. Edit the requested passages in an identifiable copy. Read back the actual Word or PDF export after applying changes, especially across a run or field boundary.
 
 ## Deliverable
 

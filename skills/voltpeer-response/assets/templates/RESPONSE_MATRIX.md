@@ -4,7 +4,7 @@
 - Current revised version:
 - Editor instructions and deadline (source/date):
 
-| Point ID | Exact request or concern | Decision and reason | Manuscript/figure change | Revised location | Evidence checked | Response text | Open action/owner |
+| Point ID | Verbatim concern and submitted locator | Decision and reason | Manuscript or figure change | Final export locator | Evidence checked | Response and verified excerpt | Open action and owner |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-Preserve the original review document. A response is complete when every point has a verifiable action or explanation and its claimed location matches the revised files.
+Preserve the original review document and submitted identifiers. Add a mapping when section, figure, or reference numbers changed. A response is complete when every point has a verifiable action or explanation and its quoted text and location match the revised export.

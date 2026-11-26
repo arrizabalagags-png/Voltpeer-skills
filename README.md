@@ -12,6 +12,8 @@ Skill 是给 AI 助手使用的工作说明和配套工具，需要在能读取�
 
 [查看样图](https://dazi.gsarrizabalaga.xyz/gallery.html) · [开始使用](#开始使用) · [下载绘图 Starter（0.12.0 Beta）](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [项目网站](https://dazi.gsarrizabalaga.xyz/)
 
+**综述返修工作流更新（2026-11-26）。** 固定要改的稿件版本，让 Gemini 或其他助手逐段提交语言建议，再把每个涉及数字、引文、因果或图件的改动交回证据复核。更新覆盖工作流、写作、润色、审稿、投稿前检查和审稿回复六项技能。 [工作流说明](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [六项技能源码包](docs/downloads/review-workflow-v1.0.0/VoltPeer-Review-Workflow-v1.0.0.zip)
+
 ## 看看效果
 
 **结构与光谱 · 原创合成演示，非实验数据。** 展示衍射、Raman 与谱峰组合的画法，不用于证明材料性能。

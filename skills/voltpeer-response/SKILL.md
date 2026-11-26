@@ -13,12 +13,14 @@ Use this for received peer-review comments or manuscript revision after review. 
 
 ## Received reviews: point-by-point map
 
-For every editor and reviewer point, record its exact request, the underlying issue, decision (`accept`, `partially accept`, `rebut with evidence`, `needs author decision`), action, manuscript location, supporting source/data, and response text. Keep the editor's instructions separate from reviewer suggestions. Group duplicate issues only after each numbered point retains an explicit answer.
+Freeze the received letter and submitted version before editing. For each numbered point, retain the reviewer's exact wording and references to the submitted version. Record the underlying issue, decision, action, revised location, evidence and reply. Map old citations or figure labels to the revision with stable identifiers such as DOI or source panel. Preserve a direct answer to each numbered point when several points share one revision.
 
 Before writing a rebuttal, verify the proposed scientific correction. For a battery-performance dispute, recheck cell type, branch, denominator, loading, electrolyte, N/P, cycling baseline, temperature, and whether a figure mixes measured and modelled values. If the evidence remains thin, narrow the claim and say so. Do not invent a new experiment, permission, source, or author approval.
 
+Lead with the actual answer, evidence, or manuscript change. State a substantive withdrawal or correction plainly at the point that asks for it. On related points, explain what that choice changes for the specific concern. Cite the revised location after the answer. Keep author-supplied wording verbatim where requested and preserve any limitation that changes the answer.
+
 ## Revision consistency gate
 
-Apply approved changes to the actual manuscript and relevant figures/tables, then compare every response claim with the revised location. A response saying “we revised Section 3” is incomplete if Section 3 still carries the old statement. Check that changes to the abstract, conclusion, visual summary, and cover letter reflect substantive revisions. Keep a versioned record of changes, unresolved points, and author decisions.
+Apply approved changes to the manuscript and dependent files. Read back the final Word and PDF, including embedded figure labels and table captions. Search surfaces that could still carry a retired framework. Compare the response excerpts verbatim with the final text, and derive revised page or line references from the author-facing export after pagination. Use the same final source for clean and marked copies and synchronize SI, both language versions of the response, and the cover letter as applicable.
 
-The final report should say whether the comments were responded to and what remains open. Say “re-reviewed” only if a separate review of the revised version was actually performed. Confidential reviewer materials stay in the user's project, not in a public skill repository.
+Report point coverage, checked locations, and remaining evidence or author decisions. Reserve “re-reviewed” for a separate review of the revised file. Keep confidential reviewer materials within the authorized project.

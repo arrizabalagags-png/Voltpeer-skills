@@ -21,7 +21,9 @@ Start each major section from its job in the project brief. A useful paragraph u
 
 Distinguish field facts, representative examples, the authors' synthesis, and forward-looking proposals. State scope when the evidence is chemistry- or configuration-specific. If cited papers disagree, examine protocol, denominator, cell architecture, sample count, and mechanism method before smoothing them into one statement. Retain productive disagreement in the final prose.
 
-Before sentence-level polish, inspect title, abstract, section sequence, conclusion, and display items against the current brief. Verify that the designated centre of the Review still carries appropriate space and evidence, and that each figure is owned by a section and says one clear thing. Measure actual prose word counts by section for the venue limit; do not confuse markup or legends with body text. Propose a brief amendment when the argument truly changes. Use `voltpeer-plot` for visual design, source, rights, and export checks.
+When revising a disputed classification, identify what each category was meant to explain. If thresholds lack a shared empirical basis, use a defined reference case and compare candidate systems along stated dimensions. Replace scores that lack comparable inputs with source-specific observations. Give each observed, fitted, calculated, or proposed quantity its own definition and evidence location. For literature counts, state the search fields, years, and denominator and keep the screened evidence corpus distinguishable from the search results.
+
+Before polishing, compare the title, abstract, section sequence, conclusion, and display items with the current brief. Verify that the main question gets enough space and evidence, and that each figure has a clear role in its section. Count prose separately from markup and captions according to the venue's definition. Propose a brief amendment when the argument changes. Use `voltpeer-review-audit` for figure evidence and rights checks and use the authorized graphics workflow for production.
 
 ## Language and terminology
 

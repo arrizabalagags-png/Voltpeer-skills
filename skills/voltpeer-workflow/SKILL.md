@@ -1,6 +1,6 @@
 ---
 name: voltpeer-workflow
-description: Coordinate a multi-stage battery Review or Perspective project across planning, evidence, writing, submission, and revision. Use for the full workflow or unclear stage requests, not a single specialized edit.
+description: Coordinate a multi-stage battery Review or Perspective, including manuscript takeover, cross-model editing, evidence, writing, figures, and revision. Route single-stage requests to the relevant specialist.
 ---
 
 # VoltPeer
@@ -17,6 +17,8 @@ For a new experiment, route the research question and controls to `voltpeer-expe
 
 The author does not need to know a skill name or choose an internal mode. Read the supplied draft, papers, tables, images, or project folder first. Identify the chemistry or device class, article type (narrative/critical Review, scoping review, systematic review, Perspective), target readership and venue if known, current manuscript state, accessible sources, and requested deliverable. Infer these from what is actually available. Choose the specialist internally, describe the next action in ordinary language, and ask only for a missing decision that blocks useful work. Do not turn intake into a questionnaire. Read [codex-operations.md](references/codex-operations.md) for multi-session or multi-agent work.
 
+For a revised manuscript takeover or collaboration with Gemini, Antigravity, or another editor, identify the actual current files and the last approved composition. Start with a frozen source and a separate candidate. A model can suggest edits, a source checker can test claims, and the integrator owns the merged output. Record each completed stage from its artifact or receipt. [Review takeover and parallel editing](references/REVIEW_HANDOFF.md).
+
 If the request is about **installing or using this suite in an agent host**, identify the exact product first and read [AGENT_COMPATIBILITY.md](references/AGENT_COMPATIBILITY.md). A host's login and API setup is separate from this skill. Do not assume another host has Codex's plugin commands, skill paths, or tool access.
 
 | Stage | Specialist skill |
@@ -28,7 +30,8 @@ If the request is about **installing or using this suite in an agent host**, ide
 | Claim-to-source and citation verification | `voltpeer-claim-check` |
 | Battery metrics, mechanisms, cross-study comparisons | `voltpeer-metrics` |
 | Draft or restructure sections | `voltpeer-write` |
-| Plan, create, or audit figures | `voltpeer-plot` |
+| Plan or audit review figures and their scientific claims | `voltpeer-review-audit` |
+| Create plots from verified data | `voltpeer-plot` |
 | Assemble supplied image/PDF/SVG panels | `voltpeer-assemble` |
 | Polish, translate, or compress existing prose | `voltpeer-polish` |
 | Whole-manuscript pre-submission audit | `voltpeer-review-audit` |
@@ -39,6 +42,8 @@ If the request is about **installing or using this suite in an agent host**, ide
 For a full-project request, load each specialist only as the work reaches its stage. Do not read every skill or create every template at intake. If a specialist is unavailable, follow the shared rules below and state the missing capability only if it affects the result.
 
 For an unclear figure request, use the [plain-language figure router](references/shared/voltpeer-plot/references/FIGURE_ROUTER.md) before loading a plotting or assembly specialist. Choose by whether the author has raw data, a new schematic brief, finished panels, or a combination; do not decide from file extension alone.
+
+Respect the author's approved figure set, available tools, and disabled capabilities. For a layout pass, keep the approved art as a baseline and check the actual embedded panels at final size. Route a targeted repair to the permitted workflow and record its evidence and editable limits.
 
 When the user says only “help me with this”, start from the materials: say briefly what you found, do the first verifiable piece of work, then show what was produced and any one decision needed next. If no material is attached, ask for the smallest useful item (for example a draft section, data table, or three panels) and offer a copyable example sentence. Keep internal skill names out of the author's required input.
 
