@@ -12,7 +12,7 @@ Skill 是给 AI 助手使用的工作说明和配套工具，需要在能读取�
 
 [查看样图](https://dazi.gsarrizabalaga.xyz/gallery.html) · [开始使用](#开始使用) · [下载绘图 Starter（0.12.0 Beta）](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [项目网站](https://dazi.gsarrizabalaga.xyz/)
 
-**综述返修工作流更新（2026-11-26）。** 固定要改的稿件版本，让 Gemini 或其他助手逐段提交语言建议，再把每个涉及数字、引文、因果或图件的改动交回证据复核。更新覆盖工作流、写作、润色、审稿、投稿前检查和审稿回复六项技能。 [工作流说明](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [六项技能源码包](docs/downloads/review-workflow-v1.0.0/VoltPeer-Review-Workflow-v1.0.0.zip)
+**综述与社区文章工作流更新（2026-11-27）。** 六项综述技能包更新了桌面版 Gemini Hydrogen「高」的逐篇润色流程，涵盖冻结原稿、保留原答、证据复核、网站上线与 GitHub 回读。 [综述交接](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [桌面 Gemini 润色](skills/voltpeer-polish/references/DESKTOP_GEMINI.md) · [社区文章上线](skills/voltpeer-workflow/references/COMMUNITY_PUBLICATION.md) · [六项技能源码包 v1.1.0](docs/downloads/review-workflow-v1.1.0/VoltPeer-Review-Workflow-v1.1.0.zip)
 
 ## 看看效果
 

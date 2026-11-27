@@ -12,7 +12,7 @@ A Skill provides instructions and tools for an AI assistant. It runs inside an A
 
 [Browse examples](https://dazi.gsarrizabalaga.xyz/gallery.html) · [Get started](#get-started) · [Download plotting Starter (0.12.0 Beta)](docs/assets/scientific-guidance-v1.2.2/starter/VoltPeer-Plot-Starter-v0.12.0.zip) · [Project website](https://dazi.gsarrizabalaga.xyz/)
 
-**Review workflow update (2026-11-26).** Freeze the manuscript version, use Gemini or another assistant to propose paragraph-level edits, and verify changes to numbers, citations, causal claims and figures against their evidence. Six updated skills cover coordination, writing, polishing, referee review, pre-submission checks and reviewer responses. [Workflow guide](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [Six-skill source bundle](docs/downloads/review-workflow-v1.0.0/VoltPeer-Review-Workflow-v1.0.0.zip)
+**Review and community article workflow update (2026-11-27).** The six-skill review bundle now covers article-by-article editing in desktop Gemini with Hydrogen and High thinking, original-text review, website publication, and GitHub verification. [Review handoff](skills/voltpeer-workflow/references/REVIEW_HANDOFF.md) · [Desktop Gemini editing](skills/voltpeer-polish/references/DESKTOP_GEMINI.md) · [Community article publication](skills/voltpeer-workflow/references/COMMUNITY_PUBLICATION.md) · [Six-skill source bundle v1.1.0](docs/downloads/review-workflow-v1.1.0/VoltPeer-Review-Workflow-v1.1.0.zip)
 
 ## See an example
 

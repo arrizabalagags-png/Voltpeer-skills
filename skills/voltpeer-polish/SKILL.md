@@ -1,6 +1,6 @@
 ---
 name: voltpeer-polish
-description: Polish, translate, or compress existing battery manuscript prose while preserving evidence, numbers, citations, technical terms and claim strength. Covers research papers and Reviews; not for invented arguments.
+description: Polish, translate, or compress existing battery manuscripts, Reviews, and research notes while preserving evidence, numbers, citations, technical terms, and claim strength.
 ---
 
 # Battery manuscript polishing
@@ -12,6 +12,8 @@ For model/tool adaptation or resuming a task, read [the execution guide](referen
 Use this for language, flow, translation, concision, or journal-style adjustment of existing battery manuscript text. Identify whether the text is a research article, Review, Perspective or another stated type, and its section's job before editing. Preserve the author's intended argument and section structure unless the user asks for a substantive rewrite. When a paragraph lacks evidence, mark the gap; do not hide it with smoother prose.
 
 For requests to make prose sound less generated or to apply another editor's suggestions, start from the author's aim and existing voice. Remove filler and repeated rhetorical patterns. Treat each proposed scientific change as a decision that must follow the source. [Direct scientific prose and candidate review](references/PROSE_REVIEW.md).
+
+When the author requests desktop Gemini, verify the visible model and thinking level before submitting each conversation. Keep replies tied to individual frozen articles and approve each edited text against its original. [Desktop Gemini editing and source review](references/DESKTOP_GEMINI.md).
 
 ## Battery language references
 

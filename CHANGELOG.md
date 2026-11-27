@@ -1,5 +1,10 @@
 # 更新记录 / Changelog
 
+## Review workflow bundle v1.1.0 — 2026-11-27
+
+- Added desktop Gemini editing guidance with visible model and thinking-level verification, a frozen source for each article, original replies, and targeted revisions.
+- Added a community publishing guide covering original-text review, approved site generation, production readback, and GitHub verification.
+
 ## Review workflow revision — 2026-11-26
 
 - Added a handoff workflow for frozen drafts, parallel editing, evidence decisions, recovery of incomplete batches, and export checks.
